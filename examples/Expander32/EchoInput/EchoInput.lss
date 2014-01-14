@@ -1,0 +1,4698 @@
+/home/matt/.uecide/compilers/pic32-gcc/bin/pic32-objdump -h -S /tmp/build-ed9fff6a-f082-4595-9137-117ae1b5d6ce/EchoInput.elf 
+
+/tmp/build-ed9fff6a-f082-4595-9137-117ae1b5d6ce/EchoInput.elf:     file format elf32-tradlittlemips
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .reset        00000010  9d001000  9d001000  00011000  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .image_ptr_table 00000008  9d0000f8  9d0000f8  000100f8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .app_excpt    00000010  9d000180  9d000180  00010180  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .vector_0     00000014  9d000200  9d000200  00010200  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .vector_1     00000014  9d000220  9d000220  00010220  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .vector_2     00000014  9d000240  9d000240  00010240  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .vector_3     00000014  9d000260  9d000260  00010260  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .vector_4     00000014  9d000280  9d000280  00010280  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .vector_5     00000014  9d0002a0  9d0002a0  000102a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .vector_6     00000014  9d0002c0  9d0002c0  000102c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .vector_7     00000014  9d0002e0  9d0002e0  000102e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .vector_8     00000014  9d000300  9d000300  00010300  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .vector_9     00000014  9d000320  9d000320  00010320  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .vector_10    00000014  9d000340  9d000340  00010340  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .vector_11    00000014  9d000360  9d000360  00010360  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .vector_12    00000014  9d000380  9d000380  00010380  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 16 .vector_13    00000014  9d0003a0  9d0003a0  000103a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 17 .vector_14    00000014  9d0003c0  9d0003c0  000103c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 18 .vector_15    00000014  9d0003e0  9d0003e0  000103e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 19 .vector_16    00000014  9d000400  9d000400  00010400  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 20 .vector_17    00000014  9d000420  9d000420  00010420  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 21 .vector_18    00000014  9d000440  9d000440  00010440  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 22 .vector_19    00000014  9d000460  9d000460  00010460  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 23 .vector_20    00000014  9d000480  9d000480  00010480  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 24 .vector_21    00000014  9d0004a0  9d0004a0  000104a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 25 .vector_22    00000014  9d0004c0  9d0004c0  000104c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 26 .vector_23    00000014  9d0004e0  9d0004e0  000104e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 27 .vector_24    00000014  9d000500  9d000500  00010500  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 28 .vector_25    00000014  9d000520  9d000520  00010520  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 29 .vector_26    00000014  9d000540  9d000540  00010540  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 30 .vector_27    00000014  9d000560  9d000560  00010560  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 31 .vector_28    00000014  9d000580  9d000580  00010580  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 32 .vector_29    00000014  9d0005a0  9d0005a0  000105a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 33 .vector_30    00000014  9d0005c0  9d0005c0  000105c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 34 .vector_31    00000014  9d0005e0  9d0005e0  000105e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 35 .vector_32    00000014  9d000600  9d000600  00010600  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 36 .vector_33    00000014  9d000620  9d000620  00010620  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 37 .vector_34    00000014  9d000640  9d000640  00010640  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 38 .vector_35    00000014  9d000660  9d000660  00010660  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 39 .vector_36    00000014  9d000680  9d000680  00010680  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 40 .vector_37    00000014  9d0006a0  9d0006a0  000106a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 41 .vector_38    00000014  9d0006c0  9d0006c0  000106c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 42 .vector_39    00000014  9d0006e0  9d0006e0  000106e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 43 .vector_40    00000014  9d000700  9d000700  00010700  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 44 .vector_41    00000014  9d000720  9d000720  00010720  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 45 .vector_42    00000014  9d000740  9d000740  00010740  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 46 .vector_43    00000014  9d000760  9d000760  00010760  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 47 .vector_44    00000014  9d000780  9d000780  00010780  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 48 .vector_45    00000014  9d0007a0  9d0007a0  000107a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 49 .vector_46    00000014  9d0007c0  9d0007c0  000107c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 50 .vector_47    00000014  9d0007e0  9d0007e0  000107e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 51 .vector_48    00000014  9d000800  9d000800  00010800  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 52 .vector_49    00000014  9d000820  9d000820  00010820  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 53 .vector_50    00000014  9d000840  9d000840  00010840  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 54 .vector_51    00000014  9d000860  9d000860  00010860  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 55 .vector_52    00000014  9d000880  9d000880  00010880  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 56 .vector_53    00000014  9d0008a0  9d0008a0  000108a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 57 .vector_54    00000014  9d0008c0  9d0008c0  000108c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 58 .vector_55    00000014  9d0008e0  9d0008e0  000108e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 59 .vector_56    00000014  9d000900  9d000900  00010900  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 60 .vector_57    00000014  9d000920  9d000920  00010920  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 61 .vector_58    00000014  9d000940  9d000940  00010940  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 62 .vector_59    00000014  9d000960  9d000960  00010960  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 63 .vector_60    00000014  9d000980  9d000980  00010980  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 64 .vector_61    00000014  9d0009a0  9d0009a0  000109a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 65 .vector_62    00000014  9d0009c0  9d0009c0  000109c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 66 .vector_63    00000014  9d0009e0  9d0009e0  000109e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 67 .startup      000001e0  9d001010  9d001010  00011010  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 68 .text         00001770  9d0011f0  9d0011f0  000111f0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 69 .init         00000024  9d002960  9d002960  00012960  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 70 .fini         0000001c  9d002984  9d002984  00012984  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 71 .ctors        0000000c  9d0029a0  9d0029a0  000129a0  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 72 .dtors        00000008  9d0029ac  9d0029ac  000129ac  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 73 .header_info  0000004c  9d0029b4  9d0029b4  000129b4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 74 .ram_exchange_data 00000008  a0000000  a0000000  00021800  2**0
+                  CONTENTS
+ 75 .rodata       000001c4  9d002a00  9d002a00  00012a00  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 76 .data         000000cc  a0000008  9d002bc4  00020008  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 77 .sbss         00000028  a00000d4  9d002c90  000200d4  2**2
+                  ALLOC
+ 78 .bss          00000124  a00000fc  9d002c90  000200fc  2**2
+                  ALLOC
+ 79 .heap         00000800  a0000220  9d002c90  00020220  2**0
+                  ALLOC
+ 80 .stack        00000800  a0000a20  9d002c90  00020a20  2**0
+                  ALLOC
+ 81 .comment      00000095  00000000  00000000  00021808  2**0
+                  CONTENTS, READONLY
+ 82 .debug_aranges 00000608  00000000  00000000  000218a0  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 83 .debug_pubnames 00000a3f  00000000  00000000  00021ea8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 84 .debug_info   000054fc  00000000  00000000  000228e7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 85 .debug_abbrev 00001805  00000000  00000000  00027de3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 86 .debug_line   00002143  00000000  00000000  000295e8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 87 .debug_frame  00000898  00000000  00000000  0002b72c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 88 .debug_str    00001577  00000000  00000000  0002bfc4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 89 .debug_loc    00001b46  00000000  00000000  0002d53b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 90 .debug_pubtypes 00000475  00000000  00000000  0002f081  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 91 .debug_ranges 00000788  00000000  00000000  0002f4f8  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 92 .gnu.attributes 00000010  00000000  00000000  0002fc80  2**0
+                  CONTENTS, READONLY
+ 93 .mdebug.abi32 00000000  a0001800  a0001800  00021800  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+
+Disassembly of section .reset:
+
+9d001000 <_reset>:
+9d001000:	3c1a9d00 	lui	k0,0x9d00
+9d001004:	275a1010 	addiu	k0,k0,4112
+9d001008:	03400008 	jr	k0
+9d00100c:	00000000 	nop
+
+Disassembly of section .app_excpt:
+
+9d000180 <_gen_exception>:
+9d000180:	3c1a9d00 	lui	k0,0x9d00
+9d000184:	275a280c 	addiu	k0,k0,10252
+9d000188:	03400008 	jr	k0
+9d00018c:	00000000 	nop
+
+Disassembly of section .vector_0:
+
+9d000200 <__vector_0>:
+    lw       k0,4 * number (k0); \
+    jr       k0; \
+    .end VECTOR_SYMBOLNAME(number); \
+    .size VECTOR_SYMBOLNAME(number), .-VECTOR_SYMBOLNAME(number);
+
+ VECTOR_ENTRY(0)
+9d000200:	3c1aa000 	lui	k0,0xa000
+9d000204:	275a0008 	addiu	k0,k0,8
+9d000208:	8f5a0000 	lw	k0,0(k0)
+9d00020c:	03400008 	jr	k0
+9d000210:	00000000 	nop
+
+Disassembly of section .vector_1:
+
+9d000220 <__vector_1>:
+ VECTOR_ENTRY(1)
+9d000220:	3c1aa000 	lui	k0,0xa000
+9d000224:	275a0008 	addiu	k0,k0,8
+9d000228:	8f5a0004 	lw	k0,4(k0)
+9d00022c:	03400008 	jr	k0
+9d000230:	00000000 	nop
+
+Disassembly of section .vector_2:
+
+9d000240 <__vector_2>:
+ VECTOR_ENTRY(2)
+9d000240:	3c1aa000 	lui	k0,0xa000
+9d000244:	275a0008 	addiu	k0,k0,8
+9d000248:	8f5a0008 	lw	k0,8(k0)
+9d00024c:	03400008 	jr	k0
+9d000250:	00000000 	nop
+
+Disassembly of section .vector_3:
+
+9d000260 <__vector_3>:
+ VECTOR_ENTRY(3)
+9d000260:	3c1aa000 	lui	k0,0xa000
+9d000264:	275a0008 	addiu	k0,k0,8
+9d000268:	8f5a000c 	lw	k0,12(k0)
+9d00026c:	03400008 	jr	k0
+9d000270:	00000000 	nop
+
+Disassembly of section .vector_4:
+
+9d000280 <__vector_4>:
+ VECTOR_ENTRY(4)
+9d000280:	3c1aa000 	lui	k0,0xa000
+9d000284:	275a0008 	addiu	k0,k0,8
+9d000288:	8f5a0010 	lw	k0,16(k0)
+9d00028c:	03400008 	jr	k0
+9d000290:	00000000 	nop
+
+Disassembly of section .vector_5:
+
+9d0002a0 <__vector_5>:
+ VECTOR_ENTRY(5)
+9d0002a0:	3c1aa000 	lui	k0,0xa000
+9d0002a4:	275a0008 	addiu	k0,k0,8
+9d0002a8:	8f5a0014 	lw	k0,20(k0)
+9d0002ac:	03400008 	jr	k0
+9d0002b0:	00000000 	nop
+
+Disassembly of section .vector_6:
+
+9d0002c0 <__vector_6>:
+ VECTOR_ENTRY(6)
+9d0002c0:	3c1aa000 	lui	k0,0xa000
+9d0002c4:	275a0008 	addiu	k0,k0,8
+9d0002c8:	8f5a0018 	lw	k0,24(k0)
+9d0002cc:	03400008 	jr	k0
+9d0002d0:	00000000 	nop
+
+Disassembly of section .vector_7:
+
+9d0002e0 <__vector_7>:
+ VECTOR_ENTRY(7)
+9d0002e0:	3c1aa000 	lui	k0,0xa000
+9d0002e4:	275a0008 	addiu	k0,k0,8
+9d0002e8:	8f5a001c 	lw	k0,28(k0)
+9d0002ec:	03400008 	jr	k0
+9d0002f0:	00000000 	nop
+
+Disassembly of section .vector_8:
+
+9d000300 <__vector_8>:
+ VECTOR_ENTRY(8)
+9d000300:	3c1aa000 	lui	k0,0xa000
+9d000304:	275a0008 	addiu	k0,k0,8
+9d000308:	8f5a0020 	lw	k0,32(k0)
+9d00030c:	03400008 	jr	k0
+9d000310:	00000000 	nop
+
+Disassembly of section .vector_9:
+
+9d000320 <__vector_9>:
+ VECTOR_ENTRY(9)
+9d000320:	3c1aa000 	lui	k0,0xa000
+9d000324:	275a0008 	addiu	k0,k0,8
+9d000328:	8f5a0024 	lw	k0,36(k0)
+9d00032c:	03400008 	jr	k0
+9d000330:	00000000 	nop
+
+Disassembly of section .vector_10:
+
+9d000340 <__vector_10>:
+ VECTOR_ENTRY(10)
+9d000340:	3c1aa000 	lui	k0,0xa000
+9d000344:	275a0008 	addiu	k0,k0,8
+9d000348:	8f5a0028 	lw	k0,40(k0)
+9d00034c:	03400008 	jr	k0
+9d000350:	00000000 	nop
+
+Disassembly of section .vector_11:
+
+9d000360 <__vector_11>:
+ VECTOR_ENTRY(11)
+9d000360:	3c1aa000 	lui	k0,0xa000
+9d000364:	275a0008 	addiu	k0,k0,8
+9d000368:	8f5a002c 	lw	k0,44(k0)
+9d00036c:	03400008 	jr	k0
+9d000370:	00000000 	nop
+
+Disassembly of section .vector_12:
+
+9d000380 <__vector_12>:
+ VECTOR_ENTRY(12)
+9d000380:	3c1aa000 	lui	k0,0xa000
+9d000384:	275a0008 	addiu	k0,k0,8
+9d000388:	8f5a0030 	lw	k0,48(k0)
+9d00038c:	03400008 	jr	k0
+9d000390:	00000000 	nop
+
+Disassembly of section .vector_13:
+
+9d0003a0 <__vector_13>:
+ VECTOR_ENTRY(13)
+9d0003a0:	3c1aa000 	lui	k0,0xa000
+9d0003a4:	275a0008 	addiu	k0,k0,8
+9d0003a8:	8f5a0034 	lw	k0,52(k0)
+9d0003ac:	03400008 	jr	k0
+9d0003b0:	00000000 	nop
+
+Disassembly of section .vector_14:
+
+9d0003c0 <__vector_14>:
+ VECTOR_ENTRY(14)
+9d0003c0:	3c1aa000 	lui	k0,0xa000
+9d0003c4:	275a0008 	addiu	k0,k0,8
+9d0003c8:	8f5a0038 	lw	k0,56(k0)
+9d0003cc:	03400008 	jr	k0
+9d0003d0:	00000000 	nop
+
+Disassembly of section .vector_15:
+
+9d0003e0 <__vector_15>:
+ VECTOR_ENTRY(15)
+9d0003e0:	3c1aa000 	lui	k0,0xa000
+9d0003e4:	275a0008 	addiu	k0,k0,8
+9d0003e8:	8f5a003c 	lw	k0,60(k0)
+9d0003ec:	03400008 	jr	k0
+9d0003f0:	00000000 	nop
+
+Disassembly of section .vector_16:
+
+9d000400 <__vector_16>:
+ VECTOR_ENTRY(16)
+9d000400:	3c1aa000 	lui	k0,0xa000
+9d000404:	275a0008 	addiu	k0,k0,8
+9d000408:	8f5a0040 	lw	k0,64(k0)
+9d00040c:	03400008 	jr	k0
+9d000410:	00000000 	nop
+
+Disassembly of section .vector_17:
+
+9d000420 <__vector_17>:
+ VECTOR_ENTRY(17)
+9d000420:	3c1aa000 	lui	k0,0xa000
+9d000424:	275a0008 	addiu	k0,k0,8
+9d000428:	8f5a0044 	lw	k0,68(k0)
+9d00042c:	03400008 	jr	k0
+9d000430:	00000000 	nop
+
+Disassembly of section .vector_18:
+
+9d000440 <__vector_18>:
+ VECTOR_ENTRY(18)
+9d000440:	3c1aa000 	lui	k0,0xa000
+9d000444:	275a0008 	addiu	k0,k0,8
+9d000448:	8f5a0048 	lw	k0,72(k0)
+9d00044c:	03400008 	jr	k0
+9d000450:	00000000 	nop
+
+Disassembly of section .vector_19:
+
+9d000460 <__vector_19>:
+ VECTOR_ENTRY(19)
+9d000460:	3c1aa000 	lui	k0,0xa000
+9d000464:	275a0008 	addiu	k0,k0,8
+9d000468:	8f5a004c 	lw	k0,76(k0)
+9d00046c:	03400008 	jr	k0
+9d000470:	00000000 	nop
+
+Disassembly of section .vector_20:
+
+9d000480 <__vector_20>:
+ VECTOR_ENTRY(20)
+9d000480:	3c1aa000 	lui	k0,0xa000
+9d000484:	275a0008 	addiu	k0,k0,8
+9d000488:	8f5a0050 	lw	k0,80(k0)
+9d00048c:	03400008 	jr	k0
+9d000490:	00000000 	nop
+
+Disassembly of section .vector_21:
+
+9d0004a0 <__vector_21>:
+ VECTOR_ENTRY(21)
+9d0004a0:	3c1aa000 	lui	k0,0xa000
+9d0004a4:	275a0008 	addiu	k0,k0,8
+9d0004a8:	8f5a0054 	lw	k0,84(k0)
+9d0004ac:	03400008 	jr	k0
+9d0004b0:	00000000 	nop
+
+Disassembly of section .vector_22:
+
+9d0004c0 <__vector_22>:
+ VECTOR_ENTRY(22)
+9d0004c0:	3c1aa000 	lui	k0,0xa000
+9d0004c4:	275a0008 	addiu	k0,k0,8
+9d0004c8:	8f5a0058 	lw	k0,88(k0)
+9d0004cc:	03400008 	jr	k0
+9d0004d0:	00000000 	nop
+
+Disassembly of section .vector_23:
+
+9d0004e0 <__vector_23>:
+ VECTOR_ENTRY(23)
+9d0004e0:	3c1aa000 	lui	k0,0xa000
+9d0004e4:	275a0008 	addiu	k0,k0,8
+9d0004e8:	8f5a005c 	lw	k0,92(k0)
+9d0004ec:	03400008 	jr	k0
+9d0004f0:	00000000 	nop
+
+Disassembly of section .vector_24:
+
+9d000500 <__vector_24>:
+ VECTOR_ENTRY(24)
+9d000500:	3c1aa000 	lui	k0,0xa000
+9d000504:	275a0008 	addiu	k0,k0,8
+9d000508:	8f5a0060 	lw	k0,96(k0)
+9d00050c:	03400008 	jr	k0
+9d000510:	00000000 	nop
+
+Disassembly of section .vector_25:
+
+9d000520 <__vector_25>:
+ VECTOR_ENTRY(25)
+9d000520:	3c1aa000 	lui	k0,0xa000
+9d000524:	275a0008 	addiu	k0,k0,8
+9d000528:	8f5a0064 	lw	k0,100(k0)
+9d00052c:	03400008 	jr	k0
+9d000530:	00000000 	nop
+
+Disassembly of section .vector_26:
+
+9d000540 <__vector_26>:
+ VECTOR_ENTRY(26)
+9d000540:	3c1aa000 	lui	k0,0xa000
+9d000544:	275a0008 	addiu	k0,k0,8
+9d000548:	8f5a0068 	lw	k0,104(k0)
+9d00054c:	03400008 	jr	k0
+9d000550:	00000000 	nop
+
+Disassembly of section .vector_27:
+
+9d000560 <__vector_27>:
+ VECTOR_ENTRY(27)
+9d000560:	3c1aa000 	lui	k0,0xa000
+9d000564:	275a0008 	addiu	k0,k0,8
+9d000568:	8f5a006c 	lw	k0,108(k0)
+9d00056c:	03400008 	jr	k0
+9d000570:	00000000 	nop
+
+Disassembly of section .vector_28:
+
+9d000580 <__vector_28>:
+ VECTOR_ENTRY(28)
+9d000580:	3c1aa000 	lui	k0,0xa000
+9d000584:	275a0008 	addiu	k0,k0,8
+9d000588:	8f5a0070 	lw	k0,112(k0)
+9d00058c:	03400008 	jr	k0
+9d000590:	00000000 	nop
+
+Disassembly of section .vector_29:
+
+9d0005a0 <__vector_29>:
+ VECTOR_ENTRY(29)
+9d0005a0:	3c1aa000 	lui	k0,0xa000
+9d0005a4:	275a0008 	addiu	k0,k0,8
+9d0005a8:	8f5a0074 	lw	k0,116(k0)
+9d0005ac:	03400008 	jr	k0
+9d0005b0:	00000000 	nop
+
+Disassembly of section .vector_30:
+
+9d0005c0 <__vector_30>:
+ VECTOR_ENTRY(30)
+9d0005c0:	3c1aa000 	lui	k0,0xa000
+9d0005c4:	275a0008 	addiu	k0,k0,8
+9d0005c8:	8f5a0078 	lw	k0,120(k0)
+9d0005cc:	03400008 	jr	k0
+9d0005d0:	00000000 	nop
+
+Disassembly of section .vector_31:
+
+9d0005e0 <__vector_31>:
+ VECTOR_ENTRY(31)
+9d0005e0:	3c1aa000 	lui	k0,0xa000
+9d0005e4:	275a0008 	addiu	k0,k0,8
+9d0005e8:	8f5a007c 	lw	k0,124(k0)
+9d0005ec:	03400008 	jr	k0
+9d0005f0:	00000000 	nop
+
+Disassembly of section .vector_32:
+
+9d000600 <__vector_32>:
+ VECTOR_ENTRY(32)
+9d000600:	3c1aa000 	lui	k0,0xa000
+9d000604:	275a0008 	addiu	k0,k0,8
+9d000608:	8f5a0080 	lw	k0,128(k0)
+9d00060c:	03400008 	jr	k0
+9d000610:	00000000 	nop
+
+Disassembly of section .vector_33:
+
+9d000620 <__vector_33>:
+ VECTOR_ENTRY(33)
+9d000620:	3c1aa000 	lui	k0,0xa000
+9d000624:	275a0008 	addiu	k0,k0,8
+9d000628:	8f5a0084 	lw	k0,132(k0)
+9d00062c:	03400008 	jr	k0
+9d000630:	00000000 	nop
+
+Disassembly of section .vector_34:
+
+9d000640 <__vector_34>:
+ VECTOR_ENTRY(34)
+9d000640:	3c1aa000 	lui	k0,0xa000
+9d000644:	275a0008 	addiu	k0,k0,8
+9d000648:	8f5a0088 	lw	k0,136(k0)
+9d00064c:	03400008 	jr	k0
+9d000650:	00000000 	nop
+
+Disassembly of section .vector_35:
+
+9d000660 <__vector_35>:
+ VECTOR_ENTRY(35)
+9d000660:	3c1aa000 	lui	k0,0xa000
+9d000664:	275a0008 	addiu	k0,k0,8
+9d000668:	8f5a008c 	lw	k0,140(k0)
+9d00066c:	03400008 	jr	k0
+9d000670:	00000000 	nop
+
+Disassembly of section .vector_36:
+
+9d000680 <__vector_36>:
+ VECTOR_ENTRY(36)
+9d000680:	3c1aa000 	lui	k0,0xa000
+9d000684:	275a0008 	addiu	k0,k0,8
+9d000688:	8f5a0090 	lw	k0,144(k0)
+9d00068c:	03400008 	jr	k0
+9d000690:	00000000 	nop
+
+Disassembly of section .vector_37:
+
+9d0006a0 <__vector_37>:
+ VECTOR_ENTRY(37)
+9d0006a0:	3c1aa000 	lui	k0,0xa000
+9d0006a4:	275a0008 	addiu	k0,k0,8
+9d0006a8:	8f5a0094 	lw	k0,148(k0)
+9d0006ac:	03400008 	jr	k0
+9d0006b0:	00000000 	nop
+
+Disassembly of section .vector_38:
+
+9d0006c0 <__vector_38>:
+ VECTOR_ENTRY(38)
+9d0006c0:	3c1aa000 	lui	k0,0xa000
+9d0006c4:	275a0008 	addiu	k0,k0,8
+9d0006c8:	8f5a0098 	lw	k0,152(k0)
+9d0006cc:	03400008 	jr	k0
+9d0006d0:	00000000 	nop
+
+Disassembly of section .vector_39:
+
+9d0006e0 <__vector_39>:
+ VECTOR_ENTRY(39)
+9d0006e0:	3c1aa000 	lui	k0,0xa000
+9d0006e4:	275a0008 	addiu	k0,k0,8
+9d0006e8:	8f5a009c 	lw	k0,156(k0)
+9d0006ec:	03400008 	jr	k0
+9d0006f0:	00000000 	nop
+
+Disassembly of section .vector_40:
+
+9d000700 <__vector_40>:
+ VECTOR_ENTRY(40)
+9d000700:	3c1aa000 	lui	k0,0xa000
+9d000704:	275a0008 	addiu	k0,k0,8
+9d000708:	8f5a00a0 	lw	k0,160(k0)
+9d00070c:	03400008 	jr	k0
+9d000710:	00000000 	nop
+
+Disassembly of section .vector_41:
+
+9d000720 <__vector_41>:
+ VECTOR_ENTRY(41)
+9d000720:	3c1aa000 	lui	k0,0xa000
+9d000724:	275a0008 	addiu	k0,k0,8
+9d000728:	8f5a00a4 	lw	k0,164(k0)
+9d00072c:	03400008 	jr	k0
+9d000730:	00000000 	nop
+
+Disassembly of section .vector_42:
+
+9d000740 <__vector_42>:
+ VECTOR_ENTRY(42)
+9d000740:	3c1aa000 	lui	k0,0xa000
+9d000744:	275a0008 	addiu	k0,k0,8
+9d000748:	8f5a00a8 	lw	k0,168(k0)
+9d00074c:	03400008 	jr	k0
+9d000750:	00000000 	nop
+
+Disassembly of section .vector_43:
+
+9d000760 <__vector_43>:
+ VECTOR_ENTRY(43)
+9d000760:	3c1aa000 	lui	k0,0xa000
+9d000764:	275a0008 	addiu	k0,k0,8
+9d000768:	8f5a00ac 	lw	k0,172(k0)
+9d00076c:	03400008 	jr	k0
+9d000770:	00000000 	nop
+
+Disassembly of section .vector_44:
+
+9d000780 <__vector_44>:
+ VECTOR_ENTRY(44)
+9d000780:	3c1aa000 	lui	k0,0xa000
+9d000784:	275a0008 	addiu	k0,k0,8
+9d000788:	8f5a00b0 	lw	k0,176(k0)
+9d00078c:	03400008 	jr	k0
+9d000790:	00000000 	nop
+
+Disassembly of section .vector_45:
+
+9d0007a0 <__vector_45>:
+ VECTOR_ENTRY(45)
+9d0007a0:	3c1aa000 	lui	k0,0xa000
+9d0007a4:	275a0008 	addiu	k0,k0,8
+9d0007a8:	8f5a00b4 	lw	k0,180(k0)
+9d0007ac:	03400008 	jr	k0
+9d0007b0:	00000000 	nop
+
+Disassembly of section .vector_46:
+
+9d0007c0 <__vector_46>:
+ VECTOR_ENTRY(46)
+9d0007c0:	3c1aa000 	lui	k0,0xa000
+9d0007c4:	275a0008 	addiu	k0,k0,8
+9d0007c8:	8f5a00b8 	lw	k0,184(k0)
+9d0007cc:	03400008 	jr	k0
+9d0007d0:	00000000 	nop
+
+Disassembly of section .vector_47:
+
+9d0007e0 <__vector_47>:
+ VECTOR_ENTRY(47)
+9d0007e0:	3c1aa000 	lui	k0,0xa000
+9d0007e4:	275a0008 	addiu	k0,k0,8
+9d0007e8:	8f5a00bc 	lw	k0,188(k0)
+9d0007ec:	03400008 	jr	k0
+9d0007f0:	00000000 	nop
+
+Disassembly of section .vector_48:
+
+9d000800 <__vector_48>:
+ VECTOR_ENTRY(48)
+9d000800:	3c1aa000 	lui	k0,0xa000
+9d000804:	275a0008 	addiu	k0,k0,8
+9d000808:	8f5a00c0 	lw	k0,192(k0)
+9d00080c:	03400008 	jr	k0
+9d000810:	00000000 	nop
+
+Disassembly of section .vector_49:
+
+9d000820 <__vector_49>:
+ VECTOR_ENTRY(49)
+9d000820:	3c1aa000 	lui	k0,0xa000
+9d000824:	275a0008 	addiu	k0,k0,8
+9d000828:	8f5a00c4 	lw	k0,196(k0)
+9d00082c:	03400008 	jr	k0
+9d000830:	00000000 	nop
+
+Disassembly of section .vector_50:
+
+9d000840 <__vector_50>:
+ VECTOR_ENTRY(50)
+9d000840:	3c1aa000 	lui	k0,0xa000
+9d000844:	275a0008 	addiu	k0,k0,8
+9d000848:	8f5a00c8 	lw	k0,200(k0)
+9d00084c:	03400008 	jr	k0
+9d000850:	00000000 	nop
+
+Disassembly of section .vector_51:
+
+9d000860 <__vector_51>:
+ VECTOR_ENTRY(51)
+9d000860:	3c1aa000 	lui	k0,0xa000
+9d000864:	275a0008 	addiu	k0,k0,8
+9d000868:	8f5a00cc 	lw	k0,204(k0)
+9d00086c:	03400008 	jr	k0
+9d000870:	00000000 	nop
+
+Disassembly of section .vector_52:
+
+9d000880 <__vector_52>:
+ VECTOR_ENTRY(52)
+9d000880:	3c1aa000 	lui	k0,0xa000
+9d000884:	275a0008 	addiu	k0,k0,8
+9d000888:	8f5a00d0 	lw	k0,208(k0)
+9d00088c:	03400008 	jr	k0
+9d000890:	00000000 	nop
+
+Disassembly of section .vector_53:
+
+9d0008a0 <__vector_53>:
+ VECTOR_ENTRY(53)
+9d0008a0:	3c1aa000 	lui	k0,0xa000
+9d0008a4:	275a0008 	addiu	k0,k0,8
+9d0008a8:	8f5a00d4 	lw	k0,212(k0)
+9d0008ac:	03400008 	jr	k0
+9d0008b0:	00000000 	nop
+
+Disassembly of section .vector_54:
+
+9d0008c0 <__vector_54>:
+ VECTOR_ENTRY(54)
+9d0008c0:	3c1aa000 	lui	k0,0xa000
+9d0008c4:	275a0008 	addiu	k0,k0,8
+9d0008c8:	8f5a00d8 	lw	k0,216(k0)
+9d0008cc:	03400008 	jr	k0
+9d0008d0:	00000000 	nop
+
+Disassembly of section .vector_55:
+
+9d0008e0 <__vector_55>:
+ VECTOR_ENTRY(55)
+9d0008e0:	3c1aa000 	lui	k0,0xa000
+9d0008e4:	275a0008 	addiu	k0,k0,8
+9d0008e8:	8f5a00dc 	lw	k0,220(k0)
+9d0008ec:	03400008 	jr	k0
+9d0008f0:	00000000 	nop
+
+Disassembly of section .vector_56:
+
+9d000900 <__vector_56>:
+ VECTOR_ENTRY(56)
+9d000900:	3c1aa000 	lui	k0,0xa000
+9d000904:	275a0008 	addiu	k0,k0,8
+9d000908:	8f5a00e0 	lw	k0,224(k0)
+9d00090c:	03400008 	jr	k0
+9d000910:	00000000 	nop
+
+Disassembly of section .vector_57:
+
+9d000920 <__vector_57>:
+ VECTOR_ENTRY(57)
+9d000920:	3c1aa000 	lui	k0,0xa000
+9d000924:	275a0008 	addiu	k0,k0,8
+9d000928:	8f5a00e4 	lw	k0,228(k0)
+9d00092c:	03400008 	jr	k0
+9d000930:	00000000 	nop
+
+Disassembly of section .vector_58:
+
+9d000940 <__vector_58>:
+ VECTOR_ENTRY(58)
+9d000940:	3c1aa000 	lui	k0,0xa000
+9d000944:	275a0008 	addiu	k0,k0,8
+9d000948:	8f5a00e8 	lw	k0,232(k0)
+9d00094c:	03400008 	jr	k0
+9d000950:	00000000 	nop
+
+Disassembly of section .vector_59:
+
+9d000960 <__vector_59>:
+ VECTOR_ENTRY(59)
+9d000960:	3c1aa000 	lui	k0,0xa000
+9d000964:	275a0008 	addiu	k0,k0,8
+9d000968:	8f5a00ec 	lw	k0,236(k0)
+9d00096c:	03400008 	jr	k0
+9d000970:	00000000 	nop
+
+Disassembly of section .vector_60:
+
+9d000980 <__vector_60>:
+ VECTOR_ENTRY(60)
+9d000980:	3c1aa000 	lui	k0,0xa000
+9d000984:	275a0008 	addiu	k0,k0,8
+9d000988:	8f5a00f0 	lw	k0,240(k0)
+9d00098c:	03400008 	jr	k0
+9d000990:	00000000 	nop
+
+Disassembly of section .vector_61:
+
+9d0009a0 <__vector_61>:
+ VECTOR_ENTRY(61)
+9d0009a0:	3c1aa000 	lui	k0,0xa000
+9d0009a4:	275a0008 	addiu	k0,k0,8
+9d0009a8:	8f5a00f4 	lw	k0,244(k0)
+9d0009ac:	03400008 	jr	k0
+9d0009b0:	00000000 	nop
+
+Disassembly of section .vector_62:
+
+9d0009c0 <__vector_62>:
+ VECTOR_ENTRY(62)
+9d0009c0:	3c1aa000 	lui	k0,0xa000
+9d0009c4:	275a0008 	addiu	k0,k0,8
+9d0009c8:	8f5a00f8 	lw	k0,248(k0)
+9d0009cc:	03400008 	jr	k0
+9d0009d0:	00000000 	nop
+
+Disassembly of section .vector_63:
+
+9d0009e0 <__vector_63>:
+ VECTOR_ENTRY(63)
+9d0009e0:	3c1aa000 	lui	k0,0xa000
+9d0009e4:	275a0008 	addiu	k0,k0,8
+9d0009e8:	8f5a00fc 	lw	k0,252(k0)
+9d0009ec:	03400008 	jr	k0
+9d0009f0:	00000000 	nop
+
+Disassembly of section .startup:
+
+9d001010 <_startup>:
+9d001010:	401a6000 	mfc0	k0,c0_status
+9d001014:	7f5a04c0 	ext	k0,k0,0x13,0x1
+9d001018:	13400005 	beqz	k0,9d001030 <_no_nmi>
+9d00101c:	00000000 	nop
+9d001020:	3c1a9d00 	lui	k0,0x9d00
+9d001024:	275a28f4 	addiu	k0,k0,10484
+9d001028:	03400008 	jr	k0
+9d00102c:	00000000 	nop
+
+9d001030 <_no_nmi>:
+9d001030:	3c1da000 	lui	sp,0xa000
+9d001034:	27bd4000 	addiu	sp,sp,16384
+9d001038:	3c1ca001 	lui	gp,0xa001
+9d00103c:	279c80d0 	addiu	gp,gp,-32560
+9d001040:	40096002 	mfc0	t1,c0_srsctl
+9d001044:	01205820 	add	t3,t1,zero
+9d001048:	7d2a1e80 	ext	t2,t1,0x1a,0x4
+9d00104c:	7d494984 	ins	t1,t2,0x6,0x4
+9d001050:	40896002 	mtc0	t1,c0_srsctl
+9d001054:	41dce000 	wrpgpr	gp,gp
+9d001058:	408b6002 	mtc0	t3,c0_srsctl
+9d00105c:	3c089d00 	lui	t0,0x9d00
+9d001060:	250828e4 	addiu	t0,t0,10468
+9d001064:	0100f809 	jalr	t0
+9d001068:	00000000 	nop
+9d00106c:	3c08a000 	lui	t0,0xa000
+9d001070:	250800d4 	addiu	t0,t0,212
+9d001074:	3c09a000 	lui	t1,0xa000
+9d001078:	25290220 	addiu	t1,t1,544
+9d00107c:	10000006 	b	9d001098 <_bss_check>
+9d001080:	00000000 	nop
+
+9d001084 <_bss_init>:
+9d001084:	ad000000 	sw	zero,0(t0)
+9d001088:	ad000004 	sw	zero,4(t0)
+9d00108c:	ad000008 	sw	zero,8(t0)
+9d001090:	ad00000c 	sw	zero,12(t0)
+9d001094:	25080010 	addiu	t0,t0,16
+
+9d001098 <_bss_check>:
+9d001098:	0109082b 	sltu	at,t0,t1
+9d00109c:	1420fff9 	bnez	at,9d001084 <_bss_init>
+9d0010a0:	00000000 	nop
+9d0010a4:	3c089d00 	lui	t0,0x9d00
+9d0010a8:	25082bc4 	addiu	t0,t0,11204
+9d0010ac:	3c09a000 	lui	t1,0xa000
+9d0010b0:	25290008 	addiu	t1,t1,8
+9d0010b4:	3c0aa000 	lui	t2,0xa000
+9d0010b8:	254a00d4 	addiu	t2,t2,212
+9d0010bc:	10000005 	b	9d0010d4 <_init_check>
+9d0010c0:	00000000 	nop
+
+9d0010c4 <_init_data>:
+9d0010c4:	8d0b0000 	lw	t3,0(t0)
+9d0010c8:	ad2b0000 	sw	t3,0(t1)
+9d0010cc:	25080004 	addiu	t0,t0,4
+9d0010d0:	25290004 	addiu	t1,t1,4
+
+9d0010d4 <_init_check>:
+9d0010d4:	012a082b 	sltu	at,t1,t2
+9d0010d8:	1420fffa 	bnez	at,9d0010c4 <_init_data>
+9d0010dc:	00000000 	nop
+9d0010e0:	3c090000 	lui	t1,0x0
+9d0010e4:	25290000 	addiu	t1,t1,0
+9d0010e8:	1120001d 	beqz	t1,9d001160 <_ramfunc_done>
+9d0010ec:	00000000 	nop
+9d0010f0:	3c089d00 	lui	t0,0x9d00
+9d0010f4:	25082c90 	addiu	t0,t0,11408
+9d0010f8:	3c09a000 	lui	t1,0xa000
+9d0010fc:	25291800 	addiu	t1,t1,6144
+9d001100:	3c0aa000 	lui	t2,0xa000
+9d001104:	254a1800 	addiu	t2,t2,6144
+
+9d001108 <_init_ramfunc>:
+9d001108:	8d0b0000 	lw	t3,0(t0)
+9d00110c:	ad2b0000 	sw	t3,0(t1)
+9d001110:	25080004 	addiu	t0,t0,4
+9d001114:	25290004 	addiu	t1,t1,4
+
+9d001118 <_ramfunc_check>:
+9d001118:	012a082b 	sltu	at,t1,t2
+9d00111c:	1420fffa 	bnez	at,9d001108 <_init_ramfunc>
+9d001120:	00000000 	nop
+9d001124:	3c090000 	lui	t1,0x0
+9d001128:	25291800 	addiu	t1,t1,6144
+9d00112c:	3c0abf88 	lui	t2,0xbf88
+9d001130:	254a2010 	addiu	t2,t2,8208
+9d001134:	ad490000 	sw	t1,0(t2)
+9d001138:	3c090000 	lui	t1,0x0
+9d00113c:	25294000 	addiu	t1,t1,16384
+9d001140:	3c0abf88 	lui	t2,0xbf88
+9d001144:	254a2020 	addiu	t2,t2,8224
+9d001148:	ad490000 	sw	t1,0(t2)
+9d00114c:	3c090000 	lui	t1,0x0
+9d001150:	25294000 	addiu	t1,t1,16384
+9d001154:	3c0abf88 	lui	t2,0xbf88
+9d001158:	254a2030 	addiu	t2,t2,8240
+9d00115c:	ad490000 	sw	t1,0(t2)
+
+9d001160 <_ramfunc_done>:
+9d001160:	40804800 	mtc0	zero,c0_count
+9d001164:	240affff 	li	t2,-1
+9d001168:	408a5800 	mtc0	t2,c0_compare
+9d00116c:	3c099d00 	lui	t1,0x9d00
+9d001170:	25290000 	addiu	t1,t1,0
+9d001174:	40897801 	mtc0	t1,c0_ebase
+9d001178:	3c090000 	lui	t1,0x0
+9d00117c:	25290001 	addiu	t1,t1,1
+9d001180:	240a0000 	li	t2,0
+9d001184:	7d2a4944 	ins	t2,t1,0x5,0x5
+9d001188:	408a6001 	mtc0	t2,c0_intctl
+9d00118c:	3c090080 	lui	t1,0x80
+9d001190:	40896800 	mtc0	t1,c0_cause
+9d001194:	40088000 	mfc0	t0,c0_config
+9d001198:	7d090580 	ext	t1,t0,0x16,0x1
+9d00119c:	00094c40 	sll	t1,t1,0x11
+9d0011a0:	40086000 	mfc0	t0,c0_status
+9d0011a4:	3c010058 	lui	at,0x58
+9d0011a8:	01014024 	and	t0,t0,at
+9d0011ac:	01284025 	or	t0,t1,t0
+9d0011b0:	40886000 	mtc0	t0,c0_status
+9d0011b4:	3c089d00 	lui	t0,0x9d00
+9d0011b8:	250828ec 	addiu	t0,t0,10476
+9d0011bc:	0100f809 	jalr	t0
+9d0011c0:	00000000 	nop
+9d0011c4:	40086000 	mfc0	t0,c0_status
+9d0011c8:	3c01ffbf 	lui	at,0xffbf
+9d0011cc:	3421ffff 	ori	at,at,0xffff
+9d0011d0:	01014024 	and	t0,t0,at
+9d0011d4:	40886000 	mtc0	t0,c0_status
+9d0011d8:	30840000 	andi	a0,a0,0x0
+9d0011dc:	30a50000 	andi	a1,a1,0x0
+9d0011e0:	3c089d00 	lui	t0,0x9d00
+9d0011e4:	250811f0 	addiu	t0,t0,4592
+9d0011e8:	01000008 	jr	t0
+9d0011ec:	00000000 	nop
+
+Disassembly of section .text:
+
+9d0011f0 <_main_entry>:
+9d0011f0:	0f400a58 	jal	9d002960 <_text_end>
+9d0011f4:	00000000 	nop
+9d0011f8:	30840000 	andi	a0,a0,0x0
+9d0011fc:	30a50000 	andi	a1,a1,0x0
+9d001200:	0f400880 	jal	9d002200 <main>
+9d001204:	00000000 	nop
+9d001208:	1000fffd 	b	9d001200 <_main_entry+0x10>
+9d00120c:	00000000 	nop
+
+9d001210 <__do_global_dtors_aux>:
+9d001210:	27bdffd8 	addiu	sp,sp,-40
+9d001214:	afb2001c 	sw	s2,28(sp)
+9d001218:	3c12a000 	lui	s2,0xa000
+9d00121c:	924200fc 	lbu	v0,252(s2)
+9d001220:	afbf0024 	sw	ra,36(sp)
+9d001224:	afb30020 	sw	s3,32(sp)
+9d001228:	afb10018 	sw	s1,24(sp)
+9d00122c:	14400020 	bnez	v0,9d0012b0 <__do_global_dtors_aux+0xa0>
+9d001230:	afb00014 	sw	s0,20(sp)
+9d001234:	3c119d00 	lui	s1,0x9d00
+9d001238:	3c109d00 	lui	s0,0x9d00
+9d00123c:	3c13a000 	lui	s3,0xa000
+9d001240:	263129ac 	addiu	s1,s1,10668
+9d001244:	261029b0 	addiu	s0,s0,10672
+9d001248:	8e620100 	lw	v0,256(s3)
+9d00124c:	02118023 	subu	s0,s0,s1
+9d001250:	00108083 	sra	s0,s0,0x2
+9d001254:	2610ffff 	addiu	s0,s0,-1
+9d001258:	0050182b 	sltu	v1,v0,s0
+9d00125c:	5060000c 	beqzl	v1,9d001290 <__do_global_dtors_aux+0x80>
+9d001260:	3c020000 	lui	v0,0x0
+9d001264:	24420001 	addiu	v0,v0,1
+9d001268:	00021880 	sll	v1,v0,0x2
+9d00126c:	02231821 	addu	v1,s1,v1
+9d001270:	8c630000 	lw	v1,0(v1)
+9d001274:	0060f809 	jalr	v1
+9d001278:	ae620100 	sw	v0,256(s3)
+9d00127c:	8e620100 	lw	v0,256(s3)
+9d001280:	0050182b 	sltu	v1,v0,s0
+9d001284:	1460fff8 	bnez	v1,9d001268 <__do_global_dtors_aux+0x58>
+9d001288:	24420001 	addiu	v0,v0,1
+9d00128c:	3c020000 	lui	v0,0x0
+9d001290:	24420000 	addiu	v0,v0,0
+9d001294:	10400005 	beqz	v0,9d0012ac <__do_global_dtors_aux+0x9c>
+9d001298:	24020001 	li	v0,1
+9d00129c:	3c04a000 	lui	a0,0xa000
+9d0012a0:	0c000000 	jal	90000000 <_imageExecutionJumpToFirstInFlash+0x8e000000>
+9d0012a4:	24840008 	addiu	a0,a0,8
+9d0012a8:	24020001 	li	v0,1
+9d0012ac:	a24200fc 	sb	v0,252(s2)
+9d0012b0:	8fbf0024 	lw	ra,36(sp)
+9d0012b4:	8fb30020 	lw	s3,32(sp)
+9d0012b8:	8fb2001c 	lw	s2,28(sp)
+9d0012bc:	8fb10018 	lw	s1,24(sp)
+9d0012c0:	8fb00014 	lw	s0,20(sp)
+9d0012c4:	03e00008 	jr	ra
+9d0012c8:	27bd0028 	addiu	sp,sp,40
+
+9d0012cc <frame_dummy>:
+9d0012cc:	3c020000 	lui	v0,0x0
+9d0012d0:	27bdffe8 	addiu	sp,sp,-24
+9d0012d4:	24420000 	addiu	v0,v0,0
+9d0012d8:	10400006 	beqz	v0,9d0012f4 <frame_dummy+0x28>
+9d0012dc:	afbf0014 	sw	ra,20(sp)
+9d0012e0:	3c04a000 	lui	a0,0xa000
+9d0012e4:	3c05a000 	lui	a1,0xa000
+9d0012e8:	24840008 	addiu	a0,a0,8
+9d0012ec:	0c000000 	jal	90000000 <_imageExecutionJumpToFirstInFlash+0x8e000000>
+9d0012f0:	24a50104 	addiu	a1,a1,260
+9d0012f4:	3c04a000 	lui	a0,0xa000
+9d0012f8:	8c820008 	lw	v0,8(a0)
+9d0012fc:	10400007 	beqz	v0,9d00131c <frame_dummy+0x50>
+9d001300:	3c190000 	lui	t9,0x0
+9d001304:	27390000 	addiu	t9,t9,0
+9d001308:	13200004 	beqz	t9,9d00131c <frame_dummy+0x50>
+9d00130c:	8fbf0014 	lw	ra,20(sp)
+9d001310:	24840008 	addiu	a0,a0,8
+9d001314:	03200008 	jr	t9
+9d001318:	27bd0018 	addiu	sp,sp,24
+9d00131c:	8fbf0014 	lw	ra,20(sp)
+9d001320:	03e00008 	jr	ra
+9d001324:	27bd0018 	addiu	sp,sp,24
+
+9d001328 <setup>:
+9d001328:	27bdffe0 	addiu	sp,sp,-32
+9d00132c:	afb10018 	sw	s1,24(sp)
+9d001330:	3c11a000 	lui	s1,0xa000
+9d001334:	afb00014 	sw	s0,20(sp)
+9d001338:	26240148 	addiu	a0,s1,328
+9d00133c:	afbf001c 	sw	ra,28(sp)
+9d001340:	0f400592 	jal	9d001648 <_ZN8MCP23S175beginEv>
+9d001344:	3c10a000 	lui	s0,0xa000
+9d001348:	0f400592 	jal	9d001648 <_ZN8MCP23S175beginEv>
+9d00134c:	26040164 	addiu	a0,s0,356
+9d001350:	26240148 	addiu	a0,s1,328
+9d001354:	2405000f 	li	a1,15
+9d001358:	0f4005b3 	jal	9d0016cc <_ZN8MCP23S177pinModeEhh>
+9d00135c:	24060001 	li	a2,1
+9d001360:	26040164 	addiu	a0,s0,356
+9d001364:	8fbf001c 	lw	ra,28(sp)
+9d001368:	8fb10018 	lw	s1,24(sp)
+9d00136c:	8fb00014 	lw	s0,20(sp)
+9d001370:	2405000f 	li	a1,15
+9d001374:	24060003 	li	a2,3
+9d001378:	0b4005b3 	j	9d0016cc <_ZN8MCP23S177pinModeEhh>
+9d00137c:	27bd0020 	addiu	sp,sp,32
+
+9d001380 <loop>:
+9d001380:	3c04a000 	lui	a0,0xa000
+9d001384:	27bdffe8 	addiu	sp,sp,-24
+9d001388:	24840164 	addiu	a0,a0,356
+9d00138c:	afbf0014 	sw	ra,20(sp)
+9d001390:	0f40063d 	jal	9d0018f4 <_ZN8MCP23S1711digitalReadEh>
+9d001394:	2405000f 	li	a1,15
+9d001398:	3c04a000 	lui	a0,0xa000
+9d00139c:	8fbf0014 	lw	ra,20(sp)
+9d0013a0:	24840148 	addiu	a0,a0,328
+9d0013a4:	2405000f 	li	a1,15
+9d0013a8:	2c460001 	sltiu	a2,v0,1
+9d0013ac:	0b400602 	j	9d001808 <_ZN8MCP23S1712digitalWriteEhh>
+9d0013b0:	27bd0018 	addiu	sp,sp,24
+
+9d0013b4 <_GLOBAL__I_SPI>:
+9d0013b4:	27bdffe8 	addiu	sp,sp,-24
+9d0013b8:	afb00010 	sw	s0,16(sp)
+9d0013bc:	3c10a000 	lui	s0,0xa000
+9d0013c0:	afbf0014 	sw	ra,20(sp)
+9d0013c4:	0f400743 	jal	9d001d0c <_ZN5DSPI0C1Ev>
+9d0013c8:	2604011c 	addiu	a0,s0,284
+9d0013cc:	3c04a000 	lui	a0,0xa000
+9d0013d0:	2605011c 	addiu	a1,s0,284
+9d0013d4:	24840148 	addiu	a0,a0,328
+9d0013d8:	2406000a 	li	a2,10
+9d0013dc:	0f400502 	jal	9d001408 <_ZN8MCP23S17C1EP4DSPIhh>
+9d0013e0:	00003821 	move	a3,zero
+9d0013e4:	3c04a000 	lui	a0,0xa000
+9d0013e8:	2605011c 	addiu	a1,s0,284
+9d0013ec:	8fbf0014 	lw	ra,20(sp)
+9d0013f0:	8fb00010 	lw	s0,16(sp)
+9d0013f4:	24840164 	addiu	a0,a0,356
+9d0013f8:	2406000a 	li	a2,10
+9d0013fc:	24070001 	li	a3,1
+9d001400:	0b400502 	j	9d001408 <_ZN8MCP23S17C1EP4DSPIhh>
+9d001404:	27bd0018 	addiu	sp,sp,24
+
+9d001408 <_ZN8MCP23S17C1EP4DSPIhh>:
+#endif
+    _spi = spi;
+    _cs = cs;
+    _addr = addr;
+
+    _reg[IODIRA] = 0xFF;
+9d001408:	2403ffff 	li	v1,-1
+    _reg[GPINTENB] = 0x00;
+    _reg[DEFVALA] = 0x00;
+    _reg[DEFVALB] = 0x00;
+    _reg[INTCONA] = 0x00;
+    _reg[INTCONB] = 0x00;
+    _reg[IOCONA] = 0x18;
+9d00140c:	24020018 	li	v0,24
+#ifdef __PIC32MX__
+MCP23S17::MCP23S17(DSPI *spi, uint8_t cs, uint8_t addr) {
+#else
+MCP23S17::MCP23S17(SPIClass *spi, uint8_t cs, uint8_t addr) {
+#endif
+    _spi = spi;
+9d001410:	ac850000 	sw	a1,0(a0)
+    _cs = cs;
+9d001414:	a0860004 	sb	a2,4(a0)
+    _addr = addr;
+9d001418:	a0870005 	sb	a3,5(a0)
+
+    _reg[IODIRA] = 0xFF;
+9d00141c:	a0830006 	sb	v1,6(a0)
+    _reg[IODIRB] = 0xFF;
+9d001420:	a0830007 	sb	v1,7(a0)
+    _reg[IPOLA] = 0x00;
+9d001424:	a0800008 	sb	zero,8(a0)
+    _reg[IPOLB] = 0x00;
+9d001428:	a0800009 	sb	zero,9(a0)
+    _reg[GPINTENA] = 0x00;
+9d00142c:	a080000a 	sb	zero,10(a0)
+    _reg[GPINTENB] = 0x00;
+9d001430:	a080000b 	sb	zero,11(a0)
+    _reg[DEFVALA] = 0x00;
+9d001434:	a080000c 	sb	zero,12(a0)
+    _reg[DEFVALB] = 0x00;
+9d001438:	a080000d 	sb	zero,13(a0)
+    _reg[INTCONA] = 0x00;
+9d00143c:	a080000e 	sb	zero,14(a0)
+    _reg[INTCONB] = 0x00;
+9d001440:	a080000f 	sb	zero,15(a0)
+    _reg[IOCONA] = 0x18;
+9d001444:	a0820010 	sb	v0,16(a0)
+    _reg[IOCONB] = 0x18;
+9d001448:	a0820011 	sb	v0,17(a0)
+    _reg[GPPUA] = 0x00;
+9d00144c:	a0800012 	sb	zero,18(a0)
+    _reg[GPPUB] = 0x00;
+9d001450:	a0800013 	sb	zero,19(a0)
+    _reg[INTFA] = 0x00;
+9d001454:	a0800014 	sb	zero,20(a0)
+    _reg[INTFB] = 0x00;
+9d001458:	a0800015 	sb	zero,21(a0)
+    _reg[INTCAPA] = 0x00;
+9d00145c:	a0800016 	sb	zero,22(a0)
+    _reg[INTCAPB] = 0x00;
+9d001460:	a0800017 	sb	zero,23(a0)
+    _reg[GPIOA] = 0x00;
+9d001464:	a0800018 	sb	zero,24(a0)
+    _reg[GPIOB] = 0x00;
+9d001468:	a0800019 	sb	zero,25(a0)
+    _reg[OLATA] = 0x00;
+9d00146c:	a080001a 	sb	zero,26(a0)
+    _reg[OLATB] = 0x00;
+}
+9d001470:	03e00008 	jr	ra
+9d001474:	a080001b 	sb	zero,27(a0)
+
+9d001478 <_ZN8MCP23S1712readRegisterEh>:
+    _spi->transfer(0x18);
+    ::digitalWrite(_cs, HIGH);
+    writeAll();
+}
+
+void MCP23S17::readRegister(uint8_t addr) {
+9d001478:	27bdffe0 	addiu	sp,sp,-32
+9d00147c:	afb10014 	sw	s1,20(sp)
+9d001480:	30b100ff 	andi	s1,a1,0xff
+    if (addr > 21) {
+9d001484:	2e220016 	sltiu	v0,s1,22
+    _spi->transfer(0x18);
+    ::digitalWrite(_cs, HIGH);
+    writeAll();
+}
+
+void MCP23S17::readRegister(uint8_t addr) {
+9d001488:	afb00010 	sw	s0,16(sp)
+9d00148c:	afbf001c 	sw	ra,28(sp)
+9d001490:	afb20018 	sw	s2,24(sp)
+    if (addr > 21) {
+9d001494:	14400007 	bnez	v0,9d0014b4 <_ZN8MCP23S1712readRegisterEh+0x3c>
+9d001498:	00808021 	move	s0,a0
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+    _spi->transfer(addr);
+    _reg[addr] = _spi->transfer(0xFF);
+    ::digitalWrite(_cs, HIGH);
+}
+9d00149c:	8fbf001c 	lw	ra,28(sp)
+9d0014a0:	8fb20018 	lw	s2,24(sp)
+9d0014a4:	8fb10014 	lw	s1,20(sp)
+9d0014a8:	8fb00010 	lw	s0,16(sp)
+9d0014ac:	03e00008 	jr	ra
+9d0014b0:	27bd0020 	addiu	sp,sp,32
+
+void MCP23S17::readRegister(uint8_t addr) {
+    if (addr > 21) {
+        return;
+    }
+    uint8_t cmd = 0b01000001 | ((_addr & 0b111) << 1);
+9d0014b4:	90920005 	lbu	s2,5(a0)
+    ::digitalWrite(_cs, LOW);
+9d0014b8:	90840004 	lbu	a0,4(a0)
+9d0014bc:	00002821 	move	a1,zero
+9d0014c0:	0f4007c3 	jal	9d001f0c <digitalWrite>
+9d0014c4:	32520007 	andi	s2,s2,0x7
+
+void MCP23S17::readRegister(uint8_t addr) {
+    if (addr > 21) {
+        return;
+    }
+    uint8_t cmd = 0b01000001 | ((_addr & 0b111) << 1);
+9d0014c8:	00129040 	sll	s2,s2,0x1
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+9d0014cc:	8e040000 	lw	a0,0(s0)
+
+void MCP23S17::readRegister(uint8_t addr) {
+    if (addr > 21) {
+        return;
+    }
+    uint8_t cmd = 0b01000001 | ((_addr & 0b111) << 1);
+9d0014d0:	36520041 	ori	s2,s2,0x41
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+9d0014d4:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d0014d8:	02402821 	move	a1,s2
+    _spi->transfer(addr);
+9d0014dc:	8e040000 	lw	a0,0(s0)
+9d0014e0:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d0014e4:	02202821 	move	a1,s1
+    _reg[addr] = _spi->transfer(0xFF);
+9d0014e8:	8e040000 	lw	a0,0(s0)
+9d0014ec:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d0014f0:	240500ff 	li	a1,255
+    ::digitalWrite(_cs, HIGH);
+9d0014f4:	92040004 	lbu	a0,4(s0)
+    }
+    uint8_t cmd = 0b01000001 | ((_addr & 0b111) << 1);
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+    _spi->transfer(addr);
+    _reg[addr] = _spi->transfer(0xFF);
+9d0014f8:	02118021 	addu	s0,s0,s1
+9d0014fc:	a2020006 	sb	v0,6(s0)
+    ::digitalWrite(_cs, HIGH);
+}
+9d001500:	8fbf001c 	lw	ra,28(sp)
+9d001504:	8fb20018 	lw	s2,24(sp)
+9d001508:	8fb10014 	lw	s1,20(sp)
+9d00150c:	8fb00010 	lw	s0,16(sp)
+    uint8_t cmd = 0b01000001 | ((_addr & 0b111) << 1);
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+    _spi->transfer(addr);
+    _reg[addr] = _spi->transfer(0xFF);
+    ::digitalWrite(_cs, HIGH);
+9d001510:	24050001 	li	a1,1
+9d001514:	0b4007c3 	j	9d001f0c <digitalWrite>
+9d001518:	27bd0020 	addiu	sp,sp,32
+
+9d00151c <_ZN8MCP23S1713writeRegisterEh>:
+}
+
+void MCP23S17::writeRegister(uint8_t addr) {
+9d00151c:	27bdffe0 	addiu	sp,sp,-32
+9d001520:	afb10014 	sw	s1,20(sp)
+9d001524:	30b100ff 	andi	s1,a1,0xff
+    if (addr > 21) {
+9d001528:	2e220016 	sltiu	v0,s1,22
+    _spi->transfer(addr);
+    _reg[addr] = _spi->transfer(0xFF);
+    ::digitalWrite(_cs, HIGH);
+}
+
+void MCP23S17::writeRegister(uint8_t addr) {
+9d00152c:	afb00010 	sw	s0,16(sp)
+9d001530:	afbf001c 	sw	ra,28(sp)
+9d001534:	afb20018 	sw	s2,24(sp)
+    if (addr > 21) {
+9d001538:	14400007 	bnez	v0,9d001558 <_ZN8MCP23S1713writeRegisterEh+0x3c>
+9d00153c:	00808021 	move	s0,a0
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+    _spi->transfer(addr);
+    _spi->transfer(_reg[addr]);
+    ::digitalWrite(_cs, HIGH);
+}
+9d001540:	8fbf001c 	lw	ra,28(sp)
+9d001544:	8fb20018 	lw	s2,24(sp)
+9d001548:	8fb10014 	lw	s1,20(sp)
+9d00154c:	8fb00010 	lw	s0,16(sp)
+9d001550:	03e00008 	jr	ra
+9d001554:	27bd0020 	addiu	sp,sp,32
+
+void MCP23S17::writeRegister(uint8_t addr) {
+    if (addr > 21) {
+        return;
+    }
+    uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+9d001558:	90920005 	lbu	s2,5(a0)
+    ::digitalWrite(_cs, LOW);
+9d00155c:	90840004 	lbu	a0,4(a0)
+9d001560:	00002821 	move	a1,zero
+9d001564:	0f4007c3 	jal	9d001f0c <digitalWrite>
+9d001568:	32520007 	andi	s2,s2,0x7
+
+void MCP23S17::writeRegister(uint8_t addr) {
+    if (addr > 21) {
+        return;
+    }
+    uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+9d00156c:	00129040 	sll	s2,s2,0x1
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+9d001570:	8e040000 	lw	a0,0(s0)
+
+void MCP23S17::writeRegister(uint8_t addr) {
+    if (addr > 21) {
+        return;
+    }
+    uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+9d001574:	36520040 	ori	s2,s2,0x40
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+9d001578:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d00157c:	02402821 	move	a1,s2
+    _spi->transfer(addr);
+9d001580:	8e040000 	lw	a0,0(s0)
+9d001584:	02202821 	move	a1,s1
+9d001588:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d00158c:	02118821 	addu	s1,s0,s1
+    _spi->transfer(_reg[addr]);
+9d001590:	8e040000 	lw	a0,0(s0)
+9d001594:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d001598:	92250006 	lbu	a1,6(s1)
+    ::digitalWrite(_cs, HIGH);
+9d00159c:	92040004 	lbu	a0,4(s0)
+}
+9d0015a0:	8fbf001c 	lw	ra,28(sp)
+9d0015a4:	8fb20018 	lw	s2,24(sp)
+9d0015a8:	8fb10014 	lw	s1,20(sp)
+9d0015ac:	8fb00010 	lw	s0,16(sp)
+    uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+    _spi->transfer(addr);
+    _spi->transfer(_reg[addr]);
+    ::digitalWrite(_cs, HIGH);
+9d0015b0:	24050001 	li	a1,1
+9d0015b4:	0b4007c3 	j	9d001f0c <digitalWrite>
+9d0015b8:	27bd0020 	addiu	sp,sp,32
+
+9d0015bc <_ZN8MCP23S178writeAllEv>:
+        _reg[i] = _spi->transfer(0xFF);
+    }
+    ::digitalWrite(_cs, HIGH);
+}
+
+void MCP23S17::writeAll() {
+9d0015bc:	27bdffe0 	addiu	sp,sp,-32
+9d0015c0:	afbf001c 	sw	ra,28(sp)
+9d0015c4:	afb20018 	sw	s2,24(sp)
+9d0015c8:	afb00010 	sw	s0,16(sp)
+9d0015cc:	afb10014 	sw	s1,20(sp)
+    uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+9d0015d0:	90910005 	lbu	s1,5(a0)
+        _reg[i] = _spi->transfer(0xFF);
+    }
+    ::digitalWrite(_cs, HIGH);
+}
+
+void MCP23S17::writeAll() {
+9d0015d4:	00808021 	move	s0,a0
+    uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+    ::digitalWrite(_cs, LOW);
+9d0015d8:	90840004 	lbu	a0,4(a0)
+9d0015dc:	00002821 	move	a1,zero
+9d0015e0:	0f4007c3 	jal	9d001f0c <digitalWrite>
+9d0015e4:	32310007 	andi	s1,s1,0x7
+    }
+    ::digitalWrite(_cs, HIGH);
+}
+
+void MCP23S17::writeAll() {
+    uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+9d0015e8:	00118840 	sll	s1,s1,0x1
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+9d0015ec:	8e040000 	lw	a0,0(s0)
+    }
+    ::digitalWrite(_cs, HIGH);
+}
+
+void MCP23S17::writeAll() {
+    uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+9d0015f0:	36310040 	ori	s1,s1,0x40
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+9d0015f4:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d0015f8:	02202821 	move	a1,s1
+    _spi->transfer(0);
+9d0015fc:	8e040000 	lw	a0,0(s0)
+9d001600:	00002821 	move	a1,zero
+9d001604:	02009021 	move	s2,s0
+9d001608:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d00160c:	26110016 	addiu	s1,s0,22
+    for (uint8_t i = 0; i < 22; i++) {
+        _spi->transfer(_reg[i]);
+9d001610:	92450006 	lbu	a1,6(s2)
+9d001614:	8e040000 	lw	a0,0(s0)
+9d001618:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d00161c:	26520001 	addiu	s2,s2,1
+void MCP23S17::writeAll() {
+    uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+    _spi->transfer(0);
+    for (uint8_t i = 0; i < 22; i++) {
+9d001620:	5651fffc 	bnel	s2,s1,9d001614 <_ZN8MCP23S178writeAllEv+0x58>
+9d001624:	92450006 	lbu	a1,6(s2)
+        _spi->transfer(_reg[i]);
+    }
+    ::digitalWrite(_cs, HIGH);
+9d001628:	92040004 	lbu	a0,4(s0)
+}
+9d00162c:	8fbf001c 	lw	ra,28(sp)
+9d001630:	8fb20018 	lw	s2,24(sp)
+9d001634:	8fb10014 	lw	s1,20(sp)
+9d001638:	8fb00010 	lw	s0,16(sp)
+    _spi->transfer(cmd);
+    _spi->transfer(0);
+    for (uint8_t i = 0; i < 22; i++) {
+        _spi->transfer(_reg[i]);
+    }
+    ::digitalWrite(_cs, HIGH);
+9d00163c:	24050001 	li	a1,1
+9d001640:	0b4007c3 	j	9d001f0c <digitalWrite>
+9d001644:	27bd0020 	addiu	sp,sp,32
+
+9d001648 <_ZN8MCP23S175beginEv>:
+    _reg[GPIOB] = 0x00;
+    _reg[OLATA] = 0x00;
+    _reg[OLATB] = 0x00;
+}
+
+void MCP23S17::begin() {
+9d001648:	27bdffe8 	addiu	sp,sp,-24
+9d00164c:	afb00010 	sw	s0,16(sp)
+9d001650:	00808021 	move	s0,a0
+    _spi->begin();
+9d001654:	8c840000 	lw	a0,0(a0)
+    _reg[GPIOB] = 0x00;
+    _reg[OLATA] = 0x00;
+    _reg[OLATB] = 0x00;
+}
+
+void MCP23S17::begin() {
+9d001658:	afbf0014 	sw	ra,20(sp)
+    _spi->begin();
+9d00165c:	0f4006b4 	jal	9d001ad0 <_ZN4DSPI5beginEv>
+9d001660:	00000000 	nop
+    ::pinMode(_cs, OUTPUT);
+9d001664:	92040004 	lbu	a0,4(s0)
+9d001668:	0f40075d 	jal	9d001d74 <pinMode>
+9d00166c:	24050001 	li	a1,1
+    ::digitalWrite(_cs, HIGH);
+9d001670:	92040004 	lbu	a0,4(s0)
+9d001674:	0f4007c3 	jal	9d001f0c <digitalWrite>
+9d001678:	24050001 	li	a1,1
+    uint8_t cmd = 0b01000000;
+    ::digitalWrite(_cs, LOW);
+9d00167c:	92040004 	lbu	a0,4(s0)
+9d001680:	0f4007c3 	jal	9d001f0c <digitalWrite>
+9d001684:	00002821 	move	a1,zero
+    _spi->transfer(cmd);
+9d001688:	8e040000 	lw	a0,0(s0)
+9d00168c:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d001690:	24050040 	li	a1,64
+    _spi->transfer(IOCONA);
+9d001694:	8e040000 	lw	a0,0(s0)
+9d001698:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d00169c:	2405000a 	li	a1,10
+    _spi->transfer(0x18);
+9d0016a0:	8e040000 	lw	a0,0(s0)
+9d0016a4:	0f4006b6 	jal	9d001ad8 <_ZN4DSPI8transferEm>
+9d0016a8:	24050018 	li	a1,24
+    ::digitalWrite(_cs, HIGH);
+9d0016ac:	92040004 	lbu	a0,4(s0)
+9d0016b0:	0f4007c3 	jal	9d001f0c <digitalWrite>
+9d0016b4:	24050001 	li	a1,1
+    writeAll();
+9d0016b8:	02002021 	move	a0,s0
+}
+9d0016bc:	8fbf0014 	lw	ra,20(sp)
+9d0016c0:	8fb00010 	lw	s0,16(sp)
+    ::digitalWrite(_cs, LOW);
+    _spi->transfer(cmd);
+    _spi->transfer(IOCONA);
+    _spi->transfer(0x18);
+    ::digitalWrite(_cs, HIGH);
+    writeAll();
+9d0016c4:	0b40056f 	j	9d0015bc <_ZN8MCP23S178writeAllEv>
+9d0016c8:	27bd0018 	addiu	sp,sp,24
+
+9d0016cc <_ZN8MCP23S177pinModeEhh>:
+        _spi->transfer(_reg[i]);
+    }
+    ::digitalWrite(_cs, HIGH);
+}
+    
+void MCP23S17::pinMode(uint8_t pin, uint8_t mode) {
+9d0016cc:	30a200ff 	andi	v0,a1,0xff
+9d0016d0:	27bdffd8 	addiu	sp,sp,-40
+    if (pin >= 16) {
+9d0016d4:	2c430010 	sltiu	v1,v0,16
+        _spi->transfer(_reg[i]);
+    }
+    ::digitalWrite(_cs, HIGH);
+}
+    
+void MCP23S17::pinMode(uint8_t pin, uint8_t mode) {
+9d0016d8:	afb10018 	sw	s1,24(sp)
+9d0016dc:	afb00014 	sw	s0,20(sp)
+9d0016e0:	afbf0024 	sw	ra,36(sp)
+9d0016e4:	afb30020 	sw	s3,32(sp)
+9d0016e8:	afb2001c 	sw	s2,28(sp)
+9d0016ec:	00808021 	move	s0,a0
+    if (pin >= 16) {
+9d0016f0:	1060000d 	beqz	v1,9d001728 <_ZN8MCP23S177pinModeEhh+0x5c>
+9d0016f4:	30d100ff 	andi	s1,a2,0xff
+        return;
+    }
+    uint8_t dirReg = IODIRA;
+    uint8_t puReg = GPPUA;
+    if (pin >= 8) {
+9d0016f8:	2c430008 	sltiu	v1,v0,8
+9d0016fc:	50600011 	beqzl	v1,9d001744 <_ZN8MCP23S177pinModeEhh+0x78>
+9d001700:	2442fff8 	addiu	v0,v0,-8
+        pin -= 8;
+        dirReg = IODIRB;
+        puReg = GPPUB;
+    }
+
+    switch (mode) {
+9d001704:	24030001 	li	v1,1
+void MCP23S17::pinMode(uint8_t pin, uint8_t mode) {
+    if (pin >= 16) {
+        return;
+    }
+    uint8_t dirReg = IODIRA;
+    uint8_t puReg = GPPUA;
+9d001708:	2412000c 	li	s2,12
+        pin -= 8;
+        dirReg = IODIRB;
+        puReg = GPPUB;
+    }
+
+    switch (mode) {
+9d00170c:	12230012 	beq	s1,v1,9d001758 <_ZN8MCP23S177pinModeEhh+0x8c>
+9d001710:	00002821 	move	a1,zero
+9d001714:	1220001e 	beqz	s1,9d001790 <_ZN8MCP23S177pinModeEhh+0xc4>
+9d001718:	02051821 	addu	v1,s0,a1
+9d00171c:	24030003 	li	v1,3
+9d001720:	1223001b 	beq	s1,v1,9d001790 <_ZN8MCP23S177pinModeEhh+0xc4>
+9d001724:	02051821 	addu	v1,s0,a1
+                _reg[puReg] &= ~(1<<pin);
+            }
+            writeRegister(puReg);
+            break;
+    }
+}
+9d001728:	8fbf0024 	lw	ra,36(sp)
+9d00172c:	8fb30020 	lw	s3,32(sp)
+9d001730:	8fb2001c 	lw	s2,28(sp)
+9d001734:	8fb10018 	lw	s1,24(sp)
+9d001738:	8fb00014 	lw	s0,20(sp)
+9d00173c:	03e00008 	jr	ra
+9d001740:	27bd0028 	addiu	sp,sp,40
+        pin -= 8;
+        dirReg = IODIRB;
+        puReg = GPPUB;
+    }
+
+    switch (mode) {
+9d001744:	24030001 	li	v1,1
+        return;
+    }
+    uint8_t dirReg = IODIRA;
+    uint8_t puReg = GPPUA;
+    if (pin >= 8) {
+        pin -= 8;
+9d001748:	304200ff 	andi	v0,v0,0xff
+        dirReg = IODIRB;
+        puReg = GPPUB;
+9d00174c:	2412000d 	li	s2,13
+    }
+
+    switch (mode) {
+9d001750:	1623fff0 	bne	s1,v1,9d001714 <_ZN8MCP23S177pinModeEhh+0x48>
+9d001754:	24050001 	li	a1,1
+        case OUTPUT:
+            _reg[dirReg] &= ~(1<<pin);
+9d001758:	02051821 	addu	v1,s0,a1
+9d00175c:	90640006 	lbu	a0,6(v1)
+9d001760:	00511004 	sllv	v0,s1,v0
+9d001764:	00021027 	nor	v0,zero,v0
+9d001768:	00441024 	and	v0,v0,a0
+9d00176c:	a0620006 	sb	v0,6(v1)
+            writeRegister(dirReg);
+9d001770:	02002021 	move	a0,s0
+                _reg[puReg] &= ~(1<<pin);
+            }
+            writeRegister(puReg);
+            break;
+    }
+}
+9d001774:	8fbf0024 	lw	ra,36(sp)
+9d001778:	8fb30020 	lw	s3,32(sp)
+9d00177c:	8fb2001c 	lw	s2,28(sp)
+9d001780:	8fb10018 	lw	s1,24(sp)
+9d001784:	8fb00014 	lw	s0,20(sp)
+            if (mode == INPUT_PULLUP) {
+                _reg[puReg] |= (1<<pin);
+            } else {
+                _reg[puReg] &= ~(1<<pin);
+            }
+            writeRegister(puReg);
+9d001788:	0b400547 	j	9d00151c <_ZN8MCP23S1713writeRegisterEh>
+9d00178c:	27bd0028 	addiu	sp,sp,40
+            writeRegister(dirReg);
+            break;
+
+        case INPUT:
+        case INPUT_PULLUP:
+            _reg[dirReg] |= (1<<pin);
+9d001790:	90640006 	lbu	a0,6(v1)
+9d001794:	24130001 	li	s3,1
+9d001798:	00531004 	sllv	v0,s3,v0
+9d00179c:	7c029c20 	seb	s3,v0
+9d0017a0:	02641025 	or	v0,s3,a0
+9d0017a4:	a0620006 	sb	v0,6(v1)
+            writeRegister(dirReg);
+9d0017a8:	0f400547 	jal	9d00151c <_ZN8MCP23S1713writeRegisterEh>
+9d0017ac:	02002021 	move	a0,s0
+            if (mode == INPUT_PULLUP) {
+9d0017b0:	24020003 	li	v0,3
+9d0017b4:	1222000e 	beq	s1,v0,9d0017f0 <_ZN8MCP23S177pinModeEhh+0x124>
+9d0017b8:	02121821 	addu	v1,s0,s2
+                _reg[puReg] |= (1<<pin);
+            } else {
+                _reg[puReg] &= ~(1<<pin);
+9d0017bc:	90640006 	lbu	a0,6(v1)
+9d0017c0:	00139827 	nor	s3,zero,s3
+            }
+            writeRegister(puReg);
+9d0017c4:	02402821 	move	a1,s2
+            _reg[dirReg] |= (1<<pin);
+            writeRegister(dirReg);
+            if (mode == INPUT_PULLUP) {
+                _reg[puReg] |= (1<<pin);
+            } else {
+                _reg[puReg] &= ~(1<<pin);
+9d0017c8:	02649824 	and	s3,s3,a0
+9d0017cc:	a0730006 	sb	s3,6(v1)
+            }
+            writeRegister(puReg);
+9d0017d0:	02002021 	move	a0,s0
+            break;
+    }
+}
+9d0017d4:	8fbf0024 	lw	ra,36(sp)
+9d0017d8:	8fb30020 	lw	s3,32(sp)
+9d0017dc:	8fb2001c 	lw	s2,28(sp)
+9d0017e0:	8fb10018 	lw	s1,24(sp)
+9d0017e4:	8fb00014 	lw	s0,20(sp)
+            if (mode == INPUT_PULLUP) {
+                _reg[puReg] |= (1<<pin);
+            } else {
+                _reg[puReg] &= ~(1<<pin);
+            }
+            writeRegister(puReg);
+9d0017e8:	0b400547 	j	9d00151c <_ZN8MCP23S1713writeRegisterEh>
+9d0017ec:	27bd0028 	addiu	sp,sp,40
+        case INPUT:
+        case INPUT_PULLUP:
+            _reg[dirReg] |= (1<<pin);
+            writeRegister(dirReg);
+            if (mode == INPUT_PULLUP) {
+                _reg[puReg] |= (1<<pin);
+9d0017f0:	90620006 	lbu	v0,6(v1)
+            } else {
+                _reg[puReg] &= ~(1<<pin);
+            }
+            writeRegister(puReg);
+9d0017f4:	02002021 	move	a0,s0
+9d0017f8:	02402821 	move	a1,s2
+        case INPUT:
+        case INPUT_PULLUP:
+            _reg[dirReg] |= (1<<pin);
+            writeRegister(dirReg);
+            if (mode == INPUT_PULLUP) {
+                _reg[puReg] |= (1<<pin);
+9d0017fc:	02629825 	or	s3,s3,v0
+9d001800:	0b4005f5 	j	9d0017d4 <_ZN8MCP23S177pinModeEhh+0x108>
+9d001804:	a0730006 	sb	s3,6(v1)
+
+9d001808 <_ZN8MCP23S1712digitalWriteEhh>:
+            writeRegister(puReg);
+            break;
+    }
+}
+
+void MCP23S17::digitalWrite(uint8_t pin, uint8_t value) {
+9d001808:	30a200ff 	andi	v0,a1,0xff
+    if (pin >= 16) {
+9d00180c:	2c430010 	sltiu	v1,v0,16
+9d001810:	10600018 	beqz	v1,9d001874 <_ZN8MCP23S1712digitalWriteEhh+0x6c>
+9d001814:	30c600ff 	andi	a2,a2,0xff
+        return;
+    }
+    uint8_t dirReg = IODIRA;
+    uint8_t puReg = GPPUA;
+    uint8_t latReg = OLATA;
+    if (pin >= 8) {
+9d001818:	2c430008 	sltiu	v1,v0,8
+9d00181c:	10600017 	beqz	v1,9d00187c <_ZN8MCP23S1712digitalWriteEhh+0x74>
+9d001820:	24070001 	li	a3,1
+9d001824:	00003821 	move	a3,zero
+        dirReg = IODIRB;
+        puReg = GPPUB;
+        latReg = OLATB;
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+9d001828:	00873821 	addu	a3,a0,a3
+9d00182c:	90e80006 	lbu	t0,6(a3)
+    
+    switch (mode) {
+9d001830:	24070001 	li	a3,1
+    if (pin >= 16) {
+        return;
+    }
+    uint8_t dirReg = IODIRA;
+    uint8_t puReg = GPPUA;
+    uint8_t latReg = OLATA;
+9d001834:	24050014 	li	a1,20
+        dirReg = IODIRB;
+        puReg = GPPUB;
+        latReg = OLATB;
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+9d001838:	00484007 	srav	t0,t0,v0
+9d00183c:	31080001 	andi	t0,t0,0x1
+    
+    switch (mode) {
+9d001840:	39080001 	xori	t0,t0,0x1
+9d001844:	11070018 	beq	t0,a3,9d0018a8 <_ZN8MCP23S1712digitalWriteEhh+0xa0>
+9d001848:	2403000c 	li	v1,12
+            }
+            writeRegister(latReg);
+            break;
+
+        case INPUT:
+            if (value == 0) {
+9d00184c:	14c00023 	bnez	a2,9d0018dc <_ZN8MCP23S1712digitalWriteEhh+0xd4>
+9d001850:	00832821 	addu	a1,a0,v1
+                _reg[puReg] &= ~(1<<pin);
+9d001854:	90a60006 	lbu	a2,6(a1)
+9d001858:	00471004 	sllv	v0,a3,v0
+9d00185c:	00021027 	nor	v0,zero,v0
+9d001860:	00461024 	and	v0,v0,a2
+9d001864:	a0a20006 	sb	v0,6(a1)
+            } else {
+                _reg[puReg] |= (1<<pin);
+            }
+            writeRegister(puReg);
+9d001868:	00602821 	move	a1,v1
+9d00186c:	0b400547 	j	9d00151c <_ZN8MCP23S1713writeRegisterEh>
+9d001870:	00000000 	nop
+9d001874:	03e00008 	jr	ra
+9d001878:	00000000 	nop
+        dirReg = IODIRB;
+        puReg = GPPUB;
+        latReg = OLATB;
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+9d00187c:	00873821 	addu	a3,a0,a3
+9d001880:	90e80006 	lbu	t0,6(a3)
+    }
+    uint8_t dirReg = IODIRA;
+    uint8_t puReg = GPPUA;
+    uint8_t latReg = OLATA;
+    if (pin >= 8) {
+        pin -= 8;
+9d001884:	2442fff8 	addiu	v0,v0,-8
+9d001888:	304200ff 	andi	v0,v0,0xff
+        dirReg = IODIRB;
+        puReg = GPPUB;
+        latReg = OLATB;
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+9d00188c:	00484007 	srav	t0,t0,v0
+9d001890:	31080001 	andi	t0,t0,0x1
+    
+    switch (mode) {
+9d001894:	24070001 	li	a3,1
+9d001898:	39080001 	xori	t0,t0,0x1
+    uint8_t latReg = OLATA;
+    if (pin >= 8) {
+        pin -= 8;
+        dirReg = IODIRB;
+        puReg = GPPUB;
+        latReg = OLATB;
+9d00189c:	24050015 	li	a1,21
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+    
+    switch (mode) {
+9d0018a0:	1507ffea 	bne	t0,a3,9d00184c <_ZN8MCP23S1712digitalWriteEhh+0x44>
+9d0018a4:	2403000d 	li	v1,13
+        case OUTPUT:
+            if (value == 0) {
+9d0018a8:	14c00007 	bnez	a2,9d0018c8 <_ZN8MCP23S1712digitalWriteEhh+0xc0>
+9d0018ac:	00851821 	addu	v1,a0,a1
+                _reg[latReg] &= ~(1<<pin);
+9d0018b0:	90660006 	lbu	a2,6(v1)
+9d0018b4:	00481004 	sllv	v0,t0,v0
+9d0018b8:	00021027 	nor	v0,zero,v0
+9d0018bc:	00461024 	and	v0,v0,a2
+            if (value == 0) {
+                _reg[puReg] &= ~(1<<pin);
+            } else {
+                _reg[puReg] |= (1<<pin);
+            }
+            writeRegister(puReg);
+9d0018c0:	0b400547 	j	9d00151c <_ZN8MCP23S1713writeRegisterEh>
+9d0018c4:	a0620006 	sb	v0,6(v1)
+    switch (mode) {
+        case OUTPUT:
+            if (value == 0) {
+                _reg[latReg] &= ~(1<<pin);
+            } else {
+                _reg[latReg] |= (1<<pin);
+9d0018c8:	90660006 	lbu	a2,6(v1)
+9d0018cc:	00481004 	sllv	v0,t0,v0
+9d0018d0:	00461025 	or	v0,v0,a2
+            if (value == 0) {
+                _reg[puReg] &= ~(1<<pin);
+            } else {
+                _reg[puReg] |= (1<<pin);
+            }
+            writeRegister(puReg);
+9d0018d4:	0b400547 	j	9d00151c <_ZN8MCP23S1713writeRegisterEh>
+9d0018d8:	a0620006 	sb	v0,6(v1)
+
+        case INPUT:
+            if (value == 0) {
+                _reg[puReg] &= ~(1<<pin);
+            } else {
+                _reg[puReg] |= (1<<pin);
+9d0018dc:	90a60006 	lbu	a2,6(a1)
+9d0018e0:	00471004 	sllv	v0,a3,v0
+9d0018e4:	00461025 	or	v0,v0,a2
+9d0018e8:	a0a20006 	sb	v0,6(a1)
+            }
+            writeRegister(puReg);
+9d0018ec:	0b40061b 	j	9d00186c <_ZN8MCP23S1712digitalWriteEhh+0x64>
+9d0018f0:	00602821 	move	a1,v1
+
+9d0018f4 <_ZN8MCP23S1711digitalReadEh>:
+            break;
+    }
+}
+    
+uint8_t MCP23S17::digitalRead(uint8_t pin) {
+9d0018f4:	27bdffe0 	addiu	sp,sp,-32
+9d0018f8:	afb00010 	sw	s0,16(sp)
+9d0018fc:	30b000ff 	andi	s0,a1,0xff
+    if (pin >= 16) {
+9d001900:	2e030010 	sltiu	v1,s0,16
+            writeRegister(puReg);
+            break;
+    }
+}
+    
+uint8_t MCP23S17::digitalRead(uint8_t pin) {
+9d001904:	afb10014 	sw	s1,20(sp)
+9d001908:	afbf001c 	sw	ra,28(sp)
+9d00190c:	afb20018 	sw	s2,24(sp)
+9d001910:	00808821 	move	s1,a0
+    if (pin >= 16) {
+9d001914:	10600013 	beqz	v1,9d001964 <_ZN8MCP23S1711digitalReadEh+0x70>
+9d001918:	00001021 	move	v0,zero
+        return 0;
+    }
+    uint8_t dirReg = IODIRA;
+    uint8_t portReg = GPIOA;
+    uint8_t latReg = OLATA;
+    if (pin >= 8) {
+9d00191c:	2e020008 	sltiu	v0,s0,8
+9d001920:	10400016 	beqz	v0,9d00197c <_ZN8MCP23S1711digitalReadEh+0x88>
+9d001924:	24020001 	li	v0,1
+9d001928:	00001021 	move	v0,zero
+        dirReg = IODIRB;
+        portReg = GPIOB;
+        latReg = OLATB;
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+9d00192c:	02221021 	addu	v0,s1,v0
+9d001930:	90420006 	lbu	v0,6(v0)
+    if (pin >= 16) {
+        return 0;
+    }
+    uint8_t dirReg = IODIRA;
+    uint8_t portReg = GPIOA;
+    uint8_t latReg = OLATA;
+9d001934:	24030014 	li	v1,20
+        dirReg = IODIRB;
+        portReg = GPIOB;
+        latReg = OLATB;
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+9d001938:	02021007 	srav	v0,v0,s0
+9d00193c:	30420001 	andi	v0,v0,0x1
+
+    switch (mode) {
+9d001940:	10400017 	beqz	v0,9d0019a0 <_ZN8MCP23S1711digitalReadEh+0xac>
+9d001944:	24120012 	li	s2,18
+        case OUTPUT: 
+            return _reg[latReg] & (1<<pin) ? HIGH : LOW;
+        case INPUT:
+            readRegister(portReg);
+9d001948:	02202021 	move	a0,s1
+9d00194c:	02402821 	move	a1,s2
+9d001950:	0f40051e 	jal	9d001478 <_ZN8MCP23S1712readRegisterEh>
+9d001954:	02328821 	addu	s1,s1,s2
+            return _reg[portReg] & (1<<pin) ? HIGH : LOW;
+9d001958:	92220006 	lbu	v0,6(s1)
+9d00195c:	02028007 	srav	s0,v0,s0
+    }
+}
+    
+uint8_t MCP23S17::digitalRead(uint8_t pin) {
+    if (pin >= 16) {
+        return 0;
+9d001960:	32020001 	andi	v0,s0,0x1
+        case INPUT:
+            readRegister(portReg);
+            return _reg[portReg] & (1<<pin) ? HIGH : LOW;
+    }
+    return 0;
+}
+9d001964:	8fbf001c 	lw	ra,28(sp)
+9d001968:	8fb20018 	lw	s2,24(sp)
+9d00196c:	8fb10014 	lw	s1,20(sp)
+9d001970:	8fb00010 	lw	s0,16(sp)
+9d001974:	03e00008 	jr	ra
+9d001978:	27bd0020 	addiu	sp,sp,32
+        dirReg = IODIRB;
+        portReg = GPIOB;
+        latReg = OLATB;
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+9d00197c:	02221021 	addu	v0,s1,v0
+9d001980:	90420006 	lbu	v0,6(v0)
+    }
+    uint8_t dirReg = IODIRA;
+    uint8_t portReg = GPIOA;
+    uint8_t latReg = OLATA;
+    if (pin >= 8) {
+        pin -= 8;
+9d001984:	2610fff8 	addiu	s0,s0,-8
+9d001988:	321000ff 	andi	s0,s0,0xff
+        dirReg = IODIRB;
+        portReg = GPIOB;
+        latReg = OLATB;
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+9d00198c:	02021007 	srav	v0,v0,s0
+9d001990:	30420001 	andi	v0,v0,0x1
+    uint8_t latReg = OLATA;
+    if (pin >= 8) {
+        pin -= 8;
+        dirReg = IODIRB;
+        portReg = GPIOB;
+        latReg = OLATB;
+9d001994:	24030015 	li	v1,21
+    }
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+
+    switch (mode) {
+9d001998:	1440ffeb 	bnez	v0,9d001948 <_ZN8MCP23S1711digitalReadEh+0x54>
+9d00199c:	24120013 	li	s2,19
+        case OUTPUT: 
+            return _reg[latReg] & (1<<pin) ? HIGH : LOW;
+9d0019a0:	02238821 	addu	s1,s1,v1
+9d0019a4:	92220006 	lbu	v0,6(s1)
+        case INPUT:
+            readRegister(portReg);
+            return _reg[portReg] & (1<<pin) ? HIGH : LOW;
+    }
+    return 0;
+}
+9d0019a8:	8fbf001c 	lw	ra,28(sp)
+9d0019ac:	8fb20018 	lw	s2,24(sp)
+
+    uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
+
+    switch (mode) {
+        case OUTPUT: 
+            return _reg[latReg] & (1<<pin) ? HIGH : LOW;
+9d0019b0:	02028007 	srav	s0,v0,s0
+    }
+}
+    
+uint8_t MCP23S17::digitalRead(uint8_t pin) {
+    if (pin >= 16) {
+        return 0;
+9d0019b4:	32020001 	andi	v0,s0,0x1
+        case INPUT:
+            readRegister(portReg);
+            return _reg[portReg] & (1<<pin) ? HIGH : LOW;
+    }
+    return 0;
+}
+9d0019b8:	8fb10014 	lw	s1,20(sp)
+9d0019bc:	8fb00010 	lw	s0,16(sp)
+9d0019c0:	03e00008 	jr	ra
+9d0019c4:	27bd0020 	addiu	sp,sp,32
+
+9d0019c8 <_ZN4DSPI12setPinSelectEh>:
+**		pin be an output driving high. This pin will then be use
+**		by the setSelect method.
+*/
+
+void
+DSPI::setPinSelect(uint8_t pin) {
+9d0019c8:	27bdffe8 	addiu	sp,sp,-24
+9d0019cc:	afb00010 	sw	s0,16(sp)
+9d0019d0:	30a200ff 	andi	v0,a1,0xff
+9d0019d4:	00808021 	move	s0,a0
+9d0019d8:	afbf0014 	sw	ra,20(sp)
+
+	pinSS = pin;
+
+	pinMode(pinSS, OUTPUT);
+9d0019dc:	00402021 	move	a0,v0
+9d0019e0:	24050001 	li	a1,1
+9d0019e4:	0f40075d 	jal	9d001d74 <pinMode>
+9d0019e8:	a202002a 	sb	v0,42(s0)
+	digitalWrite(pinSS, HIGH);
+9d0019ec:	9204002a 	lbu	a0,42(s0)
+
+}
+9d0019f0:	8fbf0014 	lw	ra,20(sp)
+9d0019f4:	8fb00010 	lw	s0,16(sp)
+DSPI::setPinSelect(uint8_t pin) {
+
+	pinSS = pin;
+
+	pinMode(pinSS, OUTPUT);
+	digitalWrite(pinSS, HIGH);
+9d0019f8:	24050001 	li	a1,1
+9d0019fc:	0b4007c3 	j	9d001f0c <digitalWrite>
+9d001a00:	27bd0018 	addiu	sp,sp,24
+
+9d001a04 <_ZN4DSPI5beginEh>:
+**		will set the clock rate to the default speed and the
+**		pin for SS to the specified pin.
+*/
+
+void
+DSPI::begin(uint8_t pinT) {
+9d001a04:	27bdffe0 	addiu	sp,sp,-32
+9d001a08:	afbf001c 	sw	ra,28(sp)
+9d001a0c:	afb10018 	sw	s1,24(sp)
+9d001a10:	afb00014 	sw	s0,20(sp)
+9d001a14:	00808021 	move	s0,a0
+9d001a18:	30b100ff 	andi	s1,a1,0xff
+	*/
+    mapPps(pinMOSI, ppsMOSI);
+#endif
+
+    // set up the interrupt handler 
+    setIntVector(vec, isr);
+9d001a1c:	90840028 	lbu	a0,40(a0)
+9d001a20:	0f40081c 	jal	9d002070 <setIntVector>
+9d001a24:	8e050024 	lw	a1,36(s0)
+/* Initialize the pins. The pin directions for SDO, SDI and SCK
+	** are set automatically when the SPI controller is enabled. The
+	** SS pin isn't explicitly used by the SPI controller when in
+	** master mode, so we need to initialize it ourselves.
+	*/
+	setPinSelect(pinT);
+9d001a28:	02002021 	move	a0,s0
+9d001a2c:	0f400672 	jal	9d0019c8 <_ZN4DSPI12setPinSelectEh>
+9d001a30:	02202821 	move	a1,s1
+
+	/* Disable interrupts on this SPI controller.
+	*/
+	pregIec->clr = bitErr + bitRx + bitTx;
+9d001a34:	8e07000c 	lw	a3,12(s0)
+9d001a38:	8e030008 	lw	v1,8(s0)
+9d001a3c:	8e060010 	lw	a2,16(s0)
+9d001a40:	8e050004 	lw	a1,4(s0)
+
+	/* Disable and reset the SPI controller.
+	*/
+	pspi->sxCon.reg = 0;
+9d001a44:	8e020020 	lw	v0,32(s0)
+	*/
+	bTmp = pspi->sxBuf.reg;
+
+	/* Clear all SPI interrupt flags.
+	*/
+	pregIfs->clr = bitErr + bitRx + bitTx;
+9d001a48:	8e040000 	lw	a0,0(s0)
+	*/
+	setPinSelect(pinT);
+
+	/* Disable interrupts on this SPI controller.
+	*/
+	pregIec->clr = bitErr + bitRx + bitTx;
+9d001a4c:	00e31821 	addu	v1,a3,v1
+9d001a50:	00661821 	addu	v1,v1,a2
+9d001a54:	aca30004 	sw	v1,4(a1)
+
+	/* Disable and reset the SPI controller.
+	*/
+	pspi->sxCon.reg = 0;
+9d001a58:	ac400000 	sw	zero,0(v0)
+
+	/* Clear the receive buffer.
+	*/
+	bTmp = pspi->sxBuf.reg;
+9d001a5c:	8c450020 	lw	a1,32(v0)
+
+	/* Clear all SPI interrupt flags.
+	*/
+	pregIfs->clr = bitErr + bitRx + bitTx;
+9d001a60:	ac830004 	sw	v1,4(a0)
+
+	/* Compute the address of the interrupt priority control register
+	** used by this SPI controller.
+	*/
+	pregIpc = ((p32_regset *)&IPC0) + (vec / 4);	// interrupt priority control register
+9d001a64:	92040028 	lbu	a0,40(s0)
+9d001a68:	3c03bf88 	lui	v1,0xbf88
+9d001a6c:	24631090 	addiu	v1,v1,4240
+9d001a70:	00042882 	srl	a1,a0,0x2
+9d001a74:	00052900 	sll	a1,a1,0x4
+
+	/* Compute the bit position of the interrupt priority bits for
+	** this interrupt vector.
+	*/
+	bnVec = 8 * (vec % 4);
+9d001a78:	30840003 	andi	a0,a0,0x3
+	pregIfs->clr = bitErr + bitRx + bitTx;
+
+	/* Compute the address of the interrupt priority control register
+	** used by this SPI controller.
+	*/
+	pregIpc = ((p32_regset *)&IPC0) + (vec / 4);	// interrupt priority control register
+9d001a7c:	00651821 	addu	v1,v1,a1
+
+	/* Compute the bit position of the interrupt priority bits for
+	** this interrupt vector.
+	*/
+	bnVec = 8 * (vec % 4);
+9d001a80:	000420c0 	sll	a0,a0,0x3
+	** can be computed from the vector number. Each IPC register contains the
+	** the priority bits for four vectors. Each byte of an IPC registger contains
+	** the priority and sub-priority bits arranged such that  bits 0-1 are
+	** the sub-priority, bits 2-4 the priority, and bits 5-7 unused.
+	*/
+	pregIpc->clr = (0x1F << bnVec);
+9d001a84:	2405001f 	li	a1,31
+9d001a88:	00852804 	sllv	a1,a1,a0
+9d001a8c:	ac650004 	sw	a1,4(v1)
+	pregIpc->set = ipl << bnVec;
+9d001a90:	92050029 	lbu	a1,41(s0)
+9d001a94:	00852004 	sllv	a0,a1,a0
+9d001a98:	ac640008 	sw	a0,8(v1)
+
+	/* Set the default baud rate.
+	*/
+	brg = (uint16_t)((F_CPU / (2 * _DSPI_SPD_DEFAULT)) - 1);
+	pspi->sxBrg.reg = brg;
+9d001a9c:	24030027 	li	v1,39
+9d001aa0:	ac430030 	sw	v1,48(v0)
+
+	/* Clear the receive overflow bit and receive overflow error flag
+	*/
+	pspi->sxStat.clr = (1 << _SPISTAT_SPIROV);
+9d001aa4:	24030040 	li	v1,64
+9d001aa8:	ac430014 	sw	v1,20(v0)
+	fRov = 0;
+9d001aac:	a200001f 	sb	zero,31(s0)
+	** the SS pin MUST be kept as OUTPUT.
+	*/
+	pspi->sxCon.reg = 0;
+	pspi->sxCon.set = (1 << _SPICON_ON) + (1 << _SPICON_MSTEN) + DSPI_MODE0;
+
+}	
+9d001ab0:	8fbf001c 	lw	ra,28(sp)
+	** Warning: if the SS pin ever becomes a LOW INPUT then SPI 
+	** automatically switches to Slave, so the data direction of 
+	** the SS pin MUST be kept as OUTPUT.
+	*/
+	pspi->sxCon.reg = 0;
+	pspi->sxCon.set = (1 << _SPICON_ON) + (1 << _SPICON_MSTEN) + DSPI_MODE0;
+9d001ab4:	34038120 	li	v1,0x8120
+	/* Enable the SPI controller.
+	** Warning: if the SS pin ever becomes a LOW INPUT then SPI 
+	** automatically switches to Slave, so the data direction of 
+	** the SS pin MUST be kept as OUTPUT.
+	*/
+	pspi->sxCon.reg = 0;
+9d001ab8:	ac400000 	sw	zero,0(v0)
+	pspi->sxCon.set = (1 << _SPICON_ON) + (1 << _SPICON_MSTEN) + DSPI_MODE0;
+
+}	
+9d001abc:	8fb10018 	lw	s1,24(sp)
+9d001ac0:	8fb00014 	lw	s0,20(sp)
+	** Warning: if the SS pin ever becomes a LOW INPUT then SPI 
+	** automatically switches to Slave, so the data direction of 
+	** the SS pin MUST be kept as OUTPUT.
+	*/
+	pspi->sxCon.reg = 0;
+	pspi->sxCon.set = (1 << _SPICON_ON) + (1 << _SPICON_MSTEN) + DSPI_MODE0;
+9d001ac4:	ac430008 	sw	v1,8(v0)
+
+}	
+9d001ac8:	03e00008 	jr	ra
+9d001acc:	27bd0020 	addiu	sp,sp,32
+
+9d001ad0 <_ZN4DSPI5beginEv>:
+void
+DSPI::begin() {
+
+	/* Use the default pin specified in the constructor.
+	*/
+	begin(pinSS);
+9d001ad0:	0b400681 	j	9d001a04 <_ZN4DSPI5beginEh>
+9d001ad4:	9085002a 	lbu	a1,42(a0)
+
+9d001ad8 <_ZN4DSPI8transferEm>:
+**		Send the specified byte to the SPI slave device, returning
+**		the byte received from the slave device.
+*/
+
+uint32_t
+DSPI::transfer(uint32_t bVal) {
+9d001ad8:	8c820020 	lw	v0,32(a0)
+
+	while ((pspi->sxStat.reg & (1 << _SPISTAT_SPITBE)) == 0) {
+9d001adc:	8c430010 	lw	v1,16(v0)
+9d001ae0:	30630008 	andi	v1,v1,0x8
+9d001ae4:	1060fffd 	beqz	v1,9d001adc <_ZN4DSPI8transferEm+0x4>
+9d001ae8:	00000000 	nop
+	}
+	pspi->sxBuf.reg = bVal;
+9d001aec:	ac450020 	sw	a1,32(v0)
+
+	while ((pspi->sxStat.reg & (1 << _SPISTAT_SPIRBF)) == 0) {
+9d001af0:	8c430010 	lw	v1,16(v0)
+9d001af4:	30630001 	andi	v1,v1,0x1
+9d001af8:	1060fffd 	beqz	v1,9d001af0 <_ZN4DSPI8transferEm+0x18>
+9d001afc:	00000000 	nop
+	}
+
+	return pspi->sxBuf.reg;
+9d001b00:	8c420020 	lw	v0,32(v0)
+
+}
+9d001b04:	03e00008 	jr	ra
+9d001b08:	00000000 	nop
+
+9d001b0c <_ZN4DSPI15doDspiInterruptEv>:
+	uint8_t		bTmp;
+	uint32_t	regIfs;
+
+	/* Get the interrupt flag status.
+	*/
+	regIfs = pregIfs->reg;
+9d001b0c:	8c820000 	lw	v0,0(a0)
+
+	/* Check for and handle overrun error interrupt.
+	*/
+	if ((regIfs & bitErr) != 0) {
+9d001b10:	8c830008 	lw	v1,8(a0)
+	uint8_t		bTmp;
+	uint32_t	regIfs;
+
+	/* Get the interrupt flag status.
+	*/
+	regIfs = pregIfs->reg;
+9d001b14:	8c450000 	lw	a1,0(v0)
+
+	/* Check for and handle overrun error interrupt.
+	*/
+	if ((regIfs & bitErr) != 0) {
+9d001b18:	00653024 	and	a2,v1,a1
+9d001b1c:	50c00008 	beqzl	a2,9d001b40 <_ZN4DSPI15doDspiInterruptEv+0x34>
+9d001b20:	8c83000c 	lw	v1,12(a0)
+		fRov = 1;				// set the receive overflow error flag;
+		pspi->sxStat.clr = (1 << _SPISTAT_SPIROV);	//clear status bit
+9d001b24:	8c860020 	lw	a2,32(a0)
+	regIfs = pregIfs->reg;
+
+	/* Check for and handle overrun error interrupt.
+	*/
+	if ((regIfs & bitErr) != 0) {
+		fRov = 1;				// set the receive overflow error flag;
+9d001b28:	24070001 	li	a3,1
+9d001b2c:	a087001f 	sb	a3,31(a0)
+		pspi->sxStat.clr = (1 << _SPISTAT_SPIROV);	//clear status bit
+9d001b30:	24070040 	li	a3,64
+9d001b34:	acc70014 	sw	a3,20(a2)
+		pregIfs->clr = bitErr;
+9d001b38:	ac430004 	sw	v1,4(v0)
+	}
+
+	/* Check for and handle receive interrupt.
+	*/
+	if ((regIfs & bitRx) != 0) {
+9d001b3c:	8c83000c 	lw	v1,12(a0)
+9d001b40:	00a32824 	and	a1,a1,v1
+9d001b44:	10a0001d 	beqz	a1,9d001bbc <_ZN4DSPI15doDspiInterruptEv+0xb0>
+9d001b48:	00000000 	nop
+
+		/* Get the received character.
+		*/
+		bTmp = pspi->sxBuf.reg;		//read next byte from SPI controller
+9d001b4c:	8c860020 	lw	a2,32(a0)
+		cbCur -= 1;					//count this byte as received
+
+		/* Are we storing it? pbRcvCur is 0 if we are sending only
+		** and ignoring the received data.
+		*/
+		if (pbRcvCur != 0) {
+9d001b50:	8c850018 	lw	a1,24(a0)
+	*/
+	if ((regIfs & bitRx) != 0) {
+
+		/* Get the received character.
+		*/
+		bTmp = pspi->sxBuf.reg;		//read next byte from SPI controller
+9d001b54:	8cc70020 	lw	a3,32(a2)
+		cbCur -= 1;					//count this byte as received
+9d001b58:	9486001c 	lhu	a2,28(a0)
+9d001b5c:	24c6ffff 	addiu	a2,a2,-1
+9d001b60:	30c6ffff 	andi	a2,a2,0xffff
+9d001b64:	a486001c 	sh	a2,28(a0)
+
+		/* Are we storing it? pbRcvCur is 0 if we are sending only
+		** and ignoring the received data.
+		*/
+		if (pbRcvCur != 0) {
+9d001b68:	10a00006 	beqz	a1,9d001b84 <_ZN4DSPI15doDspiInterruptEv+0x78>
+9d001b6c:	30e700ff 	andi	a3,a3,0xff
+			*pbRcvCur++ = bTmp;		//store the received byte into output buffer
+9d001b70:	a0a70000 	sb	a3,0(a1)
+9d001b74:	8c820000 	lw	v0,0(a0)
+9d001b78:	8c83000c 	lw	v1,12(a0)
+9d001b7c:	24a50001 	addiu	a1,a1,1
+9d001b80:	ac850018 	sw	a1,24(a0)
+		}
+
+		/* Send the next byte to the slave. pbSndCur is 0 if we are
+		** receiving only. In this case send the pad byte.
+		*/
+		if (cbCur > 0) {
+9d001b84:	9485001c 	lhu	a1,28(a0)
+9d001b88:	30a5ffff 	andi	a1,a1,0xffff
+9d001b8c:	10a0000a 	beqz	a1,9d001bb8 <_ZN4DSPI15doDspiInterruptEv+0xac>
+9d001b90:	00000000 	nop
+			bTmp = (pbSndCur != 0) ? *pbSndCur++ : bPad;
+9d001b94:	8c850014 	lw	a1,20(a0)
+9d001b98:	50a0000a 	beqzl	a1,9d001bc4 <_ZN4DSPI15doDspiInterruptEv+0xb8>
+9d001b9c:	9085001e 	lbu	a1,30(a0)
+9d001ba0:	90a60000 	lbu	a2,0(a1)
+9d001ba4:	24a50001 	addiu	a1,a1,1
+9d001ba8:	ac850014 	sw	a1,20(a0)
+			pspi->sxBuf.reg = bTmp;
+9d001bac:	8c840020 	lw	a0,32(a0)
+
+		/* Send the next byte to the slave. pbSndCur is 0 if we are
+		** receiving only. In this case send the pad byte.
+		*/
+		if (cbCur > 0) {
+			bTmp = (pbSndCur != 0) ? *pbSndCur++ : bPad;
+9d001bb0:	30c500ff 	andi	a1,a2,0xff
+			pspi->sxBuf.reg = bTmp;
+9d001bb4:	ac850020 	sw	a1,32(a0)
+		}
+
+		pregIfs->clr = bitRx;		//clear the receive interrupt flag
+9d001bb8:	ac430004 	sw	v1,4(v0)
+9d001bbc:	03e00008 	jr	ra
+9d001bc0:	00000000 	nop
+		/* Send the next byte to the slave. pbSndCur is 0 if we are
+		** receiving only. In this case send the pad byte.
+		*/
+		if (cbCur > 0) {
+			bTmp = (pbSndCur != 0) ? *pbSndCur++ : bPad;
+			pspi->sxBuf.reg = bTmp;
+9d001bc4:	8c840020 	lw	a0,32(a0)
+9d001bc8:	ac850020 	sw	a1,32(a0)
+9d001bcc:	0b4006ee 	j	9d001bb8 <_ZN4DSPI15doDspiInterruptEv+0xac>
+9d001bd0:	00000000 	nop
+
+9d001bd4 <IntDspi0Handler>:
+**		logical SPI port DSPI0
+*/
+#if defined(_DSPI0_VECTOR)
+
+void __attribute__((interrupt(), nomips16)) IntDspi0Handler(void)
+{
+9d001bd4:	415de800 	rdpgpr	sp,sp
+9d001bd8:	401b7000 	mfc0	k1,c0_epc
+9d001bdc:	401a6002 	mfc0	k0,c0_srsctl
+9d001be0:	27bdff90 	addiu	sp,sp,-112
+9d001be4:	afbb006c 	sw	k1,108(sp)
+9d001be8:	401b6000 	mfc0	k1,c0_status
+9d001bec:	afba0068 	sw	k0,104(sp)
+9d001bf0:	401a6800 	mfc0	k0,c0_cause
+9d001bf4:	001ad282 	srl	k0,k0,0xa
+9d001bf8:	afbb0064 	sw	k1,100(sp)
+9d001bfc:	7f5b7a84 	ins	k1,k0,0xa,0x6
+9d001c00:	7c1b2044 	ins	k1,zero,0x1,0x4
+9d001c04:	409b6000 	mtc0	k1,c0_status
+9d001c08:	afa30018 	sw	v1,24(sp)
+9d001c0c:	8fa30068 	lw	v1,104(sp)
+9d001c10:	3063000f 	andi	v1,v1,0xf
+9d001c14:	14600011 	bnez	v1,9d001c5c <IntDspi0Handler+0x88>
+9d001c18:	afa20014 	sw	v0,20(sp)
+9d001c1c:	afbf0054 	sw	ra,84(sp)
+9d001c20:	afb90050 	sw	t9,80(sp)
+9d001c24:	afb8004c 	sw	t8,76(sp)
+9d001c28:	afaf0048 	sw	t7,72(sp)
+9d001c2c:	afae0044 	sw	t6,68(sp)
+9d001c30:	afad0040 	sw	t5,64(sp)
+9d001c34:	afac003c 	sw	t4,60(sp)
+9d001c38:	afab0038 	sw	t3,56(sp)
+9d001c3c:	afaa0034 	sw	t2,52(sp)
+9d001c40:	afa90030 	sw	t1,48(sp)
+9d001c44:	afa8002c 	sw	t0,44(sp)
+9d001c48:	afa70028 	sw	a3,40(sp)
+9d001c4c:	afa60024 	sw	a2,36(sp)
+9d001c50:	afa50020 	sw	a1,32(sp)
+9d001c54:	afa4001c 	sw	a0,28(sp)
+9d001c58:	afa10010 	sw	at,16(sp)
+	if (pdspi0 != 0) {
+9d001c5c:	8f848004 	lw	a0,-32764(gp)
+**		logical SPI port DSPI0
+*/
+#if defined(_DSPI0_VECTOR)
+
+void __attribute__((interrupt(), nomips16)) IntDspi0Handler(void)
+{
+9d001c60:	00001012 	mflo	v0
+9d001c64:	afa2005c 	sw	v0,92(sp)
+9d001c68:	00001810 	mfhi	v1
+	if (pdspi0 != 0) {
+9d001c6c:	10800003 	beqz	a0,9d001c7c <IntDspi0Handler+0xa8>
+9d001c70:	afa30058 	sw	v1,88(sp)
+		pdspi0->doDspiInterrupt();
+9d001c74:	0f4006c3 	jal	9d001b0c <_ZN4DSPI15doDspiInterruptEv>
+9d001c78:	00000000 	nop
+	}
+}
+9d001c7c:	8fa2005c 	lw	v0,92(sp)
+9d001c80:	8fa30058 	lw	v1,88(sp)
+9d001c84:	00400013 	mtlo	v0
+9d001c88:	8fa20068 	lw	v0,104(sp)
+9d001c8c:	3042000f 	andi	v0,v0,0xf
+9d001c90:	14400013 	bnez	v0,9d001ce0 <IntDspi0Handler+0x10c>
+9d001c94:	00600011 	mthi	v1
+9d001c98:	8fbf0054 	lw	ra,84(sp)
+9d001c9c:	8fb90050 	lw	t9,80(sp)
+9d001ca0:	8fb8004c 	lw	t8,76(sp)
+9d001ca4:	8faf0048 	lw	t7,72(sp)
+9d001ca8:	8fae0044 	lw	t6,68(sp)
+9d001cac:	8fad0040 	lw	t5,64(sp)
+9d001cb0:	8fac003c 	lw	t4,60(sp)
+9d001cb4:	8fab0038 	lw	t3,56(sp)
+9d001cb8:	8faa0034 	lw	t2,52(sp)
+9d001cbc:	8fa90030 	lw	t1,48(sp)
+9d001cc0:	8fa8002c 	lw	t0,44(sp)
+9d001cc4:	8fa70028 	lw	a3,40(sp)
+9d001cc8:	8fa60024 	lw	a2,36(sp)
+9d001ccc:	8fa50020 	lw	a1,32(sp)
+9d001cd0:	8fa4001c 	lw	a0,28(sp)
+9d001cd4:	8fa30018 	lw	v1,24(sp)
+9d001cd8:	8fa20014 	lw	v0,20(sp)
+9d001cdc:	8fa10010 	lw	at,16(sp)
+9d001ce0:	41606000 	di
+9d001ce4:	000000c0 	ehb
+9d001ce8:	8fba006c 	lw	k0,108(sp)
+9d001cec:	8fbb0064 	lw	k1,100(sp)
+9d001cf0:	409a7000 	mtc0	k0,c0_epc
+9d001cf4:	8fba0068 	lw	k0,104(sp)
+9d001cf8:	27bd0070 	addiu	sp,sp,112
+9d001cfc:	409a6002 	mtc0	k0,c0_srsctl
+9d001d00:	41dde800 	wrpgpr	sp,sp
+9d001d04:	409b6000 	mtc0	k1,c0_status
+9d001d08:	42000018 	eret
+
+9d001d0c <_ZN5DSPI0C1Ev>:
+#else
+DSPI0::DSPI0() 
+#endif
+{
+
+	pspi = (p32_spi *) _DSPI0_BASE;
+9d001d0c:	3c02bf80 	lui	v0,0xbf80
+9d001d10:	24425a00 	addiu	v0,v0,23040
+9d001d14:	ac820020 	sw	v0,32(a0)
+	vec = _DSPI0_VECTOR;
+9d001d18:	2402001f 	li	v0,31
+9d001d1c:	a0820028 	sb	v0,40(a0)
+	ipl = ((_DSPI0_IPL & 0x07) << 2) + (_DSPI0_SPL & 0x03);
+9d001d20:	2402000c 	li	v0,12
+9d001d24:	a0820029 	sb	v0,41(a0)
+	pinSS = PIN_DSPI0_SS;
+9d001d28:	2402000a 	li	v0,10
+9d001d2c:	a082002a 	sb	v0,42(a0)
+	** and IEC register. For each IFS register, there is a SET, CLR,
+	** and INV register, so the distance (in dwords) from IFS0 to IFS1
+	** is 4. This code assumes that all of the enable control and flag
+	** bits for an SPI controller are in the same IEC and IFS registers.
+	*/
+	pregIec = ((p32_regset *)&IEC0) + (irqErr / 32);	// interrupt enable control register
+9d001d30:	3c02bf88 	lui	v0,0xbf88
+9d001d34:	24421070 	addiu	v0,v0,4208
+9d001d38:	ac820004 	sw	v0,4(a0)
+	pregIfs = ((p32_regset *)&IFS0) + (irqErr / 32);	// interrupt flag register
+9d001d3c:	3c02bf88 	lui	v0,0xbf88
+9d001d40:	24421040 	addiu	v0,v0,4160
+9d001d44:	ac820000 	sw	v0,0(a0)
+
+	bitErr = 1 << (irqErr % 32);	// error interrupt flag/enable bit
+9d001d48:	24020020 	li	v0,32
+9d001d4c:	ac820008 	sw	v0,8(a0)
+	bitRx  = 1 << (irqRx % 32);		// rx interrupt flag/enable bit
+9d001d50:	24020040 	li	v0,64
+9d001d54:	ac82000c 	sw	v0,12(a0)
+	bitTx  = 1 << (irqTx % 32);		// tx interrupt flag/enable bit
+9d001d58:	24020080 	li	v0,128
+9d001d5c:	ac820010 	sw	v0,16(a0)
+
+    isr = isrHandler;
+9d001d60:	3c029d00 	lui	v0,0x9d00
+9d001d64:	24421bd4 	addiu	v0,v0,7124
+DSPI::DSPI()
+#endif
+ {
+
+	pspi = 0;
+	cbCur = 0;
+9d001d68:	a480001c 	sh	zero,28(a0)
+	vec = _DSPI0_VECTOR;
+	ipl = ((_DSPI0_IPL & 0x07) << 2) + (_DSPI0_SPL & 0x03);
+	pinSS = PIN_DSPI0_SS;
+
+	init(_DSPI0_ERR_IRQ, _DSPI0_RX_IRQ, _DSPI0_TX_IRQ, IntDspi0Handler);
+}
+9d001d6c:	03e00008 	jr	ra
+9d001d70:	ac820024 	sw	v0,36(a0)
+
+9d001d74 <pinMode>:
+#include "wiring_private.h"
+#include "pins_arduino.h"
+
+//************************************************************************
+void pinMode(uint8_t pin, uint8_t mode)
+{
+9d001d74:	308400ff 	andi	a0,a0,0xff
+9d001d78:	27bdffe0 	addiu	sp,sp,-32
+uint32_t                cn;
+#endif
+
+	/* Check if pin number is in valid range.
+	*/
+	if (pin >= NUM_DIGITAL_PINS_EXTENDED)
+9d001d7c:	2c82002f 	sltiu	v0,a0,47
+#include "wiring_private.h"
+#include "pins_arduino.h"
+
+//************************************************************************
+void pinMode(uint8_t pin, uint8_t mode)
+{
+9d001d80:	afbf001c 	sw	ra,28(sp)
+9d001d84:	afb10018 	sw	s1,24(sp)
+9d001d88:	afb00014 	sw	s0,20(sp)
+uint32_t                cn;
+#endif
+
+	/* Check if pin number is in valid range.
+	*/
+	if (pin >= NUM_DIGITAL_PINS_EXTENDED)
+9d001d8c:	1040002d 	beqz	v0,9d001e44 <pinMode+0xd0>
+9d001d90:	30a500ff 	andi	a1,a1,0xff
+		return;
+	}
+#endif	// OPT_BOARD_DIGITAL_IO
+
+	//* Get the port number for this pin.
+	if ((port = digitalPinToPort(pin)) == NOT_A_PIN)
+9d001d94:	3c029d00 	lui	v0,0x9d00
+9d001d98:	24422a24 	addiu	v0,v0,10788
+9d001d9c:	00441021 	addu	v0,v0,a0
+9d001da0:	90420000 	lbu	v0,0(v0)
+9d001da4:	10400027 	beqz	v0,9d001e44 <pinMode+0xd0>
+9d001da8:	00023080 	sll	a2,v0,0x2
+	{
+		return;
+	}
+
+	//* Obtain pointer to the registers for this io port.
+	iop = (p32_ioport *)portRegisters(port);
+9d001dac:	3c079d00 	lui	a3,0x9d00
+9d001db0:	24e72a00 	addiu	a3,a3,10752
+9d001db4:	00c73821 	addu	a3,a2,a3
+
+	//* Obtain bit mask for the specific bit for this pin.
+	bit = digitalPinToBitMask(pin);
+9d001db8:	3c069d00 	lui	a2,0x9d00
+9d001dbc:	00041840 	sll	v1,a0,0x1
+9d001dc0:	24c62a54 	addiu	a2,a2,10836
+9d001dc4:	00c33021 	addu	a2,a2,v1
+9d001dc8:	94d00000 	lhu	s0,0(a2)
+	// analog input capable pins.
+	// Clear the bit in the ANSELx register to ensure that the pin is in
+	// digital input mode.
+	iop->ansel.clr = bit;
+#else
+	if (port == _IOPORT_PB)
+9d001dcc:	24060002 	li	a2,2
+9d001dd0:	1046003a 	beq	v0,a2,9d001ebc <pinMode+0x148>
+9d001dd4:	8cf10000 	lw	s1,0(a3)
+
+	}
+#endif	// defined(__PIC32MX1XX__) || defined(__PIC32MX2XX__)
+
+	// Set the pin to the requested mode.
+    switch (mode) {
+9d001dd8:	24020002 	li	v0,2
+9d001ddc:	10a20030 	beq	a1,v0,9d001ea0 <pinMode+0x12c>
+9d001de0:	2ca20003 	sltiu	v0,a1,3
+9d001de4:	1040001c 	beqz	v0,9d001e58 <pinMode+0xe4>
+9d001de8:	2ca20006 	sltiu	v0,a1,6
+9d001dec:	14a0001d 	bnez	a1,9d001e64 <pinMode+0xf0>
+9d001df0:	3c029d00 	lui	v0,0x9d00
+            } else {
+                iop->cnpu.clr = bit;
+                iop->cnpd.clr = bit;
+            }
+#else
+            if (mode == INPUT_PULLUP) {
+9d001df4:	24020003 	li	v0,3
+9d001df8:	10a2003a 	beq	a1,v0,9d001ee4 <pinMode+0x170>
+9d001dfc:	3c029d00 	lui	v0,0x9d00
+                cn = digitalPinToCN(pin);
+                if (cn != NOT_CN_PIN) {
+                    CNPUESET = cn;
+                } 
+            } else {
+                cn = digitalPinToCN(pin);
+9d001e00:	24422b14 	addiu	v0,v0,11028
+9d001e04:	00042080 	sll	a0,a0,0x2
+9d001e08:	00822021 	addu	a0,a0,v0
+9d001e0c:	8c820000 	lw	v0,0(a0)
+                if (cn != NOT_CN_PIN) {
+9d001e10:	240400ff 	li	a0,255
+9d001e14:	10440002 	beq	v0,a0,9d001e20 <pinMode+0xac>
+9d001e18:	3c04bf88 	lui	a0,0xbf88
+                    CNPUECLR = cn;
+9d001e1c:	ac8261e4 	sw	v0,25060(a0)
+            }
+#endif
+            // continue into INPUT case
+            //* Determine if this is an output compare pin. If so,
+            //* we need to make sure PWM output is off.
+            timer = digitalPinToTimerOC(pin) >> _BN_TIMER_OC;
+9d001e20:	3c029d00 	lui	v0,0x9d00
+9d001e24:	24422ab4 	addiu	v0,v0,10932
+9d001e28:	00431821 	addu	v1,v0,v1
+9d001e2c:	90640000 	lbu	a0,0(v1)
+9d001e30:	3084000f 	andi	a0,a0,0xf
+            if (timer != NOT_ON_TIMER)
+9d001e34:	14800025 	bnez	a0,9d001ecc <pinMode+0x158>
+9d001e38:	00000000 	nop
+            }
+
+            //*	May  1,	2011
+            //*	according to item #26 in PIC32MX5XX-6XX-7XX Errata.pdf 
+            //*	if we are setting to input, set the data bit to zero first
+            iop->lat.clr  = bit;	//clear to output bit		
+9d001e3c:	ae300024 	sw	s0,36(s1)
+            iop->tris.set = bit;	//make the pin an input
+9d001e40:	ae300008 	sw	s0,8(s1)
+            } 
+#endif
+            iop->tris.clr = bit;	//make the pin an output
+            iop->odc.clr  = bit;	//make sure it isn't open drain
+	}
+}
+9d001e44:	8fbf001c 	lw	ra,28(sp)
+9d001e48:	8fb10018 	lw	s1,24(sp)
+9d001e4c:	8fb00014 	lw	s0,20(sp)
+9d001e50:	03e00008 	jr	ra
+9d001e54:	27bd0020 	addiu	sp,sp,32
+
+	}
+#endif	// defined(__PIC32MX1XX__) || defined(__PIC32MX2XX__)
+
+	// Set the pin to the requested mode.
+    switch (mode) {
+9d001e58:	1440ffe7 	bnez	v0,9d001df8 <pinMode+0x84>
+9d001e5c:	24020003 	li	v0,3
+            // than error checking the input value.
+#if defined(__PIC32MX1XX__) || defined(__PIC32MX2XX__)
+            iop->cnpu.clr = bit;
+            iop->cnpd.clr = bit;
+#else
+            cn = digitalPinToCN(pin);
+9d001e60:	3c029d00 	lui	v0,0x9d00
+9d001e64:	24422b14 	addiu	v0,v0,11028
+9d001e68:	00042080 	sll	a0,a0,0x2
+9d001e6c:	00822021 	addu	a0,a0,v0
+9d001e70:	8c820000 	lw	v0,0(a0)
+            if (cn != NOT_CN_PIN) {
+9d001e74:	240300ff 	li	v1,255
+9d001e78:	10430002 	beq	v0,v1,9d001e84 <pinMode+0x110>
+9d001e7c:	3c03bf88 	lui	v1,0xbf88
+                CNPUECLR = cn;
+9d001e80:	ac6261e4 	sw	v0,25060(v1)
+            } 
+#endif
+            iop->tris.clr = bit;	//make the pin an output
+            iop->odc.clr  = bit;	//make sure it isn't open drain
+	}
+}
+9d001e84:	8fbf001c 	lw	ra,28(sp)
+            cn = digitalPinToCN(pin);
+            if (cn != NOT_CN_PIN) {
+                CNPUECLR = cn;
+            } 
+#endif
+            iop->tris.clr = bit;	//make the pin an output
+9d001e88:	ae300004 	sw	s0,4(s1)
+            iop->odc.clr  = bit;	//make sure it isn't open drain
+9d001e8c:	ae300034 	sw	s0,52(s1)
+	}
+}
+9d001e90:	8fb10018 	lw	s1,24(sp)
+9d001e94:	8fb00014 	lw	s0,20(sp)
+9d001e98:	03e00008 	jr	ra
+9d001e9c:	27bd0020 	addiu	sp,sp,32
+9d001ea0:	8fbf001c 	lw	ra,28(sp)
+            //*	if we are setting to input, set the data bit to zero first
+            iop->lat.clr  = bit;	//clear to output bit		
+            iop->tris.set = bit;	//make the pin an input
+            break;
+        case OPEN:
+            iop->tris.clr = bit;	//OPEN implies output, make the pin an output
+9d001ea4:	ae300004 	sw	s0,4(s1)
+            iop->odc.set  = bit;	//make the pin open drain
+9d001ea8:	ae300038 	sw	s0,56(s1)
+            } 
+#endif
+            iop->tris.clr = bit;	//make the pin an output
+            iop->odc.clr  = bit;	//make sure it isn't open drain
+	}
+}
+9d001eac:	8fb10018 	lw	s1,24(sp)
+9d001eb0:	8fb00014 	lw	s0,20(sp)
+9d001eb4:	03e00008 	jr	ra
+9d001eb8:	27bd0020 	addiu	sp,sp,32
+		//	You have to set the bit in the AD1PCFG for an analog pin to be used as a 
+		//	digital input. They come up after reset as analog input with the digital 
+		//	input disabled. For the PORTB pins you switch between analog input and 
+		//	digital input using AD1PCFG.
+
+		AD1PCFGSET = bit;
+9d001ebc:	3c02bf81 	lui	v0,0xbf81
+9d001ec0:	ac509068 	sw	s0,-28568(v0)
+
+	}
+#endif	// defined(__PIC32MX1XX__) || defined(__PIC32MX2XX__)
+
+	// Set the pin to the requested mode.
+    switch (mode) {
+9d001ec4:	0b400777 	j	9d001ddc <pinMode+0x68>
+9d001ec8:	24020002 	li	v0,2
+            //* Determine if this is an output compare pin. If so,
+            //* we need to make sure PWM output is off.
+            timer = digitalPinToTimerOC(pin) >> _BN_TIMER_OC;
+            if (timer != NOT_ON_TIMER)
+            {
+                turnOffPWM(timer);
+9d001ecc:	0f40088c 	jal	9d002230 <turnOffPWM>
+9d001ed0:	00000000 	nop
+            }
+
+            //*	May  1,	2011
+            //*	according to item #26 in PIC32MX5XX-6XX-7XX Errata.pdf 
+            //*	if we are setting to input, set the data bit to zero first
+            iop->lat.clr  = bit;	//clear to output bit		
+9d001ed4:	ae300024 	sw	s0,36(s1)
+            iop->tris.set = bit;	//make the pin an input
+9d001ed8:	ae300008 	sw	s0,8(s1)
+            } 
+#endif
+            iop->tris.clr = bit;	//make the pin an output
+            iop->odc.clr  = bit;	//make sure it isn't open drain
+	}
+}
+9d001edc:	0b400792 	j	9d001e48 <pinMode+0xd4>
+9d001ee0:	8fbf001c 	lw	ra,28(sp)
+                iop->cnpu.clr = bit;
+                iop->cnpd.clr = bit;
+            }
+#else
+            if (mode == INPUT_PULLUP) {
+                cn = digitalPinToCN(pin);
+9d001ee4:	24422b14 	addiu	v0,v0,11028
+9d001ee8:	00042080 	sll	a0,a0,0x2
+9d001eec:	00822021 	addu	a0,a0,v0
+9d001ef0:	8c820000 	lw	v0,0(a0)
+                if (cn != NOT_CN_PIN) {
+9d001ef4:	240400ff 	li	a0,255
+9d001ef8:	1044ffc9 	beq	v0,a0,9d001e20 <pinMode+0xac>
+9d001efc:	3c04bf88 	lui	a0,0xbf88
+                    CNPUESET = cn;
+9d001f00:	ac8261e8 	sw	v0,25064(a0)
+            }
+#endif
+            // continue into INPUT case
+            //* Determine if this is an output compare pin. If so,
+            //* we need to make sure PWM output is off.
+            timer = digitalPinToTimerOC(pin) >> _BN_TIMER_OC;
+9d001f04:	0b400789 	j	9d001e24 <pinMode+0xb0>
+9d001f08:	3c029d00 	lui	v0,0x9d00
+
+9d001f0c <digitalWrite>:
+//*	Reading from PORT gives you a snapshot of the actual pins state regardless of how, 
+//*	if at all, the PIC is trying to drive them.  
+//*	Reading from LAT gives you the values last written to the pins, whether thru LAT or PORT.
+//************************************************************************
+void digitalWrite(uint8_t pin, uint8_t val)
+{
+9d001f0c:	308400ff 	andi	a0,a0,0xff
+9d001f10:	27bdffd8 	addiu	sp,sp,-40
+uint32_t                cn;
+#endif
+
+	/* Check if pin number is in valid range.
+	*/
+	if (pin >= NUM_DIGITAL_PINS_EXTENDED)
+9d001f14:	2c82002f 	sltiu	v0,a0,47
+//*	Reading from PORT gives you a snapshot of the actual pins state regardless of how, 
+//*	if at all, the PIC is trying to drive them.  
+//*	Reading from LAT gives you the values last written to the pins, whether thru LAT or PORT.
+//************************************************************************
+void digitalWrite(uint8_t pin, uint8_t val)
+{
+9d001f18:	afbf0024 	sw	ra,36(sp)
+9d001f1c:	afb10020 	sw	s1,32(sp)
+9d001f20:	afb0001c 	sw	s0,28(sp)
+uint32_t                cn;
+#endif
+
+	/* Check if pin number is in valid range.
+	*/
+	if (pin >= NUM_DIGITAL_PINS_EXTENDED)
+9d001f24:	10400020 	beqz	v0,9d001fa8 <digitalWrite+0x9c>
+9d001f28:	30a500ff 	andi	a1,a1,0xff
+		return;
+	}
+#endif		// OPT_BOARD_DIGITAL_IO
+
+	//* Get the port number for this pin.
+	if ((port = digitalPinToPort(pin)) == NOT_A_PIN)
+9d001f2c:	3c029d00 	lui	v0,0x9d00
+9d001f30:	24422a24 	addiu	v0,v0,10788
+9d001f34:	00821021 	addu	v0,a0,v0
+9d001f38:	90420000 	lbu	v0,0(v0)
+9d001f3c:	1040001a 	beqz	v0,9d001fa8 <digitalWrite+0x9c>
+9d001f40:	3c039d00 	lui	v1,0x9d00
+	{
+		return;
+	}
+
+	//* Obtain pointer to the registers for this io port.
+	iop = (p32_ioport *)portRegisters(port);
+9d001f44:	24632a00 	addiu	v1,v1,10752
+9d001f48:	00021080 	sll	v0,v0,0x2
+9d001f4c:	00431021 	addu	v0,v0,v1
+9d001f50:	8c500000 	lw	s0,0(v0)
+
+	//* Obtain bit mask for the specific bit for this pin.
+	bit = digitalPinToBitMask(pin);
+9d001f54:	3c069d00 	lui	a2,0x9d00
+9d001f58:	00041040 	sll	v0,a0,0x1
+9d001f5c:	24c62a54 	addiu	a2,a2,10836
+9d001f60:	00463021 	addu	a2,v0,a2
+
+    //* If the port is in input mode and we write a value to it
+    //* we must be enabling or disabling the internal pull-up
+    //* resistor.  Only works for pins that have an associated
+    //* change notification pin.
+    if (iop->tris.reg & bit) {
+9d001f64:	8e030000 	lw	v1,0(s0)
+9d001f68:	94d10000 	lhu	s1,0(a2)
+9d001f6c:	02231824 	and	v1,s1,v1
+9d001f70:	10600012 	beqz	v1,9d001fbc <digitalWrite+0xb0>
+9d001f74:	3c039d00 	lui	v1,0x9d00
+        } else {
+            iop->cnpu.set = bit;
+            iop->cnpd.clr = bit;
+        }
+#else
+        cn = digitalPinToCN(pin);
+9d001f78:	3c029d00 	lui	v0,0x9d00
+9d001f7c:	24422b14 	addiu	v0,v0,11028
+9d001f80:	00042080 	sll	a0,a0,0x2
+9d001f84:	00822021 	addu	a0,a0,v0
+9d001f88:	8c820000 	lw	v0,0(a0)
+        if (cn != NOT_CN_PIN) {
+9d001f8c:	240300ff 	li	v1,255
+9d001f90:	10430006 	beq	v0,v1,9d001fac <digitalWrite+0xa0>
+9d001f94:	8fbf0024 	lw	ra,36(sp)
+            if (val == LOW) {
+9d001f98:	14a0001a 	bnez	a1,9d002004 <digitalWrite+0xf8>
+9d001f9c:	3c03bf88 	lui	v1,0xbf88
+                CNPUECLR = cn;
+9d001fa0:	3c03bf88 	lui	v1,0xbf88
+9d001fa4:	ac6261e4 	sw	v0,25060(v1)
+        else
+        {
+            iop->lat.set = bit;
+        }
+    }
+}
+9d001fa8:	8fbf0024 	lw	ra,36(sp)
+9d001fac:	8fb10020 	lw	s1,32(sp)
+9d001fb0:	8fb0001c 	lw	s0,28(sp)
+9d001fb4:	03e00008 	jr	ra
+9d001fb8:	27bd0028 	addiu	sp,sp,40
+#endif
+
+    } else {
+        //* Determine if this is an output compare pin. If so,
+        //* we need to make sure PWM output is off.
+        timer = digitalPinToTimerOC(pin);
+9d001fbc:	24632ab4 	addiu	v1,v1,10932
+9d001fc0:	00431021 	addu	v0,v0,v1
+9d001fc4:	90440000 	lbu	a0,0(v0)
+9d001fc8:	3084000f 	andi	a0,a0,0xf
+        if (timer != NOT_ON_TIMER)
+9d001fcc:	14800009 	bnez	a0,9d001ff4 <digitalWrite+0xe8>
+9d001fd0:	00000000 	nop
+        {
+            turnOffPWM(timer);
+        }
+
+        //* Set the pin state
+        if (val == LOW)
+9d001fd4:	10a0000e 	beqz	a1,9d002010 <digitalWrite+0x104>
+9d001fd8:	00000000 	nop
+        else
+        {
+            iop->lat.set = bit;
+        }
+    }
+}
+9d001fdc:	8fbf0024 	lw	ra,36(sp)
+        {
+            iop->lat.clr = bit;
+        }
+        else
+        {
+            iop->lat.set = bit;
+9d001fe0:	ae110028 	sw	s1,40(s0)
+        }
+    }
+}
+9d001fe4:	8fb10020 	lw	s1,32(sp)
+9d001fe8:	8fb0001c 	lw	s0,28(sp)
+9d001fec:	03e00008 	jr	ra
+9d001ff0:	27bd0028 	addiu	sp,sp,40
+        //* Determine if this is an output compare pin. If so,
+        //* we need to make sure PWM output is off.
+        timer = digitalPinToTimerOC(pin);
+        if (timer != NOT_ON_TIMER)
+        {
+            turnOffPWM(timer);
+9d001ff4:	0f40088c 	jal	9d002230 <turnOffPWM>
+9d001ff8:	afa50010 	sw	a1,16(sp)
+9d001ffc:	0b4007f5 	j	9d001fd4 <digitalWrite+0xc8>
+9d002000:	8fa50010 	lw	a1,16(sp)
+        cn = digitalPinToCN(pin);
+        if (cn != NOT_CN_PIN) {
+            if (val == LOW) {
+                CNPUECLR = cn;
+            } else {
+                CNPUESET = cn;
+9d002004:	ac6261e8 	sw	v0,25064(v1)
+        else
+        {
+            iop->lat.set = bit;
+        }
+    }
+}
+9d002008:	0b4007eb 	j	9d001fac <digitalWrite+0xa0>
+9d00200c:	8fbf0024 	lw	ra,36(sp)
+        }
+
+        //* Set the pin state
+        if (val == LOW)
+        {
+            iop->lat.clr = bit;
+9d002010:	ae110024 	sw	s1,36(s0)
+        else
+        {
+            iop->lat.set = bit;
+        }
+    }
+}
+9d002014:	0b4007eb 	j	9d001fac <digitalWrite+0xa0>
+9d002018:	8fbf0024 	lw	ra,36(sp)
+
+9d00201c <initIntVector>:
+*/
+void initIntVector(void)
+{
+    const IMAGE_HEADER_INFO * pImageHeader = getImageHeaderInfoStructure();
+    int i = 0;
+    void * pvOrgIntVec = (void *)pImageHeader->pOrgVector0;
+9d00201c:	3c029d00 	lui	v0,0x9d00
+9d002020:	244229b4 	addiu	v0,v0,10676
+9d002024:	88430043 	lwl	v1,67(v0)
+9d002028:	8846004b 	lwl	a2,75(v0)
+    {
+        // If a compiler installed interrupt handler exits, pre-load it
+        // and don't fool with the priority
+        if(*((uint32_t *) pvOrgIntVec) != 0xFFFFFFFF)
+        {
+            _isr_primary_install[i] = (isrFunc) pvOrgIntVec;
+9d00202c:	3c08a000 	lui	t0,0xa000
+*/
+void initIntVector(void)
+{
+    const IMAGE_HEADER_INFO * pImageHeader = getImageHeaderInfoStructure();
+    int i = 0;
+    void * pvOrgIntVec = (void *)pImageHeader->pOrgVector0;
+9d002030:	98430040 	lwr	v1,64(v0)
+9d002034:	98460048 	lwr	a2,72(v0)
+
+    for(i=0; i<NUM_INT_VECTOR; i++)
+    {
+        // If a compiler installed interrupt handler exits, pre-load it
+        // and don't fool with the priority
+        if(*((uint32_t *) pvOrgIntVec) != 0xFFFFFFFF)
+9d002038:	2409ffff 	li	t1,-1
+{
+    const IMAGE_HEADER_INFO * pImageHeader = getImageHeaderInfoStructure();
+    int i = 0;
+    void * pvOrgIntVec = (void *)pImageHeader->pOrgVector0;
+
+    for(i=0; i<NUM_INT_VECTOR; i++)
+9d00203c:	00001021 	move	v0,zero
+    {
+        // If a compiler installed interrupt handler exits, pre-load it
+        // and don't fool with the priority
+        if(*((uint32_t *) pvOrgIntVec) != 0xFFFFFFFF)
+        {
+            _isr_primary_install[i] = (isrFunc) pvOrgIntVec;
+9d002040:	25080008 	addiu	t0,t0,8
+{
+    const IMAGE_HEADER_INFO * pImageHeader = getImageHeaderInfoStructure();
+    int i = 0;
+    void * pvOrgIntVec = (void *)pImageHeader->pOrgVector0;
+
+    for(i=0; i<NUM_INT_VECTOR; i++)
+9d002044:	2407002d 	li	a3,45
+    {
+        // If a compiler installed interrupt handler exits, pre-load it
+        // and don't fool with the priority
+        if(*((uint32_t *) pvOrgIntVec) != 0xFFFFFFFF)
+9d002048:	8c640000 	lw	a0,0(v1)
+        {
+            _isr_primary_install[i] = (isrFunc) pvOrgIntVec;
+9d00204c:	00022880 	sll	a1,v0,0x2
+9d002050:	00a82821 	addu	a1,a1,t0
+
+    for(i=0; i<NUM_INT_VECTOR; i++)
+    {
+        // If a compiler installed interrupt handler exits, pre-load it
+        // and don't fool with the priority
+        if(*((uint32_t *) pvOrgIntVec) != 0xFFFFFFFF)
+9d002054:	10890002 	beq	a0,t1,9d002060 <initIntVector+0x44>
+9d002058:	24420001 	addiu	v0,v0,1
+        {
+            _isr_primary_install[i] = (isrFunc) pvOrgIntVec;
+9d00205c:	aca30000 	sw	v1,0(a1)
+{
+    const IMAGE_HEADER_INFO * pImageHeader = getImageHeaderInfoStructure();
+    int i = 0;
+    void * pvOrgIntVec = (void *)pImageHeader->pOrgVector0;
+
+    for(i=0; i<NUM_INT_VECTOR; i++)
+9d002060:	1447fff9 	bne	v0,a3,9d002048 <initIntVector+0x2c>
+9d002064:	00661821 	addu	v1,v1,a2
+9d002068:	03e00008 	jr	ra
+9d00206c:	00000000 	nop
+
+9d002070 <setIntVector>:
+isrFunc setIntVector(int vec, isrFunc func)
+{
+ //   const IMAGE_HEADER_INFO * pImageHeader = getImageHeaderInfoStructure();
+    isrFunc t = 0;
+
+    if (vec < NUM_INT_VECTOR)
+9d002070:	2883002d 	slti	v1,a0,45
+9d002074:	10600007 	beqz	v1,9d002094 <setIntVector+0x24>
+9d002078:	00001021 	move	v0,zero
+    {
+        t = _isr_primary_install[vec];
+9d00207c:	3c02a000 	lui	v0,0xa000
+9d002080:	24420008 	addiu	v0,v0,8
+9d002084:	00042080 	sll	a0,a0,0x2
+9d002088:	00822021 	addu	a0,a0,v0
+9d00208c:	8c820000 	lw	v0,0(a0)
+        _isr_primary_install[vec] = func;       
+9d002090:	ac850000 	sw	a1,0(a0)
+    }
+
+    return t;
+}
+9d002094:	03e00008 	jr	ra
+9d002098:	00000000 	nop
+
+9d00209c <setIntEnable>:
+uint32_t setIntEnable(int irq)
+{
+	p32_regset *	iec;
+	uint32_t		st;
+
+	iec = ((p32_regset *)&IEC0) + (irq / 32);
+9d00209c:	28830000 	slti	v1,a0,0
+9d0020a0:	2482001f 	addiu	v0,a0,31
+9d0020a4:	0083100a 	movz	v0,a0,v1
+9d0020a8:	00021143 	sra	v0,v0,0x5
+9d0020ac:	3c03bf88 	lui	v1,0xbf88
+9d0020b0:	00021100 	sll	v0,v0,0x4
+	st = iec->reg;
+	iec->set = 1 << (irq % 32);
+9d0020b4:	24050001 	li	a1,1
+uint32_t setIntEnable(int irq)
+{
+	p32_regset *	iec;
+	uint32_t		st;
+
+	iec = ((p32_regset *)&IEC0) + (irq / 32);
+9d0020b8:	24631060 	addiu	v1,v1,4192
+9d0020bc:	00621821 	addu	v1,v1,v0
+	st = iec->reg;
+	iec->set = 1 << (irq % 32);
+9d0020c0:	00852004 	sllv	a0,a1,a0
+{
+	p32_regset *	iec;
+	uint32_t		st;
+
+	iec = ((p32_regset *)&IEC0) + (irq / 32);
+	st = iec->reg;
+9d0020c4:	8c620000 	lw	v0,0(v1)
+	iec->set = 1 << (irq % 32);
+9d0020c8:	ac640008 	sw	a0,8(v1)
+	return st;
+}
+9d0020cc:	03e00008 	jr	ra
+9d0020d0:	00000000 	nop
+
+9d0020d4 <setIntPriority>:
+	ipc = ((p32_regset *)&IPC0) + (vec / 4);
+
+	/* Compute the number of bit positions to shift to get to the
+	** correct position for the priority bits for this vector.
+	*/
+	bn = 8 * (vec % 4);
+9d0020d4:	000417c3 	sra	v0,a0,0x1f
+9d0020d8:	00021782 	srl	v0,v0,0x1e
+9d0020dc:	00821821 	addu	v1,a0,v0
+	int				bn;
+
+	/* Compute the address of the interrupt priority control register used
+	** by this interrupt vector
+	*/
+	ipc = ((p32_regset *)&IPC0) + (vec / 4);
+9d0020e0:	24870003 	addiu	a3,a0,3
+9d0020e4:	28880000 	slti	t0,a0,0
+
+	/* Compute the number of bit positions to shift to get to the
+	** correct position for the priority bits for this vector.
+	*/
+	bn = 8 * (vec % 4);
+9d0020e8:	30630003 	andi	v1,v1,0x3
+	int				bn;
+
+	/* Compute the address of the interrupt priority control register used
+	** by this interrupt vector
+	*/
+	ipc = ((p32_regset *)&IPC0) + (vec / 4);
+9d0020ec:	00e8200b 	movn	a0,a3,t0
+
+	/* Compute the number of bit positions to shift to get to the
+	** correct position for the priority bits for this vector.
+	*/
+	bn = 8 * (vec % 4);
+9d0020f0:	00621023 	subu	v0,v1,v0
+	int				bn;
+
+	/* Compute the address of the interrupt priority control register used
+	** by this interrupt vector
+	*/
+	ipc = ((p32_regset *)&IPC0) + (vec / 4);
+9d0020f4:	00042083 	sra	a0,a0,0x2
+9d0020f8:	3c03bf88 	lui	v1,0xbf88
+9d0020fc:	24631090 	addiu	v1,v1,4240
+	bn = 8 * (vec % 4);
+
+	/* Set the interrupt privilege level and sub-privilege level
+	*/
+	ipc->clr = (0x1F << bn);
+	ipc->set = ((ipl << 2) + spl) << bn;
+9d002100:	00052880 	sll	a1,a1,0x2
+	int				bn;
+
+	/* Compute the address of the interrupt priority control register used
+	** by this interrupt vector
+	*/
+	ipc = ((p32_regset *)&IPC0) + (vec / 4);
+9d002104:	00042100 	sll	a0,a0,0x4
+9d002108:	00642021 	addu	a0,v1,a0
+
+	/* Compute the number of bit positions to shift to get to the
+	** correct position for the priority bits for this vector.
+	*/
+	bn = 8 * (vec % 4);
+9d00210c:	000210c0 	sll	v0,v0,0x3
+
+	/* Set the interrupt privilege level and sub-privilege level
+	*/
+	ipc->clr = (0x1F << bn);
+	ipc->set = ((ipl << 2) + spl) << bn;
+9d002110:	00c52821 	addu	a1,a2,a1
+	*/
+	bn = 8 * (vec % 4);
+
+	/* Set the interrupt privilege level and sub-privilege level
+	*/
+	ipc->clr = (0x1F << bn);
+9d002114:	2403001f 	li	v1,31
+9d002118:	00431804 	sllv	v1,v1,v0
+	ipc->set = ((ipl << 2) + spl) << bn;
+9d00211c:	00451004 	sllv	v0,a1,v0
+	*/
+	bn = 8 * (vec % 4);
+
+	/* Set the interrupt privilege level and sub-privilege level
+	*/
+	ipc->clr = (0x1F << bn);
+9d002120:	ac830004 	sw	v1,4(a0)
+	ipc->set = ((ipl << 2) + spl) << bn;
+9d002124:	ac820008 	sw	v0,8(a0)
+}
+9d002128:	03e00008 	jr	ra
+9d00212c:	00000000 	nop
+
+9d002130 <getPeripheralClock>:
+uint32_t getPeripheralClock()
+{
+	uint32_t	clkPb;
+
+    clkPb = F_CPU;
+    clkPb >>= OSCCONbits.PBDIV;
+9d002130:	3c02bf81 	lui	v0,0xbf81
+9d002134:	8c43f000 	lw	v1,-4096(v0)
+
+    return clkPb;
+
+}
+9d002138:	3c0204c4 	lui	v0,0x4c4
+9d00213c:	3442b400 	ori	v0,v0,0xb400
+uint32_t getPeripheralClock()
+{
+	uint32_t	clkPb;
+
+    clkPb = F_CPU;
+    clkPb >>= OSCCONbits.PBDIV;
+9d002140:	7c630cc0 	ext	v1,v1,0x13,0x2
+
+    return clkPb;
+
+}
+9d002144:	03e00008 	jr	ra
+9d002148:	00621006 	srlv	v0,v0,v1
+
+9d00214c <_configSystem>:
+
+uint32_t __attribute__((nomips16)) disableInterrupts(void)
+{
+    uint32_t status = 0;
+
+    asm volatile("di    %0" : "=r"(status));
+9d00214c:	41686000 	di	t0
+
+	stInt = disableInterrupts();
+
+	/* Disable wait states in data ram.
+	*/
+	BMXCONCLR = (1 << _BMXCON_BMXWSDRM_POSITION);
+9d002150:	24030040 	li	v1,64
+9d002154:	3c02bf88 	lui	v0,0xbf88
+9d002158:	ac432004 	sw	v1,8196(v0)
+
+#ifdef _PCACHE
+
+	stCache = CHECON;
+9d00215c:	3c07bf88 	lui	a3,0xbf88
+9d002160:	8ce94000 	lw	t1,16384(a3)
+    stCache |= (3 << _CHECON_PREFEN_POSITION);
+
+	/* Turn on caching for KSEG0
+	*/
+	asm("mfc0 %0,$16,0" :  "=r"(tmp));
+	tmp = (tmp & ~7) | 3;
+9d002164:	2402fff8 	li	v0,-8
+	*/
+    stCache |= (3 << _CHECON_PREFEN_POSITION);
+
+	/* Turn on caching for KSEG0
+	*/
+	asm("mfc0 %0,$16,0" :  "=r"(tmp));
+9d002168:	40038000 	mfc0	v1,c0_config
+	tmp = (tmp & ~7) | 3;
+9d00216c:	00621024 	and	v0,v1,v0
+	stCache = CHECON;
+
+	/* Configure predictive prefetch caching for both cached and
+	** non-cached memory regions.
+	*/
+    stCache |= (3 << _CHECON_PREFEN_POSITION);
+9d002170:	35290030 	ori	t1,t1,0x30
+
+	/* Turn on caching for KSEG0
+	*/
+	asm("mfc0 %0,$16,0" :  "=r"(tmp));
+	tmp = (tmp & ~7) | 3;
+9d002174:	34420003 	ori	v0,v0,0x3
+	asm("mtc0 %0,$16,0" :: "r" (tmp));
+9d002178:	40828000 	mtc0	v0,c0_config
+
+	/* Configure the number of wait states in the program flash
+	*/
+    wait = 0;
+
+    while(clk > FLASH_SPEED_HZ)
+9d00217c:	3c0501c9 	lui	a1,0x1c9
+9d002180:	34a5c381 	ori	a1,a1,0xc381
+9d002184:	0085182b 	sltu	v1,a0,a1
+9d002188:	14600007 	bnez	v1,9d0021a8 <_configSystem+0x5c>
+9d00218c:	00001021 	move	v0,zero
+    {
+        wait += 1;
+        clk -= FLASH_SPEED_HZ;
+9d002190:	3c06fe36 	lui	a2,0xfe36
+9d002194:	24c63c80 	addiu	a2,a2,15488
+9d002198:	00862021 	addu	a0,a0,a2
+
+	/* Configure the number of wait states in the program flash
+	*/
+    wait = 0;
+
+    while(clk > FLASH_SPEED_HZ)
+9d00219c:	0085182b 	sltu	v1,a0,a1
+9d0021a0:	1060fffd 	beqz	v1,9d002198 <_configSystem+0x4c>
+9d0021a4:	24420001 	addiu	v0,v0,1
+    {
+        wait += 1;
+        clk -= FLASH_SPEED_HZ;
+    }
+
+    stCache &= ~_CHECON_PFMWS_MASK;
+9d0021a8:	2404fff8 	li	a0,-8
+9d0021ac:	01241824 	and	v1,t1,a0
+	stCache |= (wait << _CHECON_PFMWS_POSITION);
+9d0021b0:	00431025 	or	v0,v0,v1
+**		enableInterrupts() or disableInterrupts().
+*/
+
+void __attribute__((nomips16))  restoreInterrupts(uint32_t st)
+{
+    if (st & 0x00000001)
+9d0021b4:	31030001 	andi	v1,t0,0x1
+    }
+
+    stCache &= ~_CHECON_PFMWS_MASK;
+	stCache |= (wait << _CHECON_PFMWS_POSITION);
+
+	CHECON = stCache;
+9d0021b8:	14600003 	bnez	v1,9d0021c8 <_configSystem+0x7c>
+**		enableInterrupts() or disableInterrupts().
+*/
+
+void __attribute__((nomips16))  restoreInterrupts(uint32_t st)
+{
+    if (st & 0x00000001)
+9d0021bc:	ace24000 	sw	v0,16384(a3)
+	{
+        asm volatile("ei");
+	}
+    else
+	{
+        asm volatile("di");
+9d0021c0:	03e00008 	jr	ra
+9d0021c4:	41606000 	di
+
+void __attribute__((nomips16))  restoreInterrupts(uint32_t st)
+{
+    if (st & 0x00000001)
+	{
+        asm volatile("ei");
+9d0021c8:	03e00008 	jr	ra
+9d0021cc:	41606020 	ei
+
+9d0021d0 <_enableMultiVectorInterrupts>:
+    unsigned int val;
+
+    /* Set the CP0 bit so that interrupt exceptions use the
+	** special interrupt vector and not the general exception vector.
+	*/
+    asm volatile("mfc0   %0,$13" : "=r"(val));
+9d0021d0:	40036800 	mfc0	v1,c0_cause
+    val |= 0x00800000;
+9d0021d4:	3c020080 	lui	v0,0x80
+9d0021d8:	00621025 	or	v0,v1,v0
+    asm volatile("mtc0   %0,$13" : "+r"(val));
+9d0021dc:	40826800 	mtc0	v0,c0_cause
+
+	/* Turn on multi-vectored interrupts.
+	*/
+    INTCONSET = _INTCON_MVEC_MASK;
+9d0021e0:	24031000 	li	v1,4096
+9d0021e4:	3c02bf88 	lui	v0,0xbf88
+9d0021e8:	ac431008 	sw	v1,4104(v0)
+
+uint32_t __attribute__((nomips16))  enableInterrupts(void)
+{
+    uint32_t status = 0;
+
+    asm volatile("ei    %0" : "=r"(status));
+9d0021ec:	03e00008 	jr	ra
+
+    /* Enable interrupts.
+	*/
+    enableInterrupts();
+
+}
+9d0021f0:	41626020 	ei	v0
+
+9d0021f4 <_initCoreTimer>:
+
+void __attribute__((nomips16)) _initCoreTimer(uint32_t prd)
+{
+	/* Clear the core timer counter
+	*/
+    asm volatile("mtc0   $0,$9");
+9d0021f4:	40804800 	mtc0	zero,c0_count
+
+    /* Store the requested value in the compare register
+	*/
+    asm volatile("mtc0   %0,$11" : "+r"(prd));
+9d0021f8:	03e00008 	jr	ra
+}
+9d0021fc:	40845800 	mtc0	a0,c0_compare
+
+9d002200 <main>:
+__attribute__((section(".comment"))) void (*__use_force_isr_install)(void) = &__use_isr_install;
+}
+
+//************************************************************************
+int main(void)
+{
+9d002200:	27bdffe8 	addiu	sp,sp,-24
+9d002204:	afbf0014 	sw	ra,20(sp)
+	init();
+9d002208:	0f40095c 	jal	9d002570 <init>
+9d00220c:	00000000 	nop
+
+	setup();
+9d002210:	0f4004ca 	jal	9d001328 <setup>
+9d002214:	00000000 	nop
+
+	while (1)
+	{
+		_scheduleTask();
+9d002218:	0f400995 	jal	9d002654 <_scheduleTask>
+9d00221c:	00000000 	nop
+		loop();
+9d002220:	0f4004e0 	jal	9d001380 <loop>
+9d002224:	00000000 	nop
+9d002228:	0b400886 	j	9d002218 <main+0x18>
+9d00222c:	00000000 	nop
+
+9d002230 <turnOffPWM>:
+}
+
+
+//************************************************************************
+void turnOffPWM(uint8_t timer)
+{
+9d002230:	308400ff 	andi	a0,a0,0xff
+	*/
+	ocp = (p32_oc *)(_OCMP1_BASE_ADDRESS + (0x200 * (timer - (_TIMER_OC1 >> _BN_TIMER_OC))));
+	ocp->ocxCon.clr = OCCON_ON;
+
+	// Turn off the bit saying that this PWM is active.
+	pwm_active &= ~(1 << (timer - (_TIMER_OC1 >> _BN_TIMER_OC)));
+9d002234:	2482ffff 	addiu	v0,a0,-1
+9d002238:	24030001 	li	v1,1
+9d00223c:	93858008 	lbu	a1,-32760(gp)
+9d002240:	00431004 	sllv	v0,v1,v0
+{
+	p32_oc *	ocp;
+
+	/* Disable the output compare.
+	*/
+	ocp = (p32_oc *)(_OCMP1_BASE_ADDRESS + (0x200 * (timer - (_TIMER_OC1 >> _BN_TIMER_OC))));
+9d002244:	3c03005f 	lui	v1,0x5f
+9d002248:	3463c017 	ori	v1,v1,0xc017
+9d00224c:	00832021 	addu	a0,a0,v1
+	ocp->ocxCon.clr = OCCON_ON;
+
+	// Turn off the bit saying that this PWM is active.
+	pwm_active &= ~(1 << (timer - (_TIMER_OC1 >> _BN_TIMER_OC)));
+9d002250:	00021027 	nor	v0,zero,v0
+{
+	p32_oc *	ocp;
+
+	/* Disable the output compare.
+	*/
+	ocp = (p32_oc *)(_OCMP1_BASE_ADDRESS + (0x200 * (timer - (_TIMER_OC1 >> _BN_TIMER_OC))));
+9d002254:	00042240 	sll	a0,a0,0x9
+	ocp->ocxCon.clr = OCCON_ON;
+9d002258:	34038000 	li	v1,0x8000
+
+	// Turn off the bit saying that this PWM is active.
+	pwm_active &= ~(1 << (timer - (_TIMER_OC1 >> _BN_TIMER_OC)));
+9d00225c:	00451024 	and	v0,v0,a1
+	p32_oc *	ocp;
+
+	/* Disable the output compare.
+	*/
+	ocp = (p32_oc *)(_OCMP1_BASE_ADDRESS + (0x200 * (timer - (_TIMER_OC1 >> _BN_TIMER_OC))));
+	ocp->ocxCon.clr = OCCON_ON;
+9d002260:	ac830004 	sw	v1,4(a0)
+
+	// Turn off the bit saying that this PWM is active.
+	pwm_active &= ~(1 << (timer - (_TIMER_OC1 >> _BN_TIMER_OC)));
+
+	// If no PWM are active, turn off the timer.
+	if (pwm_active == 0)
+9d002264:	14400003 	bnez	v0,9d002274 <turnOffPWM+0x44>
+9d002268:	a3828008 	sb	v0,-32760(gp)
+	{
+    	T2CONCLR = TBCON_ON;
+9d00226c:	3c02bf80 	lui	v0,0xbf80
+9d002270:	ac430804 	sw	v1,2052(v0)
+9d002274:	03e00008 	jr	ra
+9d002278:	00000000 	nop
+
+9d00227c <millisecondCoreTimerService>:
+*/
+uint32_t millisecondCoreTimerService(uint32_t curTime)
+{
+    static int nextInt = 0;
+    uint32_t relWait = 0;
+    uint32_t relTime = curTime - nextInt;
+9d00227c:	8f858018 	lw	a1,-32744(gp)
+    uint32_t millisLocal = gTimer0_millis;  // defeat volatility
+9d002280:	8f83800c 	lw	v1,-32756(gp)
+**
+*/
+uint32_t millisecondCoreTimerService(uint32_t curTime)
+{
+    static int nextInt = 0;
+    uint32_t relWait = 0;
+9d002284:	00001021 	move	v0,zero
+    uint32_t relTime = curTime - nextInt;
+9d002288:	00852023 	subu	a0,a0,a1
+
+    // catch-up up to current time; we may have fallen behind due to interrupts being diabled.
+    while(relWait <= relTime)
+    {
+        millisLocal++;                      // add a ms to our time
+        relWait += CORE_TICK_RATE;          // add a ms to our next ISR time
+9d00228c:	34079c40 	li	a3,0x9c40
+9d002290:	00471021 	addu	v0,v0,a3
+    uint32_t relWait = 0;
+    uint32_t relTime = curTime - nextInt;
+    uint32_t millisLocal = gTimer0_millis;  // defeat volatility
+
+    // catch-up up to current time; we may have fallen behind due to interrupts being diabled.
+    while(relWait <= relTime)
+9d002294:	0082302b 	sltu	a2,a0,v0
+9d002298:	10c0fffd 	beqz	a2,9d002290 <millisecondCoreTimerService+0x14>
+9d00229c:	24630001 	addiu	v1,v1,1
+        millisLocal++;                      // add a ms to our time
+        relWait += CORE_TICK_RATE;          // add a ms to our next ISR time
+     }
+
+    // set when we want to be called again
+    nextInt += relWait;                     // calculate the absolute interrupt time we want.
+9d0022a0:	00451021 	addu	v0,v0,a1
+
+    // we want to sync gCore_timer_last_val with the last millisecond "count" value
+    // curTime may not be exactly on a millisecond boundary, but we know where that is
+    // we know nextInt is our next millisecond boundary, so less 1 CORE_TICK_RATE will be our last one
+    // gCore_timer_last_val = curTime;         // This is the original bogus code
+    gCore_timer_last_val =  nextInt - CORE_TICK_RATE;
+9d0022a4:	34049c40 	li	a0,0x9c40
+9d0022a8:	00442023 	subu	a0,v0,a0
+9d0022ac:	af848010 	sw	a0,-32752(gp)
+        millisLocal++;                      // add a ms to our time
+        relWait += CORE_TICK_RATE;          // add a ms to our next ISR time
+     }
+
+    // set when we want to be called again
+    nextInt += relWait;                     // calculate the absolute interrupt time we want.
+9d0022b0:	af828018 	sw	v0,-32744(gp)
+    // we know nextInt is our next millisecond boundary, so less 1 CORE_TICK_RATE will be our last one
+    // gCore_timer_last_val = curTime;         // This is the original bogus code
+    gCore_timer_last_val =  nextInt - CORE_TICK_RATE;
+
+    // update the global millisecond counter.
+    gTimer0_millis = millisLocal;           // Total number of ms
+9d0022b4:	af83800c 	sw	v1,-32756(gp)
+
+    return(nextInt);
+}
+9d0022b8:	03e00008 	jr	ra
+9d0022bc:	00000000 	nop
+
+9d0022c0 <CoreTimerHandler>:
+**      each service's logical compare values. And then the next and soonest logical compare value is searched for and set as
+**      the real compare value to be interrupted to notify the Serivces when count hits that value.
+**
+*/
+void __attribute__((interrupt(),nomips16)) CoreTimerHandler(void)
+{
+9d0022c0:	415de800 	rdpgpr	sp,sp
+9d0022c4:	401b7000 	mfc0	k1,c0_epc
+9d0022c8:	401a6002 	mfc0	k0,c0_srsctl
+9d0022cc:	27bdff58 	addiu	sp,sp,-168
+9d0022d0:	afbb00a4 	sw	k1,164(sp)
+9d0022d4:	401b6000 	mfc0	k1,c0_status
+9d0022d8:	afba00a0 	sw	k0,160(sp)
+9d0022dc:	401a6800 	mfc0	k0,c0_cause
+9d0022e0:	001ad282 	srl	k0,k0,0xa
+9d0022e4:	afbb009c 	sw	k1,156(sp)
+9d0022e8:	7f5b7a84 	ins	k1,k0,0xa,0x6
+9d0022ec:	7c1b2044 	ins	k1,zero,0x1,0x4
+9d0022f0:	409b6000 	mtc0	k1,c0_status
+9d0022f4:	afa3002c 	sw	v1,44(sp)
+9d0022f8:	8fa300a0 	lw	v1,160(sp)
+9d0022fc:	3063000f 	andi	v1,v1,0xf
+9d002300:	1460001a 	bnez	v1,9d00236c <CoreTimerHandler+0xac>
+9d002304:	afa20028 	sw	v0,40(sp)
+9d002308:	afbf008c 	sw	ra,140(sp)
+9d00230c:	afbe0088 	sw	s8,136(sp)
+9d002310:	afb90084 	sw	t9,132(sp)
+9d002314:	afb80080 	sw	t8,128(sp)
+9d002318:	afb7007c 	sw	s7,124(sp)
+9d00231c:	afb60078 	sw	s6,120(sp)
+9d002320:	afb50074 	sw	s5,116(sp)
+9d002324:	afb40070 	sw	s4,112(sp)
+9d002328:	afb3006c 	sw	s3,108(sp)
+9d00232c:	afb20068 	sw	s2,104(sp)
+9d002330:	afb10064 	sw	s1,100(sp)
+9d002334:	afb00060 	sw	s0,96(sp)
+9d002338:	afaf005c 	sw	t7,92(sp)
+9d00233c:	afae0058 	sw	t6,88(sp)
+9d002340:	afad0054 	sw	t5,84(sp)
+9d002344:	afac0050 	sw	t4,80(sp)
+9d002348:	afab004c 	sw	t3,76(sp)
+9d00234c:	afaa0048 	sw	t2,72(sp)
+9d002350:	afa90044 	sw	t1,68(sp)
+9d002354:	afa80040 	sw	t0,64(sp)
+9d002358:	afa7003c 	sw	a3,60(sp)
+9d00235c:	afa60038 	sw	a2,56(sp)
+9d002360:	afa50034 	sw	a1,52(sp)
+9d002364:	afa40030 	sw	a0,48(sp)
+9d002368:	afa10024 	sw	at,36(sp)
+9d00236c:	00001012 	mflo	v0
+9d002370:	afa20094 	sw	v0,148(sp)
+9d002374:	00001810 	mfhi	v1
+9d002378:	afa30090 	sw	v1,144(sp)
+
+    // we know that count >= compare, otherwise we would not have been interrupted
+    // we also know that count and compare >= gLastBaseCount as this was our last count value.
+
+    // get our current time; this will establish our next base
+    read_count(curTime); 
+9d00237c:	40134800 	mfc0	s3,c0_count
+    relCurTime = curTime - gLastBaseCount;
+9d002380:	8f9e8014 	lw	s8,-32748(gp)
+9d002384:	3c10a000 	lui	s0,0xa000
+        {
+            // if the serivce exists
+            if(gCoreTimerInfo[i].serivce != NULL)
+            {
+                // if their time has come up
+                relInt = gCoreTimerInfo[i].nextInt - gLastBaseCount;
+9d002388:	3c05a000 	lui	a1,0xa000
+    // we know that count >= compare, otherwise we would not have been interrupted
+    // we also know that count and compare >= gLastBaseCount as this was our last count value.
+
+    // get our current time; this will establish our next base
+    read_count(curTime); 
+    relCurTime = curTime - gLastBaseCount;
+9d00238c:	027ef023 	subu	s8,s3,s8
+
+    // we know that count >= compare, otherwise we would not have been interrupted
+    // we also know that count and compare >= gLastBaseCount as this was our last count value.
+
+    // get our current time; this will establish our next base
+    read_count(curTime); 
+9d002390:	02603021 	move	a2,s3
+9d002394:	261000c0 	addiu	s0,s0,192
+9d002398:	3c12bf88 	lui	s2,0xbf88
+        {
+            // if the serivce exists
+            if(gCoreTimerInfo[i].serivce != NULL)
+            {
+                // if their time has come up
+                relInt = gCoreTimerInfo[i].nextInt - gLastBaseCount;
+9d00239c:	24a500bc 	addiu	a1,a1,188
+    {
+        // make sure we find the lowest int to set
+        relNextInt = 0xFFFFFFFF;
+
+        // check to see who all we need to call
+        for(i=0; i<MaxNbrOfCoreTimerServices; i++)
+9d0023a0:	24030003 	li	v1,3
+        // we need to apply our base to convert from relative values to an absolute time.
+        compare = relNextInt + gLastBaseCount;
+        write_comp(compare); 
+
+        // clear the CT flag
+        mCTClearIntFlag();
+9d0023a4:	24110001 	li	s1,1
+    // we know that count >= compare, otherwise we would not have been interrupted
+    // we also know that count and compare >= gLastBaseCount as this was our last count value.
+
+    // get our current time; this will establish our next base
+    read_count(curTime); 
+    relCurTime = curTime - gLastBaseCount;
+9d0023a8:	0200b021 	move	s6,s0
+    {
+        // make sure we find the lowest int to set
+        relNextInt = 0xFFFFFFFF;
+
+        // check to see who all we need to call
+        for(i=0; i<MaxNbrOfCoreTimerServices; i++)
+9d0023ac:	0000a021 	move	s4,zero
+    nextBase = curTime;
+
+    do
+    {
+        // make sure we find the lowest int to set
+        relNextInt = 0xFFFFFFFF;
+9d0023b0:	2415ffff 	li	s5,-1
+
+        // check to see who all we need to call
+        for(i=0; i<MaxNbrOfCoreTimerServices; i++)
+        {
+            // if the serivce exists
+            if(gCoreTimerInfo[i].serivce != NULL)
+9d0023b4:	8ec20000 	lw	v0,0(s6)
+            {
+                // if their time has come up
+                relInt = gCoreTimerInfo[i].nextInt - gLastBaseCount;
+9d0023b8:	0014b8c0 	sll	s7,s4,0x3
+9d0023bc:	02e5b821 	addu	s7,s7,a1
+    {
+        // make sure we find the lowest int to set
+        relNextInt = 0xFFFFFFFF;
+
+        // check to see who all we need to call
+        for(i=0; i<MaxNbrOfCoreTimerServices; i++)
+9d0023c0:	26940001 	addiu	s4,s4,1
+        {
+            // if the serivce exists
+            if(gCoreTimerInfo[i].serivce != NULL)
+9d0023c4:	10400009 	beqz	v0,9d0023ec <CoreTimerHandler+0x12c>
+9d0023c8:	26d60008 	addiu	s6,s6,8
+            {
+                // if their time has come up
+                relInt = gCoreTimerInfo[i].nextInt - gLastBaseCount;
+9d0023cc:	8ee70000 	lw	a3,0(s7)
+9d0023d0:	8f848014 	lw	a0,-32748(gp)
+9d0023d4:	00e42023 	subu	a0,a3,a0
+                if(relInt <= relCurTime)
+9d0023d8:	03c4382b 	sltu	a3,s8,a0
+9d0023dc:	50e0003d 	beqzl	a3,9d0024d4 <CoreTimerHandler+0x214>
+9d0023e0:	00c02021 	move	a0,a2
+                    relInt = gCoreTimerInfo[i].nextInt - gLastBaseCount;
+                }
+
+                // see if this is the next interrupt we want to set
+                // we are looking for the closest/lowest int to set.
+                if(relInt < relNextInt)
+9d0023e4:	0095102b 	sltu	v0,a0,s5
+9d0023e8:	0082a80b 	movn	s5,a0,v0
+    {
+        // make sure we find the lowest int to set
+        relNextInt = 0xFFFFFFFF;
+
+        // check to see who all we need to call
+        for(i=0; i<MaxNbrOfCoreTimerServices; i++)
+9d0023ec:	5683fff2 	bnel	s4,v1,9d0023b8 <CoreTimerHandler+0xf8>
+9d0023f0:	8ec20000 	lw	v0,0(s6)
+        // other service may cause the compare value to be set for an earlier time; but we always know there will be a compare time
+        // to set, so we know that relNextInt has a value other than 0xFFFFFFFF in it.
+
+        // Go ahead and set the compare register to the next interrupt we want.
+        // we need to apply our base to convert from relative values to an absolute time.
+        compare = relNextInt + gLastBaseCount;
+9d0023f4:	8f828014 	lw	v0,-32748(gp)
+9d0023f8:	02a21021 	addu	v0,s5,v0
+        write_comp(compare); 
+9d0023fc:	40825800 	mtc0	v0,c0_compare
+
+        // clear the CT flag
+        mCTClearIntFlag();
+9d002400:	ae511034 	sw	s1,4148(s2)
+
+        // read the count after the CT flag has been set so we can make sure count has not passed compare
+        // during our processing of this int
+        read_count(curTime); 
+9d002404:	40064800 	mfc0	a2,c0_count
+
+        // get the relative time so we can operate in the linear portion of our uint32.
+        relCurTime = curTime - gLastBaseCount;
+9d002408:	8f9e8014 	lw	s8,-32748(gp)
+9d00240c:	00def023 	subu	s8,a2,s8
+
+        // if the current time has passed our interrupt time, then we basically hit the interrupt again
+        // so we probabaly missed the CT flag being set and we need to reprocess this interrupt and find the next one to set.
+    } while(relNextInt <= relCurTime);
+9d002410:	03d5a82b 	sltu	s5,s8,s5
+9d002414:	52a0ffe5 	beqzl	s5,9d0023ac <CoreTimerHandler+0xec>
+9d002418:	0200b021 	move	s6,s0
+    // otherwise the next interrupt time (compare time) is after the current time and CT will catch it when count == compare.
+    // we can safely exit the ISR.
+
+    // but first we must set our new base so the next time we come into this routine we
+    // have a valid lower base to shift our times to for comparisons.
+    gLastBaseCount = nextBase;
+9d00241c:	af938014 	sw	s3,-32748(gp)
+}
+9d002420:	8fa20094 	lw	v0,148(sp)
+9d002424:	8fa30090 	lw	v1,144(sp)
+9d002428:	00400013 	mtlo	v0
+9d00242c:	8fa200a0 	lw	v0,160(sp)
+9d002430:	3042000f 	andi	v0,v0,0xf
+9d002434:	1440001c 	bnez	v0,9d0024a8 <CoreTimerHandler+0x1e8>
+9d002438:	00600011 	mthi	v1
+9d00243c:	8fbf008c 	lw	ra,140(sp)
+9d002440:	8fbe0088 	lw	s8,136(sp)
+9d002444:	8fb90084 	lw	t9,132(sp)
+9d002448:	8fb80080 	lw	t8,128(sp)
+9d00244c:	8fb7007c 	lw	s7,124(sp)
+9d002450:	8fb60078 	lw	s6,120(sp)
+9d002454:	8fb50074 	lw	s5,116(sp)
+9d002458:	8fb40070 	lw	s4,112(sp)
+9d00245c:	8fb3006c 	lw	s3,108(sp)
+9d002460:	8fb20068 	lw	s2,104(sp)
+9d002464:	8fb10064 	lw	s1,100(sp)
+9d002468:	8fb00060 	lw	s0,96(sp)
+9d00246c:	8faf005c 	lw	t7,92(sp)
+9d002470:	8fae0058 	lw	t6,88(sp)
+9d002474:	8fad0054 	lw	t5,84(sp)
+9d002478:	8fac0050 	lw	t4,80(sp)
+9d00247c:	8fab004c 	lw	t3,76(sp)
+9d002480:	8faa0048 	lw	t2,72(sp)
+9d002484:	8fa90044 	lw	t1,68(sp)
+9d002488:	8fa80040 	lw	t0,64(sp)
+9d00248c:	8fa7003c 	lw	a3,60(sp)
+9d002490:	8fa60038 	lw	a2,56(sp)
+9d002494:	8fa50034 	lw	a1,52(sp)
+9d002498:	8fa40030 	lw	a0,48(sp)
+9d00249c:	8fa3002c 	lw	v1,44(sp)
+9d0024a0:	8fa20028 	lw	v0,40(sp)
+9d0024a4:	8fa10024 	lw	at,36(sp)
+9d0024a8:	41606000 	di
+9d0024ac:	000000c0 	ehb
+9d0024b0:	8fba00a4 	lw	k0,164(sp)
+9d0024b4:	8fbb009c 	lw	k1,156(sp)
+9d0024b8:	409a7000 	mtc0	k0,c0_epc
+9d0024bc:	8fba00a0 	lw	k0,160(sp)
+9d0024c0:	27bd00a8 	addiu	sp,sp,168
+9d0024c4:	409a6002 	mtc0	k0,c0_srsctl
+9d0024c8:	41dde800 	wrpgpr	sp,sp
+9d0024cc:	409b6000 	mtc0	k1,c0_status
+9d0024d0:	42000018 	eret
+                // if their time has come up
+                relInt = gCoreTimerInfo[i].nextInt - gLastBaseCount;
+                if(relInt <= relCurTime)
+                {
+                    // call their routine to get their next interrupt time
+                    gCoreTimerInfo[i].nextInt = gCoreTimerInfo[i].serivce(curTime);
+9d0024d4:	afa30018 	sw	v1,24(sp)
+9d0024d8:	afa50014 	sw	a1,20(sp)
+9d0024dc:	0040f809 	jalr	v0
+9d0024e0:	afa60010 	sw	a2,16(sp)
+9d0024e4:	aee20000 	sw	v0,0(s7)
+
+                    // recalculate the relative time of thier next int
+                    // so we can see if this is the next int we need to set
+                    relInt = gCoreTimerInfo[i].nextInt - gLastBaseCount;
+9d0024e8:	8ee40000 	lw	a0,0(s7)
+9d0024ec:	8f828014 	lw	v0,-32748(gp)
+9d0024f0:	8fa60010 	lw	a2,16(sp)
+9d0024f4:	8fa50014 	lw	a1,20(sp)
+9d0024f8:	00822023 	subu	a0,a0,v0
+                }
+
+                // see if this is the next interrupt we want to set
+                // we are looking for the closest/lowest int to set.
+                if(relInt < relNextInt)
+9d0024fc:	0095102b 	sltu	v0,a0,s5
+                    // call their routine to get their next interrupt time
+                    gCoreTimerInfo[i].nextInt = gCoreTimerInfo[i].serivce(curTime);
+
+                    // recalculate the relative time of thier next int
+                    // so we can see if this is the next int we need to set
+                    relInt = gCoreTimerInfo[i].nextInt - gLastBaseCount;
+9d002500:	8fa30018 	lw	v1,24(sp)
+                }
+
+                // see if this is the next interrupt we want to set
+                // we are looking for the closest/lowest int to set.
+                if(relInt < relNextInt)
+9d002504:	0b4008fb 	j	9d0023ec <CoreTimerHandler+0x12c>
+9d002508:	0082a80b 	movn	s5,a0,v0
+
+9d00250c <millis>:
+uint8_t ppsGlobalLock = false;
+
+//************************************************************************
+unsigned long millis()
+{
+	return(gTimer0_millis);
+9d00250c:	8f82800c 	lw	v0,-32756(gp)
+}
+9d002510:	03e00008 	jr	ra
+9d002514:	00000000 	nop
+
+9d002518 <delay>:
+}
+
+//************************************************************************
+// Delay for a given number of milliseconds.
+void delay(unsigned long ms)
+{
+9d002518:	27bdffe0 	addiu	sp,sp,-32
+9d00251c:	afb10018 	sw	s1,24(sp)
+unsigned long	startMillis;
+
+	startMillis	=	gTimer0_millis;
+9d002520:	8f91800c 	lw	s1,-32756(gp)
+	while ((gTimer0_millis - startMillis) < ms)
+9d002524:	8f82800c 	lw	v0,-32756(gp)
+}
+
+//************************************************************************
+// Delay for a given number of milliseconds.
+void delay(unsigned long ms)
+{
+9d002528:	afb00014 	sw	s0,20(sp)
+9d00252c:	afbf001c 	sw	ra,28(sp)
+unsigned long	startMillis;
+
+	startMillis	=	gTimer0_millis;
+	while ((gTimer0_millis - startMillis) < ms)
+9d002530:	00511023 	subu	v0,v0,s1
+9d002534:	0044102b 	sltu	v0,v0,a0
+9d002538:	10400008 	beqz	v0,9d00255c <delay+0x44>
+9d00253c:	00808021 	move	s0,a0
+	{
+		_scheduleTask();
+9d002540:	0f400995 	jal	9d002654 <_scheduleTask>
+9d002544:	00000000 	nop
+void delay(unsigned long ms)
+{
+unsigned long	startMillis;
+
+	startMillis	=	gTimer0_millis;
+	while ((gTimer0_millis - startMillis) < ms)
+9d002548:	8f82800c 	lw	v0,-32756(gp)
+9d00254c:	00511023 	subu	v0,v0,s1
+9d002550:	0050102b 	sltu	v0,v0,s0
+9d002554:	1440fffa 	bnez	v0,9d002540 <delay+0x28>
+9d002558:	00000000 	nop
+	{
+		_scheduleTask();
+	}
+}
+9d00255c:	8fbf001c 	lw	ra,28(sp)
+9d002560:	8fb10018 	lw	s1,24(sp)
+9d002564:	8fb00014 	lw	s0,20(sp)
+9d002568:	03e00008 	jr	ra
+9d00256c:	27bd0020 	addiu	sp,sp,32
+
+9d002570 <init>:
+	__PIC32_pbClk	=	SYSTEMConfigPerformance(F_CPU);
+#endif
+#endif
+
+	// Configure the processor for the proper number of wait states and caching.
+	_configSystem(F_CPU);
+9d002570:	3c0404c4 	lui	a0,0x4c4
+}
+
+
+//************************************************************************
+void init()
+{
+9d002574:	27bdffe8 	addiu	sp,sp,-24
+9d002578:	afbf0014 	sw	ra,20(sp)
+	__PIC32_pbClk	=	SYSTEMConfigPerformance(F_CPU);
+#endif
+#endif
+
+	// Configure the processor for the proper number of wait states and caching.
+	_configSystem(F_CPU);
+9d00257c:	0f400853 	jal	9d00214c <_configSystem>
+9d002580:	3484b400 	ori	a0,a0,0xb400
+
+	// Enable multi-vector interrupts
+	_enableMultiVectorInterrupts();
+9d002584:	0f400874 	jal	9d0021d0 <_enableMultiVectorInterrupts>
+9d002588:	00000000 	nop
+
+	// Initialize the core timer for use to maintain the system timer tick.
+	_initCoreTimer(CORE_TICK_RATE);
+9d00258c:	0f40087d 	jal	9d0021f4 <_initCoreTimer>
+9d002590:	34049c40 	li	a0,0x9c40
+
+    initIntVector();
+9d002594:	0f400807 	jal	9d00201c <initIntVector>
+9d002598:	00000000 	nop
+
+	setIntPriority(_CORE_TIMER_VECTOR, _CT_IPL_IPC, _CT_SPL_IPC);
+9d00259c:	00003021 	move	a2,zero
+9d0025a0:	00002021 	move	a0,zero
+9d0025a4:	0f400835 	jal	9d0020d4 <setIntPriority>
+9d0025a8:	24050007 	li	a1,7
+	setIntVector(_CORE_TIMER_VECTOR, CoreTimerHandler);
+9d0025ac:	3c059d00 	lui	a1,0x9d00
+9d0025b0:	24a522c0 	addiu	a1,a1,8896
+9d0025b4:	0f40081c 	jal	9d002070 <setIntVector>
+9d0025b8:	00002021 	move	a0,zero
+	setIntEnable(_CORE_TIMER_IRQ);
+9d0025bc:	0f400827 	jal	9d00209c <setIntEnable>
+9d0025c0:	00002021 	move	a0,zero
+
+	// Save the peripheral bus frequency for later use.
+	__PIC32_pbClk = getPeripheralClock();
+9d0025c4:	0f40084c 	jal	9d002130 <getPeripheralClock>
+9d0025c8:	00000000 	nop
+
+   // allow for debugging, this will stop the core timer when the debugger takes control
+    _CP0_BIC_DEBUG(_CP0_DEBUG_COUNTDM_MASK); 
+9d0025cc:	3c030200 	lui	v1,0x200
+	setIntPriority(_CORE_TIMER_VECTOR, _CT_IPL_IPC, _CT_SPL_IPC);
+	setIntVector(_CORE_TIMER_VECTOR, CoreTimerHandler);
+	setIntEnable(_CORE_TIMER_IRQ);
+
+	// Save the peripheral bus frequency for later use.
+	__PIC32_pbClk = getPeripheralClock();
+9d0025d0:	af828028 	sw	v0,-32728(gp)
+
+   // allow for debugging, this will stop the core timer when the debugger takes control
+    _CP0_BIC_DEBUG(_CP0_DEBUG_COUNTDM_MASK); 
+9d0025d4:	4002b800 	mfc0	v0,c0_debug
+9d0025d8:	00031827 	nor	v1,zero,v1
+9d0025dc:	00431824 	and	v1,v0,v1
+9d0025e0:	4083b800 	mtc0	v1,c0_debug
+9d0025e4:	000000c0 	ehb
+	RtccSetTimeDate(0x10073000, 0x10101701);
+	// please note that the rsvd field has to be 0 in the time field!
+#endif
+#endif
+
+	delay(50);
+9d0025e8:	0f400946 	jal	9d002518 <delay>
+9d0025ec:	24040032 	li	a0,50
+#if defined(__PIC32MX1XX__) || defined(__PIC32MX2XX__)
+	CFGCONbits.JTAGEN = 0;
+	//CFGCONbits.TDOEN = 0;
+	//OSCCONbits.SOSCEN = 0;
+#else
+	DDPCONbits.JTAGEN	=	0;
+9d0025f0:	3c02bf81 	lui	v0,0xbf81
+9d0025f4:	8c43f200 	lw	v1,-3584(v0)
+9d0025f8:	7c0318c4 	ins	v1,zero,0x3,0x1
+9d0025fc:	ac43f200 	sw	v1,-3584(v0)
+void	_board_init(void);
+	_board_init();
+#endif
+
+	//* Initialize the periodic task manager
+	_initTaskManager();
+9d002600:	0f400988 	jal	9d002620 <_initTaskManager>
+9d002604:	00000000 	nop
+#if defined(_SER0_BASE)
+	p32_uart *	uart;
+	uart = (p32_uart *)_SER0_BASE;
+	uart->uxMode.clr = (1 << _UARTMODE_ON);
+#endif
+}
+9d002608:	8fbf0014 	lw	ra,20(sp)
+	//*	Issue #84
+	//*	disable the uart so that the pins can be used as general purpose I/O
+#if defined(_SER0_BASE)
+	p32_uart *	uart;
+	uart = (p32_uart *)_SER0_BASE;
+	uart->uxMode.clr = (1 << _UARTMODE_ON);
+9d00260c:	34038000 	li	v1,0x8000
+9d002610:	3c02bf80 	lui	v0,0xbf80
+9d002614:	ac436004 	sw	v1,24580(v0)
+#endif
+}
+9d002618:	03e00008 	jr	ra
+9d00261c:	27bd0018 	addiu	sp,sp,24
+
+9d002620 <_initTaskManager>:
+void
+_initTaskManager() {
+	int		id;
+
+	for (id = 0; id < NUM_TASKS; id++) {
+		rgtaskTable[id].pfnTask = 0;
+9d002620:	3c03a000 	lui	v1,0xa000
+9d002624:	24620180 	addiu	v0,v1,384
+9d002628:	ac600180 	sw	zero,384(v1)
+9d00262c:	ac400014 	sw	zero,20(v0)
+9d002630:	ac400028 	sw	zero,40(v0)
+9d002634:	ac40003c 	sw	zero,60(v0)
+9d002638:	ac400050 	sw	zero,80(v0)
+9d00263c:	ac400064 	sw	zero,100(v0)
+9d002640:	ac400078 	sw	zero,120(v0)
+9d002644:	ac40008c 	sw	zero,140(v0)
+	}
+
+	tmsLastEvent = 0;
+9d002648:	af808024 	sw	zero,-32732(gp)
+	tmsNextEvent = 0;
+
+}
+9d00264c:	03e00008 	jr	ra
+9d002650:	af808020 	sw	zero,-32736(gp)
+
+9d002654 <_scheduleTask>:
+	unsigned long	tmsCur;		//current system time
+	unsigned long	tmsNxt;		//time for next event for this task
+	unsigned long	dtmsNext;
+	unsigned long	dtms;
+
+	if (cntActiveTask == 0) {
+9d002654:	8f82801c 	lw	v0,-32740(gp)
+**	xxxN..C..........................................Lxx
+**		current time and next time have wrapped: (N < L) && (C >= N)
+*/
+
+void
+_scheduleTask() {
+9d002658:	27bdffc8 	addiu	sp,sp,-56
+9d00265c:	afbf0034 	sw	ra,52(sp)
+9d002660:	afb50030 	sw	s5,48(sp)
+9d002664:	afb4002c 	sw	s4,44(sp)
+9d002668:	afb30028 	sw	s3,40(sp)
+9d00266c:	afb20024 	sw	s2,36(sp)
+9d002670:	afb10020 	sw	s1,32(sp)
+	unsigned long	tmsCur;		//current system time
+	unsigned long	tmsNxt;		//time for next event for this task
+	unsigned long	dtmsNext;
+	unsigned long	dtms;
+
+	if (cntActiveTask == 0) {
+9d002674:	1440000a 	bnez	v0,9d0026a0 <_scheduleTask+0x4c>
+9d002678:	afb0001c 	sw	s0,28(sp)
+
+	/* Compute when the next event time will be by adding the event
+	** time delta to the current time.
+	*/
+	tmsNextEvent = tmsCur + dtmsNext;
+}
+9d00267c:	8fbf0034 	lw	ra,52(sp)
+9d002680:	8fb50030 	lw	s5,48(sp)
+9d002684:	8fb4002c 	lw	s4,44(sp)
+9d002688:	8fb30028 	lw	s3,40(sp)
+9d00268c:	8fb20024 	lw	s2,36(sp)
+9d002690:	8fb10020 	lw	s1,32(sp)
+9d002694:	8fb0001c 	lw	s0,28(sp)
+9d002698:	03e00008 	jr	ra
+9d00269c:	27bd0038 	addiu	sp,sp,56
+
+	if (cntActiveTask == 0) {
+		return;
+	}
+
+	tmsCur = millis();
+9d0026a0:	0f400943 	jal	9d00250c <millis>
+9d0026a4:	00000000 	nop
+
+	/* The system millisecond timer will overflow every 49.71 days. The complexity of
+	** this conditional is to account for the cases where either the next event time has
+	** wrapped around or the current time has wrapped around.
+	*/
+	if ( ((tmsNextEvent >= tmsLastEvent) &&
+9d0026a8:	8f848020 	lw	a0,-32736(gp)
+9d0026ac:	8f838024 	lw	v1,-32732(gp)
+9d0026b0:	0083282b 	sltu	a1,a0,v1
+9d0026b4:	14a00048 	bnez	a1,9d0027d8 <_scheduleTask+0x184>
+9d0026b8:	0043182b 	sltu	v1,v0,v1
+9d0026bc:	14600004 	bnez	v1,9d0026d0 <_scheduleTask+0x7c>
+9d0026c0:	3c10a000 	lui	s0,0xa000
+				((tmsCur >= tmsLastEvent) && (tmsCur < tmsNextEvent))) ||
+9d0026c4:	0044202b 	sltu	a0,v0,a0
+9d0026c8:	1480ffec 	bnez	a0,9d00267c <_scheduleTask+0x28>
+9d0026cc:	3c10a000 	lui	s0,0xa000
+9d0026d0:	26100190 	addiu	s0,s0,400
+**	xxxN..C..........................................Lxx
+**		current time and next time have wrapped: (N < L) && (C >= N)
+*/
+
+void
+_scheduleTask() {
+9d0026d4:	2413ffff 	li	s3,-1
+9d0026d8:	00008821 	move	s1,zero
+
+			/* Call the event function.
+			*/
+			rgtaskTable[id].fsFlags |= fsBusy;
+			(*rgtaskTable[id].pfnTask)(id, rgtaskTable[id].varTask);
+			rgtaskTable[id].fsFlags &= ~fsBusy;
+9d0026dc:	2415fffe 	li	s5,-2
+
+			/* Decrement the repeat count.
+			*/
+			if ((rgtaskTable[id].stTask > 0) &&
+9d0026e0:	3414fffe 	li	s4,0xfffe
+	** the table for all events that have elapsed and call their
+	** associated functions, update their next event timers, and then
+	** figure out when the next event time is.
+	*/
+	dtmsNext = 0xFFFFFFFF;
+	for (id = 0; id < NUM_TASKS; id++) {
+9d0026e4:	24120008 	li	s2,8
+		/* If this isn't an active task, go to the next one.
+		*/
+		if ((rgtaskTable[id].pfnTask == 0) || 
+9d0026e8:	8e03fff0 	lw	v1,-16(s0)
+9d0026ec:	5060002c 	beqzl	v1,9d0027a0 <_scheduleTask+0x14c>
+9d0026f0:	26310001 	addiu	s1,s1,1
+9d0026f4:	96040000 	lhu	a0,0(s0)
+9d0026f8:	50800029 	beqzl	a0,9d0027a0 <_scheduleTask+0x14c>
+9d0026fc:	26310001 	addiu	s1,s1,1
+		** occur if a user task function calls delay() or any other
+		** function that causes _scheduleTask to be called recursively.
+		** This prevents the task function from being called recursively
+		** until the system crashes.
+		*/
+		if ((rgtaskTable[id].fsFlags & fsBusy) != 0) {
+9d002700:	96040002 	lhu	a0,2(s0)
+9d002704:	30840001 	andi	a0,a0,0x1
+9d002708:	54800025 	bnezl	a0,9d0027a0 <_scheduleTask+0x14c>
+9d00270c:	26310001 	addiu	s1,s1,1
+			continue;
+		}
+
+		/* Check if this task's period has timed out.
+		*/
+		tmsNxt = rgtaskTable[id].tmsNext;
+9d002710:	8e04fff8 	lw	a0,-8(s0)
+		if ( ((tmsNxt >= tmsLastEvent) && 
+9d002714:	8f858024 	lw	a1,-32732(gp)
+9d002718:	0085302b 	sltu	a2,a0,a1
+9d00271c:	10c00032 	beqz	a2,9d0027e8 <_scheduleTask+0x194>
+9d002720:	0044302b 	sltu	a2,v0,a0
+						((tmsCur >= tmsNxt) || (tmsCur < tmsLastEvent))) ||
+			 ((tmsNxt <  tmsLastEvent) && 
+9d002724:	54c0001b 	bnezl	a2,9d002794 <_scheduleTask+0x140>
+9d002728:	00822023 	subu	a0,a0,v0
+						((tmsCur >= tmsNxt) && (tmsCur < tmsLastEvent))) ) {
+9d00272c:	0045282b 	sltu	a1,v0,a1
+9d002730:	50a00018 	beqzl	a1,9d002794 <_scheduleTask+0x140>
+9d002734:	00822023 	subu	a0,a0,v0
+			*/
+			rgtaskTable[id].tmsNext += rgtaskTable[id].tmsPeriod;
+
+			/* Call the event function.
+			*/
+			rgtaskTable[id].fsFlags |= fsBusy;
+9d002738:	96060002 	lhu	a2,2(s0)
+						((tmsCur >= tmsNxt) && (tmsCur < tmsLastEvent))) ) {
+
+			/* This task event has timed out. Update the event time for the
+			** next event on this task.
+			*/
+			rgtaskTable[id].tmsNext += rgtaskTable[id].tmsPeriod;
+9d00273c:	8e07fff4 	lw	a3,-12(s0)
+
+			/* Call the event function.
+			*/
+			rgtaskTable[id].fsFlags |= fsBusy;
+			(*rgtaskTable[id].pfnTask)(id, rgtaskTable[id].varTask);
+9d002740:	8e05fffc 	lw	a1,-4(s0)
+			*/
+			rgtaskTable[id].tmsNext += rgtaskTable[id].tmsPeriod;
+
+			/* Call the event function.
+			*/
+			rgtaskTable[id].fsFlags |= fsBusy;
+9d002744:	34c60001 	ori	a2,a2,0x1
+						((tmsCur >= tmsNxt) && (tmsCur < tmsLastEvent))) ) {
+
+			/* This task event has timed out. Update the event time for the
+			** next event on this task.
+			*/
+			rgtaskTable[id].tmsNext += rgtaskTable[id].tmsPeriod;
+9d002748:	00e42021 	addu	a0,a3,a0
+9d00274c:	ae04fff8 	sw	a0,-8(s0)
+
+			/* Call the event function.
+			*/
+			rgtaskTable[id].fsFlags |= fsBusy;
+			(*rgtaskTable[id].pfnTask)(id, rgtaskTable[id].varTask);
+9d002750:	afa20010 	sw	v0,16(sp)
+9d002754:	02202021 	move	a0,s1
+9d002758:	0060f809 	jalr	v1
+9d00275c:	a6060002 	sh	a2,2(s0)
+			rgtaskTable[id].fsFlags &= ~fsBusy;
+
+			/* Decrement the repeat count.
+			*/
+			if ((rgtaskTable[id].stTask > 0) &&
+9d002760:	96030000 	lhu	v1,0(s0)
+
+			/* Call the event function.
+			*/
+			rgtaskTable[id].fsFlags |= fsBusy;
+			(*rgtaskTable[id].pfnTask)(id, rgtaskTable[id].varTask);
+			rgtaskTable[id].fsFlags &= ~fsBusy;
+9d002764:	96050002 	lhu	a1,2(s0)
+
+			/* Decrement the repeat count.
+			*/
+			if ((rgtaskTable[id].stTask > 0) &&
+9d002768:	8fa20010 	lw	v0,16(sp)
+9d00276c:	2463ffff 	addiu	v1,v1,-1
+9d002770:	3063ffff 	andi	v1,v1,0xffff
+
+			/* Call the event function.
+			*/
+			rgtaskTable[id].fsFlags |= fsBusy;
+			(*rgtaskTable[id].pfnTask)(id, rgtaskTable[id].varTask);
+			rgtaskTable[id].fsFlags &= ~fsBusy;
+9d002774:	00b52824 	and	a1,a1,s5
+
+			/* Decrement the repeat count.
+			*/
+			if ((rgtaskTable[id].stTask > 0) &&
+9d002778:	0074202b 	sltu	a0,v1,s4
+9d00277c:	10800003 	beqz	a0,9d00278c <_scheduleTask+0x138>
+9d002780:	a6050002 	sh	a1,2(s0)
+				rgtaskTable[id].stTask -= 1;
+
+				/* The task state counter has gone to 0. This task is now
+				** disabled.
+				*/
+				if (rgtaskTable[id].stTask == 0) {
+9d002784:	1060001c 	beqz	v1,9d0027f8 <_scheduleTask+0x1a4>
+9d002788:	a6030000 	sh	v1,0(s0)
+9d00278c:	8e04fff8 	lw	a0,-8(s0)
+		}
+
+		/* Compute delta of this event time from the current time and
+		** remember it if it is less than the current delta.
+		*/
+		dtms = rgtaskTable[id].tmsNext - tmsCur;
+9d002790:	00822023 	subu	a0,a0,v0
+		if (dtms < dtmsNext) {
+9d002794:	0093182b 	sltu	v1,a0,s3
+9d002798:	0083980b 	movn	s3,a0,v1
+	** the table for all events that have elapsed and call their
+	** associated functions, update their next event timers, and then
+	** figure out when the next event time is.
+	*/
+	dtmsNext = 0xFFFFFFFF;
+	for (id = 0; id < NUM_TASKS; id++) {
+9d00279c:	26310001 	addiu	s1,s1,1
+9d0027a0:	1632ffd1 	bne	s1,s2,9d0026e8 <_scheduleTask+0x94>
+9d0027a4:	26100014 	addiu	s0,s0,20
+
+	/* Compute when the next event time will be by adding the event
+	** time delta to the current time.
+	*/
+	tmsNextEvent = tmsCur + dtmsNext;
+}
+9d0027a8:	8fbf0034 	lw	ra,52(sp)
+	tmsLastEvent = tmsCur;
+
+	/* Compute when the next event time will be by adding the event
+	** time delta to the current time.
+	*/
+	tmsNextEvent = tmsCur + dtmsNext;
+9d0027ac:	02629821 	addu	s3,s3,v0
+9d0027b0:	af938020 	sw	s3,-32736(gp)
+}
+9d0027b4:	8fb50030 	lw	s5,48(sp)
+9d0027b8:	8fb4002c 	lw	s4,44(sp)
+9d0027bc:	8fb30028 	lw	s3,40(sp)
+9d0027c0:	8fb20024 	lw	s2,36(sp)
+9d0027c4:	8fb10020 	lw	s1,32(sp)
+9d0027c8:	8fb0001c 	lw	s0,28(sp)
+	}
+
+	/* All done with event tasks. Update the last event time with
+	** the current time.
+	*/
+	tmsLastEvent = tmsCur;
+9d0027cc:	af828024 	sw	v0,-32732(gp)
+
+	/* Compute when the next event time will be by adding the event
+	** time delta to the current time.
+	*/
+	tmsNextEvent = tmsCur + dtmsNext;
+}
+9d0027d0:	03e00008 	jr	ra
+9d0027d4:	27bd0038 	addiu	sp,sp,56
+	** this conditional is to account for the cases where either the next event time has
+	** wrapped around or the current time has wrapped around.
+	*/
+	if ( ((tmsNextEvent >= tmsLastEvent) &&
+				((tmsCur >= tmsLastEvent) && (tmsCur < tmsNextEvent))) ||
+		 ((tmsNextEvent < tmsLastEvent) &&
+9d0027d8:	5460ffbb 	bnezl	v1,9d0026c8 <_scheduleTask+0x74>
+9d0027dc:	0044202b 	sltu	a0,v0,a0
+
+	/* Compute when the next event time will be by adding the event
+	** time delta to the current time.
+	*/
+	tmsNextEvent = tmsCur + dtmsNext;
+}
+9d0027e0:	0b4009a0 	j	9d002680 <_scheduleTask+0x2c>
+9d0027e4:	8fbf0034 	lw	ra,52(sp)
+		}
+
+		/* Check if this task's period has timed out.
+		*/
+		tmsNxt = rgtaskTable[id].tmsNext;
+		if ( ((tmsNxt >= tmsLastEvent) && 
+9d0027e8:	50c0ffd4 	beqzl	a2,9d00273c <_scheduleTask+0xe8>
+9d0027ec:	96060002 	lhu	a2,2(s0)
+						((tmsCur >= tmsNxt) || (tmsCur < tmsLastEvent))) ||
+			 ((tmsNxt <  tmsLastEvent) && 
+						((tmsCur >= tmsNxt) && (tmsCur < tmsLastEvent))) ) {
+9d0027f0:	0b4009cc 	j	9d002730 <_scheduleTask+0xdc>
+9d0027f4:	0045282b 	sltu	a1,v0,a1
+				/* The task state counter has gone to 0. This task is now
+				** disabled.
+				*/
+				if (rgtaskTable[id].stTask == 0) {
+					rgtaskTable[id].tmsNext = 0;
+					cntActiveTask -= 1;
+9d0027f8:	8f83801c 	lw	v1,-32740(gp)
+
+				/* The task state counter has gone to 0. This task is now
+				** disabled.
+				*/
+				if (rgtaskTable[id].stTask == 0) {
+					rgtaskTable[id].tmsNext = 0;
+9d0027fc:	ae00fff8 	sw	zero,-8(s0)
+					cntActiveTask -= 1;
+9d002800:	2463ffff 	addiu	v1,v1,-1
+					continue;
+9d002804:	0b4009e7 	j	9d00279c <_scheduleTask+0x148>
+9d002808:	af83801c 	sw	v1,-32740(gp)
+
+9d00280c <_general_exception_context>:
+9d00280c:	27bdffa8 	addiu	sp,sp,-88
+9d002810:	afa10004 	sw	at,4(sp)
+9d002814:	afa20008 	sw	v0,8(sp)
+9d002818:	afa3000c 	sw	v1,12(sp)
+9d00281c:	afa40010 	sw	a0,16(sp)
+9d002820:	afa50014 	sw	a1,20(sp)
+9d002824:	afa60018 	sw	a2,24(sp)
+9d002828:	afa7001c 	sw	a3,28(sp)
+9d00282c:	afa80020 	sw	t0,32(sp)
+9d002830:	afa90024 	sw	t1,36(sp)
+9d002834:	afaa0028 	sw	t2,40(sp)
+9d002838:	afab002c 	sw	t3,44(sp)
+9d00283c:	afac0030 	sw	t4,48(sp)
+9d002840:	afad0034 	sw	t5,52(sp)
+9d002844:	afae0038 	sw	t6,56(sp)
+9d002848:	afaf003c 	sw	t7,60(sp)
+9d00284c:	afb80040 	sw	t8,64(sp)
+9d002850:	afb90044 	sw	t9,68(sp)
+9d002854:	afbf0048 	sw	ra,72(sp)
+9d002858:	00004012 	mflo	t0
+9d00285c:	afa8004c 	sw	t0,76(sp)
+9d002860:	00004010 	mfhi	t0
+9d002864:	afa80050 	sw	t0,80(sp)
+9d002868:	40046800 	mfc0	a0,c0_cause
+9d00286c:	40056000 	mfc0	a1,c0_status
+9d002870:	0f400a37 	jal	9d0028dc <_general_exception_handler>
+9d002874:	00000000 	nop
+9d002878:	8fa80050 	lw	t0,80(sp)
+9d00287c:	01000011 	mthi	t0
+9d002880:	8fa8004c 	lw	t0,76(sp)
+9d002884:	01000013 	mtlo	t0
+9d002888:	8fa10004 	lw	at,4(sp)
+9d00288c:	8fa20008 	lw	v0,8(sp)
+9d002890:	8fa3000c 	lw	v1,12(sp)
+9d002894:	8fa40010 	lw	a0,16(sp)
+9d002898:	8fa50014 	lw	a1,20(sp)
+9d00289c:	8fa60018 	lw	a2,24(sp)
+9d0028a0:	8fa7001c 	lw	a3,28(sp)
+9d0028a4:	8fa80020 	lw	t0,32(sp)
+9d0028a8:	8fa90024 	lw	t1,36(sp)
+9d0028ac:	8faa0028 	lw	t2,40(sp)
+9d0028b0:	8fab002c 	lw	t3,44(sp)
+9d0028b4:	8fac0030 	lw	t4,48(sp)
+9d0028b8:	8fad0034 	lw	t5,52(sp)
+9d0028bc:	8fae0038 	lw	t6,56(sp)
+9d0028c0:	8faf003c 	lw	t7,60(sp)
+9d0028c4:	8fb80040 	lw	t8,64(sp)
+9d0028c8:	8fb90044 	lw	t9,68(sp)
+9d0028cc:	8fbf0048 	lw	ra,72(sp)
+9d0028d0:	27bd0058 	addiu	sp,sp,88
+9d0028d4:	000000c0 	ehb
+9d0028d8:	42000018 	eret
+
+9d0028dc <_general_exception_handler>:
+9d0028dc:	0b400a37 	j	9d0028dc <_general_exception_handler>
+9d0028e0:	00000000 	nop
+
+9d0028e4 <_on_reset>:
+9d0028e4:	03e00008 	jr	ra
+9d0028e8:	00000000 	nop
+
+9d0028ec <_on_bootstrap>:
+9d0028ec:	03e00008 	jr	ra
+9d0028f0:	00000000 	nop
+
+9d0028f4 <_nmi_handler>:
+9d0028f4:	401a6000 	mfc0	k0,c0_status
+9d0028f8:	3c1bffbf 	lui	k1,0xffbf
+9d0028fc:	377bffff 	ori	k1,k1,0xffff
+9d002900:	035bd024 	and	k0,k0,k1
+9d002904:	409a6000 	mtc0	k0,c0_status
+9d002908:	42000018 	eret
+
+9d00290c <__do_global_ctors_aux>:
+9d00290c:	3c029d00 	lui	v0,0x9d00
+9d002910:	8c4229a4 	lw	v0,10660(v0)
+9d002914:	27bdffe0 	addiu	sp,sp,-32
+9d002918:	2403ffff 	li	v1,-1
+9d00291c:	afbf001c 	sw	ra,28(sp)
+9d002920:	afb10018 	sw	s1,24(sp)
+9d002924:	10430009 	beq	v0,v1,9d00294c <__do_global_ctors_aux+0x40>
+9d002928:	afb00014 	sw	s0,20(sp)
+9d00292c:	3c119d00 	lui	s1,0x9d00
+9d002930:	263129a4 	addiu	s1,s1,10660
+9d002934:	2410ffff 	li	s0,-1
+9d002938:	0040f809 	jalr	v0
+9d00293c:	2631fffc 	addiu	s1,s1,-4
+9d002940:	8e220000 	lw	v0,0(s1)
+9d002944:	1450fffc 	bne	v0,s0,9d002938 <__do_global_ctors_aux+0x2c>
+9d002948:	00000000 	nop
+9d00294c:	8fbf001c 	lw	ra,28(sp)
+9d002950:	8fb10018 	lw	s1,24(sp)
+9d002954:	8fb00014 	lw	s0,20(sp)
+9d002958:	03e00008 	jr	ra
+9d00295c:	27bd0020 	addiu	sp,sp,32
+
+Disassembly of section .init:
+
+9d002960 <_init>:
+9d002960:	27bdffe0 	addiu	sp,sp,-32
+9d002964:	afbf0014 	sw	ra,20(sp)
+9d002968:	0f4004b3 	jal	9d0012cc <frame_dummy>
+9d00296c:	00000000 	nop
+9d002970:	0f400a43 	jal	9d00290c <__do_global_ctors_aux>
+9d002974:	00000000 	nop
+9d002978:	8fbf0014 	lw	ra,20(sp)
+9d00297c:	03e00008 	jr	ra
+9d002980:	27bd0020 	addiu	sp,sp,32
+
+Disassembly of section .fini:
+
+9d002984 <_fini>:
+9d002984:	27bdffe0 	addiu	sp,sp,-32
+9d002988:	afbf0014 	sw	ra,20(sp)
+9d00298c:	0f400484 	jal	9d001210 <__do_global_dtors_aux>
+9d002990:	00000000 	nop
+9d002994:	8fbf0014 	lw	ra,20(sp)
+9d002998:	03e00008 	jr	ra
+9d00299c:	27bd0020 	addiu	sp,sp,32
