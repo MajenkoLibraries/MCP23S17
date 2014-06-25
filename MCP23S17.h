@@ -47,14 +47,14 @@
 class MCP23S17 {
     private:
 #ifdef __PIC32MX__
-        DSPI *_spi;
+        DSPI *_spi; /*! This points to a valid SPI object created from the chipKIT DSPI library. */
 #else
-        SPIClass *_spi;
+        SPIClass *_spi; /*! This points to a valid SPI object created from the Arduino SPI library. */
 #endif
-        uint8_t _cs;
-        uint8_t _addr;
+        uint8_t _cs;    /*! Chip select pin */
+        uint8_t _addr;  /*! 3-bit chip address */
     
-        uint8_t _reg[22];
+        uint8_t _reg[22];   /*! Local mirrors of the 22 internal registers of the MCP23S17 chip */
 
         enum {
             IODIRA,     IODIRB,
@@ -70,7 +70,7 @@ class MCP23S17 {
             OLATA,      OLATB
         };
 
-        void readRegister(uint8_t addr);
+        void readRegister(uint8_t addr); 
         void writeRegister(uint8_t addr);
         void readAll();
         void writeAll();
@@ -85,5 +85,18 @@ class MCP23S17 {
         void pinMode(uint8_t pin, uint8_t mode);
         void digitalWrite(uint8_t pin, uint8_t value);
         uint8_t digitalRead(uint8_t pin);
+
+        uint8_t readPort(uint8_t port);
+        uint16_t readPort();
+        void writePort(uint8_t port, uint8_t val);
+        void writePort(uint16_t val);
+        void enableInterrupt(uint8_t pin, uint8_t type);
+        void disableInterrupt(uint8_t pin);
+        void setMirror(boolean m);
+        uint16_t getInterruptPins();
+        uint16_t getInterruptValue();
+        void setInterruptLevel(uint8_t level);
+        void setInterruptOD(boolean openDrain);
+
 };
 #endif
