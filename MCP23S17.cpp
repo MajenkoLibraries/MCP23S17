@@ -349,8 +349,8 @@ void MCP23S17::writePort(uint8_t port, uint8_t val) {
 void MCP23S17::writePort(uint16_t val) {
     _reg[LATB] = val >> 8;
     _reg[LATA] = val & 0xFF;
-    writeRegister(LATA);
-    writeRegister(LATB);
+    writeRegister(OLATA);
+    writeRegister(OLATB);
 }
 
 /*! This enables the interrupt functionality of a pin.  The interrupt type can be one of:
