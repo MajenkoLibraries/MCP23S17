@@ -347,8 +347,8 @@ void MCP23S17::writePort(uint8_t port, uint8_t val) {
  *      myExpander.writePort(0x55AA);
  */
 void MCP23S17::writePort(uint16_t val) {
-    _reg[LATB] = val >> 8;
-    _reg[LATA] = val & 0xFF;
+    _reg[OLATB] = val >> 8;
+    _reg[OLATA] = val & 0xFF;
     writeRegister(OLATA);
     writeRegister(OLATB);
 }
