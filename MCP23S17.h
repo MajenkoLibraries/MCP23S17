@@ -78,8 +78,10 @@ class MCP23S17 {
     public:
 #ifdef __PIC32MX__
         MCP23S17(DSPI *spi, uint8_t cs, uint8_t addr);
+        MCP23S17(DSPI &spi, uint8_t cs, uint8_t addr);
 #else
         MCP23S17(SPIClass *spi, uint8_t cs, uint8_t addr);
+        MCP23S17(SPIClass &spi, uint8_t cs, uint8_t addr);
 #endif
         void begin();
         void pinMode(uint8_t pin, uint8_t mode);

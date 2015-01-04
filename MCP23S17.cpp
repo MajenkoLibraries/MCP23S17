@@ -77,6 +77,39 @@ MCP23S17::MCP23S17(SPIClass *spi, uint8_t cs, uint8_t addr) {
     _reg[OLATB] = 0x00;
 }
 
+#ifdef __PIC32MX__
+MCP23S17::MCP23S17(DSPI &spi, uint8_t cs, uint8_t addr) {
+#else
+MCP23S17::MCP23S17(SPIClass &spi, uint8_t cs, uint8_t addr) {
+#endif
+    _spi = &spi;
+    _cs = cs;
+    _addr = addr;
+
+    _reg[IODIRA] = 0xFF;
+    _reg[IODIRB] = 0xFF;
+    _reg[IPOLA] = 0x00;
+    _reg[IPOLB] = 0x00;
+    _reg[GPINTENA] = 0x00;
+    _reg[GPINTENB] = 0x00;
+    _reg[DEFVALA] = 0x00;
+    _reg[DEFVALB] = 0x00;
+    _reg[INTCONA] = 0x00;
+    _reg[INTCONB] = 0x00;
+    _reg[IOCONA] = 0x18;
+    _reg[IOCONB] = 0x18;
+    _reg[GPPUA] = 0x00;
+    _reg[GPPUB] = 0x00;
+    _reg[INTFA] = 0x00;
+    _reg[INTFB] = 0x00;
+    _reg[INTCAPA] = 0x00;
+    _reg[INTCAPB] = 0x00;
+    _reg[GPIOA] = 0x00;
+    _reg[GPIOB] = 0x00;
+    _reg[OLATA] = 0x00;
+    _reg[OLATB] = 0x00;
+}
+
 /*! The begin function performs the initial configuration of the IO expander chip.
  *  Not only does it set up the SPI communications, but it also configures the chip
  *  for address-based communication and sets the default parameters and registers
