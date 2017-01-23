@@ -517,8 +517,8 @@ uint16_t MCP23S17::getInterruptValue() {
  */
 void MCP23S17::setInterruptLevel(uint8_t level) {
     if (level == LOW) {
-        _reg[IOCONA] &= (1<<1);
-        _reg[IOCONB] &= (1<<1);
+        _reg[IOCONA] &= ~(1<<1);
+        _reg[IOCONB] &= ~(1<<1);
     } else {
         _reg[IOCONA] |= (1<<1);
         _reg[IOCONB] |= (1<<1);
