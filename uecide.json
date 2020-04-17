@@ -1,18 +1,1 @@
-{
-    "name": "MCP23S17",
-    "provides": "MCP23S17.h",
-    "license": "LICENSE",
-    "readme": "README.md",
-    "description": "MCP23S17 control library",
-    "category": "IO",
-    "subcategory": "Digital",
-    "maintainer": "Matt Jenkins <matt@majenko.co.uk>",
-    "version": "1.1.0",
-    "family": "all",
-    "core": "all",
-    "install": {
-        "examples": "/",
-        "MCP23S17.cpp": "/",
-        "MCP23S17.h": "/"
-    }
-}
+{"name":"MCP23S17","provides":"MCP23S17.h","license":"LICENSE","readme":"README.md","description":"MCP23S17 control library","category":"IO","subcategory":"Digital","maintainer":"Matt Jenkins <matt@majenko.co.uk>","version":"1.1.1","family":"all","core":"all","install":{"examples":"\/","library.properties":"\/","src":"\/"}}
