@@ -57,17 +57,17 @@ class MCP23S17 {
         uint8_t _reg[22];   /*! Local mirrors of the 22 internal registers of the MCP23S17 chip */
 
         enum {
-            IODIRA,     IODIRB,
-            IPOLA,      IPOLB,
-            GPINTENA,   GPINTENB,
-            DEFVALA,    DEFVALB,
-            INTCONA,    INTCONB,
-            IOCONA,     IOCONB,
-            GPPUA,      GPPUB,
-            INTFA,      INTFB,
-            INTCAPA,    INTCAPB,
-            GPIOA,      GPIOB,
-            OLATA,      OLATB
+            MCP_IODIRA,     MCP_IODIRB,
+            MCP_IPOLA,      MCP_IPOLB,
+            MCP_GPINTENA,   MCP_GPINTENB,
+            MCP_DEFVALA,    MCP_DEFVALB,
+            MCP_INTCONA,    MCP_INTCONB,
+            MCP_IOCONA,     MCP_IOCONB,
+            MCP_GPPUA,      MCP_GPPUB,
+            MCP_INTFA,      MCP_INTFB,
+            MCP_INTCAPA,    MCP_INTCAPB,
+            MCP_GPIOA,      MCP_GPIOB,
+            MCP_OLATA,      MCP_OLATB
         };
 
         void readRegister(uint8_t addr); 

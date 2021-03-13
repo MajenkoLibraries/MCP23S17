@@ -53,28 +53,28 @@ MCP23S17::MCP23S17(SPIClass *spi, uint8_t cs, uint8_t addr) {
     _cs = cs;
     _addr = addr;
 
-    _reg[IODIRA] = 0xFF;
-    _reg[IODIRB] = 0xFF;
-    _reg[IPOLA] = 0x00;
-    _reg[IPOLB] = 0x00;
-    _reg[GPINTENA] = 0x00;
-    _reg[GPINTENB] = 0x00;
-    _reg[DEFVALA] = 0x00;
-    _reg[DEFVALB] = 0x00;
-    _reg[INTCONA] = 0x00;
-    _reg[INTCONB] = 0x00;
-    _reg[IOCONA] = 0x18;
-    _reg[IOCONB] = 0x18;
-    _reg[GPPUA] = 0x00;
-    _reg[GPPUB] = 0x00;
-    _reg[INTFA] = 0x00;
-    _reg[INTFB] = 0x00;
-    _reg[INTCAPA] = 0x00;
-    _reg[INTCAPB] = 0x00;
-    _reg[GPIOA] = 0x00;
-    _reg[GPIOB] = 0x00;
-    _reg[OLATA] = 0x00;
-    _reg[OLATB] = 0x00;
+    _reg[MCP_IODIRA] = 0xFF;
+    _reg[MCP_IODIRB] = 0xFF;
+    _reg[MCP_IPOLA] = 0x00;
+    _reg[MCP_IPOLB] = 0x00;
+    _reg[MCP_GPINTENA] = 0x00;
+    _reg[MCP_GPINTENB] = 0x00;
+    _reg[MCP_DEFVALA] = 0x00;
+    _reg[MCP_DEFVALB] = 0x00;
+    _reg[MCP_INTCONA] = 0x00;
+    _reg[MCP_INTCONB] = 0x00;
+    _reg[MCP_IOCONA] = 0x18;
+    _reg[MCP_IOCONB] = 0x18;
+    _reg[MCP_GPPUA] = 0x00;
+    _reg[MCP_GPPUB] = 0x00;
+    _reg[MCP_INTFA] = 0x00;
+    _reg[MCP_INTFB] = 0x00;
+    _reg[MCP_INTCAPA] = 0x00;
+    _reg[MCP_INTCAPB] = 0x00;
+    _reg[MCP_GPIOA] = 0x00;
+    _reg[MCP_GPIOB] = 0x00;
+    _reg[MCP_OLATA] = 0x00;
+    _reg[MCP_OLATB] = 0x00;
 }
 
 #ifdef __PIC32MX__
@@ -86,28 +86,28 @@ MCP23S17::MCP23S17(SPIClass &spi, uint8_t cs, uint8_t addr) {
     _cs = cs;
     _addr = addr;
 
-    _reg[IODIRA] = 0xFF;
-    _reg[IODIRB] = 0xFF;
-    _reg[IPOLA] = 0x00;
-    _reg[IPOLB] = 0x00;
-    _reg[GPINTENA] = 0x00;
-    _reg[GPINTENB] = 0x00;
-    _reg[DEFVALA] = 0x00;
-    _reg[DEFVALB] = 0x00;
-    _reg[INTCONA] = 0x00;
-    _reg[INTCONB] = 0x00;
-    _reg[IOCONA] = 0x18;
-    _reg[IOCONB] = 0x18;
-    _reg[GPPUA] = 0x00;
-    _reg[GPPUB] = 0x00;
-    _reg[INTFA] = 0x00;
-    _reg[INTFB] = 0x00;
-    _reg[INTCAPA] = 0x00;
-    _reg[INTCAPB] = 0x00;
-    _reg[GPIOA] = 0x00;
-    _reg[GPIOB] = 0x00;
-    _reg[OLATA] = 0x00;
-    _reg[OLATB] = 0x00;
+    _reg[MCP_IODIRA] = 0xFF;
+    _reg[MCP_IODIRB] = 0xFF;
+    _reg[MCP_IPOLA] = 0x00;
+    _reg[MCP_IPOLB] = 0x00;
+    _reg[MCP_GPINTENA] = 0x00;
+    _reg[MCP_GPINTENB] = 0x00;
+    _reg[MCP_DEFVALA] = 0x00;
+    _reg[MCP_DEFVALB] = 0x00;
+    _reg[MCP_INTCONA] = 0x00;
+    _reg[MCP_INTCONB] = 0x00;
+    _reg[MCP_IOCONA] = 0x18;
+    _reg[MCP_IOCONB] = 0x18;
+    _reg[MCP_GPPUA] = 0x00;
+    _reg[MCP_GPPUB] = 0x00;
+    _reg[MCP_INTFA] = 0x00;
+    _reg[MCP_INTFB] = 0x00;
+    _reg[MCP_INTCAPA] = 0x00;
+    _reg[MCP_INTCAPB] = 0x00;
+    _reg[MCP_GPIOA] = 0x00;
+    _reg[MCP_GPIOB] = 0x00;
+    _reg[MCP_OLATA] = 0x00;
+    _reg[MCP_OLATB] = 0x00;
 }
 
 /*! The begin function performs the initial configuration of the IO expander chip.
@@ -127,7 +127,7 @@ void MCP23S17::begin() {
     uint8_t cmd = 0b01000000;
     ::digitalWrite(_cs, LOW);
     _spi->transfer(cmd);
-    _spi->transfer(IOCONA);
+    _spi->transfer(MCP_IOCONA);
     _spi->transfer(0x18);
     ::digitalWrite(_cs, HIGH);
     writeAll();
@@ -211,12 +211,12 @@ void MCP23S17::pinMode(uint8_t pin, uint8_t mode) {
     if (pin >= 16) {
         return;
     }
-    uint8_t dirReg = IODIRA;
-    uint8_t puReg = GPPUA;
+    uint8_t dirReg = MCP_IODIRA;
+    uint8_t puReg = MCP_GPPUA;
     if (pin >= 8) {
         pin -= 8;
-        dirReg = IODIRB;
-        puReg = GPPUB;
+        dirReg = MCP_IODIRB;
+        puReg = MCP_GPPUB;
     }
 
     switch (mode) {
@@ -253,14 +253,14 @@ void MCP23S17::digitalWrite(uint8_t pin, uint8_t value) {
     if (pin >= 16) {
         return;
     }
-    uint8_t dirReg = IODIRA;
-    uint8_t puReg = GPPUA;
-    uint8_t latReg = OLATA;
+    uint8_t dirReg = MCP_IODIRA;
+    uint8_t puReg = MCP_GPPUA;
+    uint8_t latReg = MCP_OLATA;
     if (pin >= 8) {
         pin -= 8;
-        dirReg = IODIRB;
-        puReg = GPPUB;
-        latReg = OLATB;
+        dirReg = MCP_IODIRB;
+        puReg = MCP_GPPUB;
+        latReg = MCP_OLATB;
     }
 
     uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
@@ -297,14 +297,14 @@ uint8_t MCP23S17::digitalRead(uint8_t pin) {
     if (pin >= 16) {
         return 0;
     }
-    uint8_t dirReg = IODIRA;
-    uint8_t portReg = GPIOA;
-    uint8_t latReg = OLATA;
+    uint8_t dirReg = MCP_IODIRA;
+    uint8_t portReg = MCP_GPIOA;
+    uint8_t latReg = MCP_OLATA;
     if (pin >= 8) {
         pin -= 8;
-        dirReg = IODIRB;
-        portReg = GPIOB;
-        latReg = OLATB;
+        dirReg = MCP_IODIRB;
+        portReg = MCP_GPIOB;
+        latReg = MCP_OLATB;
     }
 
     uint8_t mode = (_reg[dirReg] & (1<<pin)) == 0 ? OUTPUT : INPUT;
@@ -330,11 +330,11 @@ uint8_t MCP23S17::digitalRead(uint8_t pin) {
  */
 uint8_t MCP23S17::readPort(uint8_t port) {
     if (port == 0) {
-        readRegister(GPIOA);
-        return _reg[GPIOA];
+        readRegister(MCP_GPIOA);
+        return _reg[MCP_GPIOA];
     } else {
-        readRegister(GPIOB);
-        return _reg[GPIOB];
+        readRegister(MCP_GPIOB);
+        return _reg[MCP_GPIOB];
     }
 }
 
@@ -347,9 +347,9 @@ uint8_t MCP23S17::readPort(uint8_t port) {
  *      unsigned int value = myExpander.readPort();
  */
 uint16_t MCP23S17::readPort() {
-    readRegister(GPIOA);
-    readRegister(GPIOB);
-    return (_reg[GPIOB] << 8) | _reg[GPIOA];
+    readRegister(MCP_GPIOA);
+    readRegister(MCP_GPIOB);
+    return (_reg[MCP_GPIOB] << 8) | _reg[MCP_GPIOA];
 }
 
 /*! This writes an 8-bit value to one of the two IO port banks (A/B) on the chip.
@@ -363,11 +363,11 @@ uint16_t MCP23S17::readPort() {
  */
 void MCP23S17::writePort(uint8_t port, uint8_t val) {
     if (port == 0) {
-        _reg[OLATA] = val;
-        writeRegister(OLATA);
+        _reg[MCP_OLATA] = val;
+        writeRegister(MCP_OLATA);
     } else {
-        _reg[OLATB] = val;
-        writeRegister(OLATB);
+        _reg[MCP_OLATB] = val;
+        writeRegister(MCP_OLATB);
     }
 }
 
@@ -380,10 +380,10 @@ void MCP23S17::writePort(uint8_t port, uint8_t val) {
  *      myExpander.writePort(0x55AA);
  */
 void MCP23S17::writePort(uint16_t val) {
-    _reg[OLATB] = val >> 8;
-    _reg[OLATA] = val & 0xFF;
-    writeRegister(OLATA);
-    writeRegister(OLATB);
+    _reg[MCP_OLATB] = val >> 8;
+    _reg[MCP_OLATA] = val & 0xFF;
+    writeRegister(MCP_OLATA);
+    writeRegister(MCP_OLATB);
 }
 
 /*! This enables the interrupt functionality of a pin.  The interrupt type can be one of:
@@ -404,15 +404,15 @@ void MCP23S17::enableInterrupt(uint8_t pin, uint8_t type) {
     if (pin >= 16) {
         return;
     }
-    uint8_t intcon = INTCONA;
-    uint8_t defval = DEFVALA;
-    uint8_t gpinten = GPINTENA;
+    uint8_t intcon = MCP_INTCONA;
+    uint8_t defval = MCP_DEFVALA;
+    uint8_t gpinten = MCP_GPINTENA;
 
     if (pin >= 8) {
         pin -= 8;
-        intcon = INTCONB;
-        defval = DEFVALB;
-        gpinten = GPINTENB;
+        intcon = MCP_INTCONB;
+        defval = MCP_DEFVALB;
+        gpinten = MCP_GPINTENB;
     }
 
     switch (type) {
@@ -447,11 +447,11 @@ void MCP23S17::disableInterrupt(uint8_t pin) {
     if (pin >= 16) {
         return;
     }
-    uint8_t gpinten = GPINTENA;
+    uint8_t gpinten = MCP_GPINTENA;
 
     if (pin >= 8) {
         pin -= 8;
-        gpinten = GPINTENB;
+        gpinten = MCP_GPINTENB;
     }
 
     _reg[gpinten] &= ~(1<<pin);
@@ -470,13 +470,13 @@ void MCP23S17::disableInterrupt(uint8_t pin) {
  */
 void MCP23S17::setMirror(boolean m) {
     if (m) {
-        _reg[IOCONA] |= (1<<6);
-        _reg[IOCONB] |= (1<<6);
+        _reg[MCP_IOCONA] |= (1<<6);
+        _reg[MCP_IOCONB] |= (1<<6);
     } else {
-        _reg[IOCONA] &= ~(1<<6);
-        _reg[IOCONB] &= ~(1<<6);
+        _reg[MCP_IOCONA] &= ~(1<<6);
+        _reg[MCP_IOCONB] &= ~(1<<6);
     }
-    writeRegister(IOCONA);
+    writeRegister(MCP_IOCONA);
 }
 
 /*! This function returns a 16-bit bitmap of the the pin or pins that have cause an interrupt to fire.
@@ -486,10 +486,10 @@ void MCP23S17::setMirror(boolean m) {
  *      unsigned int pins = myExpander.getInterruptPins();
  */
 uint16_t MCP23S17::getInterruptPins() {
-    readRegister(INTFA);
-    readRegister(INTFB);
+    readRegister(MCP_INTFA);
+    readRegister(MCP_INTFB);
 
-    return (_reg[INTFB] << 8) | _reg[INTFA];
+    return (_reg[MCP_INTFB] << 8) | _reg[MCP_INTFA];
 }
 
 /*! This returns a snapshot of the IO pin states at the moment the last interrupt occured.  Reading
@@ -502,10 +502,10 @@ uint16_t MCP23S17::getInterruptPins() {
  *      unsigned int pinValues = myExpander.getInterruptPins();
  */
 uint16_t MCP23S17::getInterruptValue() {
-    readRegister(INTCAPA);
-    readRegister(INTCAPB);
+    readRegister(MCP_INTCAPA);
+    readRegister(MCP_INTCAPB);
 
-    return (_reg[INTCAPB] << 8) | _reg[INTCAPA];
+    return (_reg[MCP_INTCAPB] << 8) | _reg[MCP_INTCAPA];
 } 
 
 /*! This sets the "active" level for an interrupt.  HIGH means the interrupt pin
@@ -517,13 +517,13 @@ uint16_t MCP23S17::getInterruptValue() {
  */
 void MCP23S17::setInterruptLevel(uint8_t level) {
     if (level == LOW) {
-        _reg[IOCONA] &= ~(1<<1);
-        _reg[IOCONB] &= ~(1<<1);
+        _reg[MCP_IOCONA] &= ~(1<<1);
+        _reg[MCP_IOCONB] &= ~(1<<1);
     } else {
-        _reg[IOCONA] |= (1<<1);
-        _reg[IOCONB] |= (1<<1);
+        _reg[MCP_IOCONA] |= (1<<1);
+        _reg[MCP_IOCONB] |= (1<<1);
     }
-    writeRegister(IOCONA);
+    writeRegister(MCP_IOCONA);
 }
 
 /*! Using this function it is possible to configure the interrupt output pins to be open
@@ -537,11 +537,11 @@ void MCP23S17::setInterruptLevel(uint8_t level) {
  */
 void MCP23S17::setInterruptOD(boolean openDrain) {
     if (openDrain) {
-        _reg[IOCONA] |= (1<<2);
-        _reg[IOCONB] |= (1<<2);
+        _reg[MCP_IOCONA] |= (1<<2);
+        _reg[MCP_IOCONB] |= (1<<2);
     } else {
-        _reg[IOCONA] &= ~(1<<2);
-        _reg[IOCONB] &= ~(1<<2);
+        _reg[MCP_IOCONA] &= ~(1<<2);
+        _reg[MCP_IOCONB] &= ~(1<<2);
     }
-    writeRegister(IOCONA);
+    writeRegister(MCP_IOCONA);
 }
