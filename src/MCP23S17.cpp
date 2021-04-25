@@ -121,15 +121,16 @@ MCP23S17::MCP23S17(SPIClass &spi, uint8_t cs, uint8_t addr) {
  *
  */
 void MCP23S17::begin() {
-    _spi->begin();
     ::pinMode(_cs, OUTPUT);
     ::digitalWrite(_cs, HIGH);
     uint8_t cmd = 0b01000000;
+    _spi->beginTransaction(SPI_MCP23S17_SETTINGS);
     ::digitalWrite(_cs, LOW);
     _spi->transfer(cmd);
     _spi->transfer(MCP_IOCONA);
     _spi->transfer(0x18);
     ::digitalWrite(_cs, HIGH);
+    _spi->endTransaction();
     writeAll();
 }
 
@@ -141,11 +142,13 @@ void MCP23S17::readRegister(uint8_t addr) {
         return;
     }
     uint8_t cmd = 0b01000001 | ((_addr & 0b111) << 1);
+    _spi->beginTransaction(SPI_MCP23S17_SETTINGS);
     ::digitalWrite(_cs, LOW);
     _spi->transfer(cmd);
     _spi->transfer(addr);
     _reg[addr] = _spi->transfer(0xFF);
     ::digitalWrite(_cs, HIGH);
+    _spi->endTransaction();
 }
 
 /*! This private function writes the current value of a register (as stored in the
@@ -156,11 +159,13 @@ void MCP23S17::writeRegister(uint8_t addr) {
         return;
     }
     uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+    _spi->beginTransaction(SPI_MCP23S17_SETTINGS);
     ::digitalWrite(_cs, LOW);
     _spi->transfer(cmd);
     _spi->transfer(addr);
     _spi->transfer(_reg[addr]);
     ::digitalWrite(_cs, HIGH);
+    _spi->endTransaction();
 }
 
 /*! This private function performs a bulk read on all the registers in the chip to
@@ -168,6 +173,7 @@ void MCP23S17::writeRegister(uint8_t addr) {
  */
 void MCP23S17::readAll() {
     uint8_t cmd = 0b01000001 | ((_addr & 0b111) << 1);
+    _spi->beginTransaction(SPI_MCP23S17_SETTINGS);
     ::digitalWrite(_cs, LOW);
     _spi->transfer(cmd);
     _spi->transfer(0);
@@ -175,6 +181,7 @@ void MCP23S17::readAll() {
         _reg[i] = _spi->transfer(0xFF);
     }
     ::digitalWrite(_cs, HIGH);
+    _spi->endTransaction();
 }
 
 /*! This private function performs a bulk write of all the data in the _reg array
@@ -183,6 +190,7 @@ void MCP23S17::readAll() {
  */
 void MCP23S17::writeAll() {
     uint8_t cmd = 0b01000000 | ((_addr & 0b111) << 1);
+    _spi->beginTransaction(SPI_MCP23S17_SETTINGS);
     ::digitalWrite(_cs, LOW);
     _spi->transfer(cmd);
     _spi->transfer(0);
@@ -190,8 +198,9 @@ void MCP23S17::writeAll() {
         _spi->transfer(_reg[i]);
     }
     ::digitalWrite(_cs, HIGH);
+    _spi->endTransaction();
 }
-    
+
 /*! Just like the pinMode() function of the Arduino API, this function sets the
  *  direction of the pin.  The first parameter is the pin nimber (0-15) to use,
  *  and the second parameter is the direction of the pin.  There are standard
@@ -468,7 +477,7 @@ void MCP23S17::disableInterrupt(uint8_t pin) {
  *
  *      myExpander.setMirror(true);
  */
-void MCP23S17::setMirror(boolean m) {
+void MCP23S17::setMirror(bool m) {
     if (m) {
         _reg[MCP_IOCONA] |= (1<<6);
         _reg[MCP_IOCONB] |= (1<<6);
@@ -535,7 +544,7 @@ void MCP23S17::setInterruptLevel(uint8_t level) {
  *
  *      myExpander.setInterruptOD(true);
  */
-void MCP23S17::setInterruptOD(boolean openDrain) {
+void MCP23S17::setInterruptOD(bool openDrain) {
     if (openDrain) {
         _reg[MCP_IOCONA] |= (1<<2);
         _reg[MCP_IOCONB] |= (1<<2);

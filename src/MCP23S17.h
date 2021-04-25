@@ -44,6 +44,11 @@
 #include <SPI.h>
 #endif
 
+// 10MHz speed is the maximum supported by the chip but some arduino
+// devices don't support highter than 8MHz. Keep it at the arduino core's
+// default speed for maximum compatibility.
+#define SPI_MCP23S17_SETTINGS SPISettings(SPI_SPEED_CLOCK_DEFAULT, MSBFIRST, SPI_MODE0)
+
 class MCP23S17 {
     private:
 #ifdef __PIC32MX__
@@ -94,11 +99,11 @@ class MCP23S17 {
         void writePort(uint16_t val);
         void enableInterrupt(uint8_t pin, uint8_t type);
         void disableInterrupt(uint8_t pin);
-        void setMirror(boolean m);
+        void setMirror(bool m);
         uint16_t getInterruptPins();
         uint16_t getInterruptValue();
         void setInterruptLevel(uint8_t level);
-        void setInterruptOD(boolean openDrain);
+        void setInterruptOD(bool openDrain);
 
 };
 #endif
