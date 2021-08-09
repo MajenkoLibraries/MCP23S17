@@ -1,0 +1,23 @@
+{
+  "name": "MCP23S17",
+  "version": "1.1.3",
+  "description": "Arduino library for MCP22S17 IO Expanders\n",
+  "keywords": "expander, spi",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/MajenkoLibraries/MCP23S17.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Matt Jenkins",
+      "email": "matt@majenko.co.uk",
+      "url": "https://majenko.co.uk"
+    }
+  ],
+  "license": "BSD 3",
+  "homepage": "https://majenkolibraries.github.io/MCP23S17/",
+  "frameworks": "*",
+  "platforms": "*"
+}
