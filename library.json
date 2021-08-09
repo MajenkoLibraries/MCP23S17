@@ -16,8 +16,16 @@
       "url": "https://majenko.co.uk"
     }
   ],
-  "license": "BSD 3",
+  "license": "BSD-3-Clause",
   "homepage": "https://majenkolibraries.github.io/MCP23S17/",
   "frameworks": "*",
-  "platforms": "*"
+  "platforms": "*",
+  "export": [
+    "examples",
+    "library.properties",
+    "LICENSE",
+    "README.md",
+    "src"
+  ]
+
 }
