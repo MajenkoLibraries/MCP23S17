@@ -99,6 +99,9 @@ class MCP23S17 {
         uint16_t getInterruptValue();
         void setInterruptLevel(uint8_t level);
         void setInterruptOD(boolean openDrain);
-
+        uint8_t getInterruptAPins();
+        uint8_t getInterruptAValue();
+        uint8_t getInterruptBPins();
+        uint8_t getInterruptBValue();
 };
 #endif

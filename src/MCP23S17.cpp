@@ -545,3 +545,53 @@ void MCP23S17::setInterruptOD(boolean openDrain) {
     }
     writeRegister(MCP_IOCONA);
 }
+
+/*! This function returns an 8-bit bitmap of the Port-A pin or pins that have caused an interrupt to fire.
+ *
+ *  Example:
+ *
+ *      unsigned int pins = myExpander.getInterruptAPins();
+ */
+uint8_t MCP23S17::getInterruptAPins() {
+    readRegister(MCP_INTFA);
+    return  _reg[MCP_INTFA];
+}
+
+/*! This returns a snapshot of the Port-A IO pin states at the moment the last interrupt occured.  Reading
+ *  this value clears the interrupt status (and hence the INT pins) for the port.
+ *  Until this value is read (or the current live port value is read) no further interrupts can
+ *  be indicated.
+ *
+ *  Example:
+ *
+ *      unsigned int pinValues = myExpander.getInterruptAValue();
+ */
+uint8_t MCP23S17::getInterruptAValue() {
+    readRegister(MCP_INTCAPA);
+    return _reg[MCP_INTCAPA];
+} 
+
+/*! This function returns an 8-bit bitmap of the Port-B pin or pins that have caused an interrupt to fire.
+ *
+ *  Example:
+ *
+ *      unsigned int pins = myExpander.getInterruptBPins();
+ */
+uint8_t MCP23S17::getInterruptBPins() {
+    readRegister(MCP_INTFB);
+    return _reg[MCP_INTFB];
+}
+
+/*! This returns a snapshot of the Port-B IO pin states at the moment the last interrupt occured.  Reading
+ *  this value clears the interrupt status (and hence the INT pins) for the port.
+ *  Until this value is read (or the current live port value is read) no further interrupts can
+ *  be indicated.
+ *
+ *  Example:
+ *
+ *      unsigned int pinValues = myExpander.getInterruptBValue();
+ */
+uint8_t MCP23S17::getInterruptBValue() {
+    readRegister(MCP_INTCAPB);
+    return _reg[MCP_INTCAPB];
+} 
