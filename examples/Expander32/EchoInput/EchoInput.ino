@@ -15,8 +15,8 @@ const uint8_t targetPin = 15;
 const uint8_t chipSelect = 10;
 
 // Create an object for each chip
-// Bank1 uses address 0: Pins A0,A1,A2 grounded.
-// Bank2 uses address 1: Pin A0=+5V, A1,A2 grounded.
+// Bank1 uses address 0: Pins A0,A1,A2 ground.
+// Bank2 uses address 1: Pin A0=VCC, A1,A2 ground.
 // Increase the addresses by 2 for each BA value.
 MCP23S17 Bank1(&SPI, chipSelect, 0);
 MCP23S17 Bank2(&SPI, chipSelect, 1);
