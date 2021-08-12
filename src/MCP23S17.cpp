@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014, Majenko Technologies
+ * Copyright (c) 2014-2021, Majenko Technologies
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without modification, 
@@ -39,8 +39,7 @@
  *  on the chip.
  *  
  *  Example:
- * 
- *  
+ *
  *      MCP23S17 myExpander(&SPI, 10, 0);
  * 
  */
@@ -499,7 +498,7 @@ uint16_t MCP23S17::getInterruptPins() {
  *
  *  Example:
  *
- *      unsigned int pinValues = myExpander.getInterruptPins();
+ *      unsigned int pinValues = myExpander.getInterruptValue();
  */
 uint16_t MCP23S17::getInterruptValue() {
     readRegister(MCP_INTCAPA);
